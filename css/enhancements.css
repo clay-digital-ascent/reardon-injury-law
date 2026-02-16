@@ -1,0 +1,1442 @@
+/* =======================================
+   REARDON INJURY LAW - PREMIUM ENHANCEMENTS
+   Scroll animations + refined design + responsive fixes
+   ======================================= */
+
+/* =======================================
+   CSS CUSTOM PROPERTIES
+   ======================================= */
+:root {
+  --gold-primary: #eeba6b;
+  --gold-light: #f0c86f;
+  --gold-dark: #d4a84f;
+  --dark-bg: #141415;
+  --dark-card: #1e1e1f;
+  --text-light: rgba(255, 255, 255, 0.9);
+  --text-dark: #141415;
+  --transition-smooth: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --shadow-gold: 0 10px 40px rgba(238, 186, 107, 0.15);
+  --shadow-dark: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+/* =======================================
+   REFINED TYPOGRAPHY HIERARCHY
+   ======================================= */
+
+/* Base heading adjustments - more elegant sizing */
+h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* Hero heading - dramatic but refined */
+.heading-16.front-page {
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  animation: heroFadeInUp 1s var(--transition-smooth) forwards;
+  opacity: 0;
+}
+
+/* Section headings - elegant underline treatment */
+.text-headings {
+  font-size: 42px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  background-color: var(--dark-bg) !important;
+  color: var(--text-light) !important;
+  border: 2px solid var(--gold-primary) !important;
+  border-radius: 12px;
+  margin-bottom: 60px;
+  padding: 20px 30px;
+  position: relative;
+  text-align: center;
+}
+
+.text-headings.locations-thour {
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+
+/* CTA Header refinements */
+.cta-headerr {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Office location headings */
+.heading-for-office-locations {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* FAQ headings */
+.heading-22 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* =======================================
+   CARD LINK HOVER EFFECTS (from inline)
+   ======================================= */
+.card-link:hover .settlement-card {
+  background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold-dark) 100%);
+  transition: background 0.25s ease;
+  cursor: pointer;
+}
+
+.card-link:hover .card-top-bar {
+  background-color: var(--gold-light);
+  transition: background-color 0.25s ease;
+}
+
+.card-link:hover .card-title {
+  color: #ffffff;
+  transition: color 0.25s ease;
+}
+
+.card-link:hover .car-image {
+  filter: brightness(1.08);
+  transition: filter 0.25s ease;
+}
+
+/* =======================================
+   REFINED GOLD CTA BOXES
+   ======================================= */
+
+/* Hero gold box - elevated styling */
+.div-block-24 {
+  background: linear-gradient(145deg, #1a1a1b 0%, var(--dark-bg) 100%);
+  border: 2px solid var(--gold-primary);
+  border-radius: 16px;
+  padding: 40px 50px;
+  box-shadow: 
+    0 0 0 1px rgba(238, 186, 107, 0.1),
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 100px rgba(238, 186, 107, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: background 0.5s var(--transition-smooth), border-color 0.4s var(--transition-smooth), box-shadow 0.4s var(--transition-smooth), transform 0.4s var(--transition-smooth);
+}
+
+/* Slightly darken background on hover to maintain text contrast */
+.div-block-24:hover {
+  background: linear-gradient(145deg, #161617 0%, #121213 100%);
+}
+
+/* Subtle shimmer sweep - similar to button but toned down */
+.div-block-24::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(238, 186, 107, 0.22) 45%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(238, 186, 107, 0.22) 55%,
+    transparent 100%
+  );
+  transition: left 0.9s ease;
+  pointer-events: none;
+}
+
+.div-block-24:hover::before {
+  left: 100%;
+}
+
+.div-block-24:hover {
+  border-color: var(--gold-primary);
+  box-shadow: 
+    0 0 0 1px rgba(238, 186, 107, 0.2),
+    0 25px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(238, 186, 107, 0.03);
+  transform: translateY(-3px);
+}
+
+/* Ensure text stays crisp on hover */
+.div-block-24 .heading-16,
+.div-block-24 .text-block-9 {
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Enhanced button in gold box */
+.div-block-24 .button-3 {
+  background: linear-gradient(180deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+  color: var(--dark-bg);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 36px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth);
+}
+
+.div-block-24 .button-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.div-block-24 .button-3:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(238, 186, 107, 0.25);
+}
+
+.div-block-24 .button-3:hover::before {
+  left: 100%;
+}
+
+/* Hero button animation */
+.div-block-24 .button-3.w-button {
+  animation: heroFadeInUp 1s var(--transition-smooth) 0.4s forwards;
+  opacity: 0;
+}
+
+/* Subtitle text */
+.text-block-9 {
+  font-size: 22px;
+  color: var(--text-light);
+  font-weight: 400;
+  animation: heroFadeInUp 1s var(--transition-smooth) 0.2s forwards;
+  opacity: 0;
+}
+
+/* Hero box z-index fix - ensures content appears above overlay */
+.div-block-24 {
+  position: relative;
+  z-index: 2;
+}
+
+.cover-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 20, 21, 0.2) 0%,
+    rgba(20, 20, 21, 0.5) 50%,
+    rgba(20, 20, 21, 0.95) 100%
+  );
+  z-index: 1;
+}
+
+/* =======================================
+   SCROLL-TRIGGERED ANIMATIONS (FIXED)
+   ======================================= */
+
+/* Base animation classes */
+.reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger-container .stagger-item {
+  opacity: 0;
+  transition: opacity 0.8s var(--transition-smooth), transform 0.8s var(--transition-smooth);
+}
+
+.reveal {
+  transform: translateY(50px);
+}
+
+.reveal-left {
+  transform: translateX(-60px);
+}
+
+.reveal-right {
+  transform: translateX(60px);
+}
+
+.reveal-scale {
+  transform: scale(0.95);
+}
+
+.stagger-container .stagger-item {
+  transform: translateY(40px);
+}
+
+/* Visible states */
+.reveal.visible,
+.reveal-left.visible,
+.reveal-right.visible,
+.reveal-scale.visible,
+.stagger-container.visible .stagger-item {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Stagger delays */
+.stagger-container.visible .stagger-item:nth-child(1) { transition-delay: 0ms; }
+.stagger-container.visible .stagger-item:nth-child(2) { transition-delay: 100ms; }
+.stagger-container.visible .stagger-item:nth-child(3) { transition-delay: 200ms; }
+.stagger-container.visible .stagger-item:nth-child(4) { transition-delay: 300ms; }
+.stagger-container.visible .stagger-item:nth-child(5) { transition-delay: 400ms; }
+
+/* =======================================
+   HERO PARALLAX EFFECT (SIMPLIFIED)
+   ======================================= */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-image {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 20, 21, 0.2) 0%,
+    rgba(20, 20, 21, 0.5) 50%,
+    rgba(20, 20, 21, 0.95) 100%
+  );
+  z-index: 1;
+}
+
+/* Animated gradient border for hero box - refined subtle glow */
+.div-block-24::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(
+    45deg,
+    rgba(238, 186, 107, 0.4),
+    rgba(240, 200, 111, 0.2),
+    rgba(212, 168, 79, 0.4),
+    rgba(238, 186, 107, 0.4)
+  );
+  background-size: 300% 300%;
+  border-radius: 16px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  animation: gradientShift 4s ease infinite;
+}
+
+.div-block-24:hover::after {
+  opacity: 0.15; /* Very subtle glow - won't drown text */
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Hero entrance animations */
+.hero-entrance {
+  animation: heroFadeInUp 1s var(--transition-smooth) forwards;
+  opacity: 0;
+}
+
+.hero-entrance-delay-1 {
+  animation: heroFadeInUp 1s var(--transition-smooth) 0.2s forwards;
+  opacity: 0;
+}
+
+.hero-entrance-delay-2 {
+  animation: heroFadeInUp 1s var(--transition-smooth) 0.4s forwards;
+  opacity: 0;
+}
+
+@keyframes heroFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =======================================
+   PRACTICE AREA CARDS - ELEVATED
+   ======================================= */
+.practice-area-card {
+  background: linear-gradient(180deg, var(--dark-card) 0%, var(--dark-bg) 100%);
+  border: 1px solid rgba(238, 186, 107, 0.15);
+  border-radius: 16px;
+  padding: 35px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.4s var(--transition-smooth), transform 0.4s var(--transition-smooth), box-shadow 0.4s var(--transition-smooth);
+}
+
+.practice-area-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold-primary), var(--gold-dark));
+  transform: scaleX(0);
+  transition: transform 0.4s var(--transition-smooth);
+}
+
+.practice-area-card:hover {
+  border-color: rgba(238, 186, 107, 0.4);
+  transform: translateY(-8px);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.4),
+    0 0 60px rgba(238, 186, 107, 0.1);
+}
+
+.practice-area-card:hover::before {
+  transform: scaleX(1);
+}
+
+.practice-area-card h3 {
+  color: var(--gold-primary);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.practice-area-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-light);
+}
+
+.practice-area-card a {
+  color: var(--gold-primary);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.practice-area-card a::after {
+  content: '→';
+  transition: transform 0.3s ease;
+}
+
+.practice-area-card a:hover::after {
+  transform: translateX(5px);
+}
+
+/* =======================================
+   CALIFORNIA MAP SECTION - FULLY RESPONSIVE
+   ======================================= */
+
+.sectionnn.image {
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.page-wrapperr {
+  flex-direction: row;
+  height: auto;
+  min-height: 80vh;
+  display: flex;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+/* TABLET FIX: Stack at 991px instead of waiting for mobile */
+@media screen and (max-width: 991px) {
+  .page-wrapperr {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+    min-height: auto;
+  }
+  
+  .locations-wrapper,
+  .faq-list-wrapper {
+    width: 100%;
+  }
+  
+  .locations-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .image-9 {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.locations-wrapper {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-9 {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s var(--transition-smooth), filter 0.5s var(--transition-smooth);
+}
+
+.image-9:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 30px 60px rgba(238, 186, 107, 0.15));
+}
+
+.faq-list-wrapper {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enhanced FAQ accordions - improved contrast */
+.accordion-text-block {
+  background: linear-gradient(145deg, #1a1a1b 0%, var(--dark-bg) 100%);
+  border: 1px solid rgba(238, 186, 107, 0.3);
+  border-radius: 12px;
+  margin-top: 16px;
+  padding: 20px 24px;
+  transition: border-color 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth), transform 0.3s var(--transition-smooth);
+  cursor: pointer;
+}
+
+.accordion-text-block h2 {
+  color: #fff;
+}
+
+.accordion-text-block .text-block-17 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.accordion-text-block:hover {
+  border-color: rgba(238, 186, 107, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transform: translateX(5px);
+}
+
+.accordion-text-block.active {
+  border-color: var(--gold-primary);
+  background: linear-gradient(145deg, #1e1e1f 0%, #1a1a1b 100%);
+}
+
+.div-block-29 {
+  align-items: center;
+}
+
+.questions-button {
+  transition: transform 0.3s ease;
+}
+
+.accordion-text-block.active .questions-button {
+  transform: rotate(45deg);
+}
+
+/* Accordion content animation with max-height */
+.div-block-30 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s var(--transition-smooth), padding 0.5s var(--transition-smooth);
+}
+
+.accordion-text-block.active .div-block-30 {
+  max-height: 300px;
+  padding-top: 15px;
+}
+
+.text-block-17 {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-light);
+}
+
+/* =======================================
+   OFFICE LOCATIONS - STAGGERED ANIMATION
+   ======================================= */
+.office-locations {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 60px;
+  transition: transform 0.4s var(--transition-smooth);
+}
+
+/* Office locations - HTML already alternates, no CSS reversal needed */
+/* .office-locations:nth-child(even) - REMOVED: was undoing correct alternation */
+
+.office-locations:hover {
+  transform: translateY(-5px);
+}
+
+.office-locations:hover .image-office-locations {
+  transform: scale(1.03);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.image-office-locations {
+  width: 50%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s var(--transition-smooth), box-shadow 0.5s var(--transition-smooth);
+}
+
+.text-block-officelocations {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+/* =======================================
+   TESTIMONIAL SLIDER ENHANCEMENTS
+   ======================================= */
+.testimonial-slider {
+  background: linear-gradient(145deg, rgba(30, 30, 31, 0.8) 0%, rgba(20, 20, 21, 0.9) 100%);
+  border: 1px solid rgba(238, 186, 107, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slider::before {
+  content: '"';
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 120px;
+  color: var(--gold-primary);
+  opacity: 0.1;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial-slide-content {
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--text-light);
+  padding: 60px 80px;
+  font-style: italic;
+}
+
+/* =======================================
+   FORM ENHANCEMENTS
+   ======================================= */
+.form {
+  background: linear-gradient(145deg, #1a1a1b 0%, var(--dark-bg) 100%);
+  border-radius: 20px;
+  padding: 60px;
+  border: 1px solid rgba(238, 186, 107, 0.1);
+}
+
+.text-field,
+.text-field-2,
+textarea.text-field-2 {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(238, 186, 107, 0.2);
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #fff;
+  transition: background 0.3s var(--transition-smooth), border-color 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth);
+}
+
+.text-field:focus,
+.text-field-2:focus,
+textarea.text-field-2:focus {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 0 4px rgba(238, 186, 107, 0.1);
+  outline: none;
+}
+
+.field-label,
+.field-label-2 {
+  color: var(--gold-primary);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.submit-button {
+  background: linear-gradient(180deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 18px 48px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--dark-bg);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth);
+}
+
+.submit-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(238, 186, 107, 0.3);
+}
+
+.submit-button:active {
+  transform: translateY(-1px);
+}
+
+/* =======================================
+   STICKY MOBILE CTA (from inline)
+   ======================================= */
+.sticky-mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 12px 20px;
+  background: linear-gradient(180deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+}
+
+.sticky-mobile-cta a {
+  display: block;
+  text-align: center;
+  color: var(--text-dark);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 14px 0;
+  background: #fff;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.sticky-mobile-cta a:hover {
+  transform: scale(1.02);
+}
+
+.sticky-mobile-cta.hidden {
+  transform: translateY(100%);
+}
+
+/* =======================================
+   NAVBAR ENHANCEMENTS (REVISED)
+   ======================================= */
+
+/* Ensure the main navbar container uses flexbox correctly
+   and prevents wrapping of its direct children (logo and nav menu). */
+.container-10.w-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between logo and nav menu */
+  align-items: baseline;          /* Align items by text baseline for perfect alignment */
+  flex-wrap: nowrap;              /* IMPORTANT: Prevent elements from wrapping to a new line */
+}
+
+/* RIL Logo - Make it responsive and prevent excessive shrinking/growing */
+.ril-logo.w-nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  flex-shrink: 0;   /* Prevent logo from shrinking below its content size */
+  flex-grow: 0;     /* Prevent logo from growing unnecessarily */
+  max-width: 500px; /* MUCH LARGER: Significantly bigger logo for desktop */
+  width: auto;      /* Let it size naturally */
+  height: auto;     /* Maintain aspect ratio */
+  line-height: 1;   /* Reset line-height to prevent misalignment */
+  padding: 10px 0;  /* Add vertical padding so logo doesn't touch top/bottom */
+  margin: 0 20px;   /* Add horizontal margin */
+}
+
+.ril-logo.w-nav-brand img,
+img.ril-logoo {
+  display: block !important;
+  vertical-align: middle !important;
+  height: 120px !important;     /* FORCE 2x larger height */
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: 300px !important; /* Ensure minimum width */
+  max-height: none !important; /* Remove any max-height constraints */
+}
+
+/* Navigation Menu - Allow it to shrink and grow, and push links to the right */
+.nav-menu-2.w-nav-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 0;    /* Override conflicting Webflow styles */
+  padding-top: 0;   /* Override conflicting Webflow styles */
+  flex-shrink: 1;   /* Allow the nav menu to shrink if space is limited */
+  flex-grow: 1;     /* Allow the nav menu to grow to fill available space */
+  justify-content: flex-end; /* Align nav links to the right within the nav menu */
+}
+
+/* Individual Navigation Links - Adjust for flexibility */
+.nav-link {
+  position: relative;
+  font-size: 26px; /* Original size, will be adjusted in media queries */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 18px 20px; /* Original padding, will be adjusted in media queries */
+  transition: color 0.3s ease;
+  white-space: nowrap; /* Prevent individual link text from wrapping */
+  display: flex;      /* Enable flexbox for vertical centering */
+  align-items: center; /* Vertically center text within the link */
+  line-height: 1;     /* Reset line-height for consistent alignment */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 16px;
+  right: 16px;
+  height: 2px;
+  background: var(--gold-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s var(--transition-smooth);
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link:hover {
+  color: var(--gold-primary);
+}
+
+.navbar-2 {
+  background: rgba(20, 20, 21, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 2px solid rgba(238, 186, 107, 0.3);
+  transition: box-shadow 0.3s var(--transition-smooth);
+  padding: 20px 0; /* Increased vertical padding for better spacing */
+}
+
+.navbar-2.scrolled {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* =======================================
+   PAGE WRAPPER & FOOTER FIXES
+   ======================================= */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.ril-footer {
+  background: linear-gradient(180deg, #0f0f10 0%, var(--dark-bg) 100%);
+  border-top: 1px solid rgba(238, 186, 107, 0.2);
+  padding-bottom: 40px;
+  margin-top: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-bottom {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--gold-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-bottom:hover {
+  color: var(--gold-primary);
+}
+
+.nav-bottom:hover::after {
+  transform: scaleX(1);
+}
+
+/* =======================================
+   RESPONSIVE BREAKPOINTS (CONSOLIDATED)
+   ======================================= */
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 42px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  .heading-16.front-page {
+    font-size: 42px;
+  }
+  
+  .text-headings {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .cta-headerr {
+    font-size: 36px;
+  }
+  
+  .page-wrapperr {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  
+  .locations-wrapper,
+  .faq-list-wrapper {
+    width: 100%;
+  }
+  
+  .locations-wrapper {
+    margin-bottom: 40px;
+  }
+  
+  .image-9 {
+    max-width: 80%;
+  }
+  
+  .office-locations,
+  .office-locations:nth-child(even) {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .image-office-locations {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+  }
+  
+  .form {
+    padding: 40px 30px;
+  }
+  
+  .testimonial-slide-content {
+    padding: 40px;
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .sticky-mobile-cta {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  
+  .heading-16.front-page {
+    font-size: 32px;
+    line-height: 115%;
+  }
+  
+  .text-headings {
+    font-size: 26px;
+    padding: 16px 20px;
+  }
+  
+  .cta-headerr {
+    font-size: 28px;
+  }
+  
+  .div-block-24 {
+    padding: 30px 25px;
+    margin: 0 15px;
+  }
+  
+  .text-block-9 {
+    font-size: 18px;
+  }
+  
+  .cover-image {
+    background-attachment: scroll;
+  }
+  
+  .sectionnn {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .practice-area-card {
+    padding: 25px;
+  }
+  
+  .accordion-text-block {
+    padding: 16px 20px;
+  }
+  
+  .heading-22 {
+    font-size: 18px;
+  }
+  
+  .testimonial-slide-content {
+    padding: 30px 25px;
+    font-size: 16px;
+  }
+  
+  .nav-menu-2 {
+    background: rgba(20, 20, 21, 0.98);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+  }
+  
+  .nav-link {
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(238, 186, 107, 0.1);
+  }
+  
+  .ril-footer {
+    padding-bottom: 100px;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .heading-16.front-page {
+    font-size: 26px;
+  }
+  
+  .text-headings {
+    font-size: 22px;
+  }
+  
+  .cta-headerr {
+    font-size: 24px;
+  }
+  
+  .button-3 {
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+  
+  .practice-area-card h3 {
+    font-size: 18px;
+  }
+  
+  .image-office-locations {
+    height: 220px;
+  }
+}
+
+/* =======================================
+   RESPONSIVE BREAKPOINTS (ADDITIONS FOR NAVBAR)
+   ======================================= */
+
+/* Tablet and smaller desktop screens (e.g., 992px to 768px) */
+/* At this breakpoint, the navbar should still be a single line,
+   but elements need to be more compact. */
+@media screen and (max-width: 991px) {
+  .ril-logo.w-nav-brand {
+    max-width: 300px; /* INCREASED: Much larger for tablets */
+  }
+
+  .nav-link {
+    font-size: 16px;      /* Significantly reduce font size for more space */
+    padding: 10px 12px;   /* Reduce padding around links */
+  }
+}
+
+/* Mobile Screens (e.g., 767px and below) */
+/* At this breakpoint, Webflow typically activates the hamburger menu.
+   These styles are for the expanded mobile menu, ensuring a clean vertical stack. */
+@media screen and (max-width: 767px) {
+  .ril-logo.w-nav-brand {
+    max-width: 250px; /* INCREASED: Much larger for mobile */
+  }
+
+  /* When the hamburger menu is active, stack nav items vertically */
+  .nav-menu-2.w-nav-menu {
+    flex-direction: column;    /* Stack links vertically */
+    align-items: flex-start;   /* Align links to the left */
+    width: 100%;               /* Make menu take full width */
+    /* Existing background and padding from current enhancements.css are suitable here */
+  }
+
+  .nav-link {
+    width: 100%;               /* Ensure each link takes full width in mobile menu */
+    text-align: left;          /* Align text to the left */
+    font-size: 18px;           /* Adjust font size for mobile readability */
+    padding: 15px 10px;        /* Consistent padding for mobile links */
+    white-space: normal;       /* Allow link text to wrap if it's very long */
+    /* Existing border-bottom from current enhancements.css is suitable */
+  }
+
+  /* Remove border from the last nav link in the mobile menu for a cleaner look */
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+}
+
+/* =======================================
+   ACCESSIBILITY
+   ======================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+  
+  .cover-image {
+    background-attachment: scroll;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: 3px;
+}
+
+/* =======================================
+   SMOOTH SCROLLING
+   ======================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* =======================================
+   WEBFLOW OVERRIDES
+   Fix legacy hardcoded values
+   ======================================= */
+
+/* Override hardcoded colors in Webflow base CSS */
+
+/* Gold color (#eeba6b) overrides - use CSS variable --gold-primary */
+/* NOTE: Removed .text-headings (should have dark bg with gold border) */
+/* NOTE: Removed .practice-areas:hover (was turning entire section gold) */
+.button-primary,
+.button-3,
+.button-4,
+.card-top-bar,
+.div-block-3:hover,
+.div-block-9,
+.div-block-10,
+.div-block-24,
+.navbar-2,
+.navbar-3,
+.nav-link:hover,
+.icon:hover,
+.dropdown-toggle:hover,
+.quick-stack-2,
+.section,
+.text-block-6,
+.heading-9,
+.div-block-4,
+.div-block-6,
+.div-block-8.bg,
+.div-block-8.contact-us-now,
+.div-block-8.sep,
+.practice-fields-grid:hover,
+.text-center,
+.div-block-23,
+.ril-footer,
+.submit-button:hover,
+.accordion-text-block {
+  background-color: var(--gold-primary) !important;
+}
+
+/* Border color overrides with gold */
+/* NOTE: .text-headings border is handled in its dedicated rule above */
+.button-3,
+.button-3:hover,
+.button-4,
+.button-4:hover,
+.div-block-6,
+.div-block-24,
+.navbar-2,
+.navbar-3,
+.practice-fields-grid:hover,
+.testimonial-slider,
+.div-block-23,
+.submit-button,
+.code-embed,
+.div-block-3 {
+  border-color: var(--gold-primary) !important;
+}
+
+/* Text color overrides with gold */
+.icon:hover,
+.dropdown-toggle:hover,
+.section,
+.heading-9,
+.nav-link:hover {
+  color: var(--gold-primary) !important;
+}
+
+/* Text decoration/underline overrides with gold */
+.text-center,
+.nav-link:hover {
+  -webkit-text-decoration: underline var(--gold-primary) !important;
+  text-decoration: underline var(--gold-primary) !important;
+}
+
+/* Dark background (#141415) overrides - use CSS variable --dark-bg */
+.body,
+.body-2,
+.body-5,
+.body-6,
+.body-7,
+.body-8,
+.div-block-3,
+.div-block-8,
+.div-block-8.contact-us-now.outline,
+.div-block-13,
+.div-block-14,
+.div-block-24,
+.navbar-no-shadow,
+.navbar-2,
+.navbar-3,
+.nav-link.w--current,
+.nav-link:visited,
+.practice-area-section.black-bg,
+.ril-page-main,
+.submit-button {
+  background-color: var(--dark-bg) !important;
+}
+
+/* Override transition: all with specific properties */
+.button-primary,
+.button-primary-2 {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease !important;
+}
+
+/* =======================================
+   V3 FIXES - Client Feedback Resolution
+   ======================================= */
+
+/* Issue 5: Consistent Section Spacing 
+   Removes 402px gap before Office Locations */
+.sectionnn {
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-bottom: 60px;
+}
+
+.sectionnn.client-test-section {
+  margin-bottom: 80px !important;
+}
+
+.container-17 {
+  margin-top: 40px;
+}
+
+.container-18 {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+/* Issue 4: California Map/FAQ Section Redesign */
+.sectionnn.image {
+  height: auto;
+  min-height: auto;
+  padding: 80px 40px 100px;
+  margin: 0 0 60px 0;
+  background: linear-gradient(180deg, var(--dark-bg) 0%, #0f0f10 100%);
+  position: relative;
+}
+
+.container-24 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-wrapperr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  min-height: auto;
+  height: auto;
+}
+
+.locations-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background: linear-gradient(145deg, #1a1a1b 0%, var(--dark-bg) 100%);
+  border: 1px solid rgba(238, 186, 107, 0.2);
+  border-radius: 20px;
+  position: relative;
+}
+
+.locations-wrapper::before {
+  content: 'SERVING ALL OF CALIFORNIA';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--dark-bg);
+  color: var(--gold-primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 4px 16px;
+  border: 1px solid var(--gold-primary);
+  border-radius: 20px;
+}
+
+.image-9 {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.image-9:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0 20px 50px rgba(238, 186, 107, 0.15));
+}
+
+.faq-list-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text-headings.locations-thour {
+  margin-left: 0;
+  margin-bottom: 50px;
+  font-size: 38px;
+}
+
+/* Responsive: Stack map/FAQ on tablet */
+@media screen and (max-width: 991px) {
+  .page-wrapperr {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .locations-wrapper {
+    order: 2;
+  }
+  
+  .faq-list-wrapper {
+    order: 1;
+  }
+  
+  .image-9 {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sectionnn.image {
+    padding: 60px 20px 80px;
+  }
+  
+  .text-headings.locations-thour {
+    font-size: 28px;
+  }
+}
+
+/* Issue 3: FAQ Accordion Icon - Gold SVG on dark background */
+svg.questions-button {
+  width: 24px;
+  height: 24px;
+  color: var(--gold-primary);
+  transition: transform 0.3s ease, color 0.3s ease;
+  flex-shrink: 0;
+}
+
+svg.questions-button:hover {
+  color: var(--gold-light);
+}
+
+.accordion-text-block.active svg.questions-button {
+  transform: rotate(45deg);
+  color: var(--gold-light);
+}
