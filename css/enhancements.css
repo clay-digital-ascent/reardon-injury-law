@@ -774,7 +774,7 @@ textarea.text-field-2:focus {
 .container-10.w-container {
   display: flex;
   justify-content: space-between; /* Distribute space between logo and nav menu */
-  align-items: baseline;          /* Align items by text baseline for perfect alignment */
+  align-items: center;            /* Align items by text baseline for perfect alignment */
   flex-wrap: nowrap;              /* IMPORTANT: Prevent elements from wrapping to a new line */
 }
 
@@ -782,27 +782,28 @@ textarea.text-field-2:focus {
 .ril-logo.w-nav-brand {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center content horizontally */
-  flex-shrink: 0;   /* Prevent logo from shrinking below its content size */
-  flex-grow: 0;     /* Prevent logo from growing unnecessarily */
-  max-width: 500px; /* MUCH LARGER: Significantly bigger logo for desktop */
-  width: auto;      /* Let it size naturally */
-  height: auto;     /* Maintain aspect ratio */
-  line-height: 1;   /* Reset line-height to prevent misalignment */
-  padding: 10px 0;  /* Add vertical padding so logo doesn't touch top/bottom */
-  margin: 0 20px;   /* Add horizontal margin */
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 220px;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 5px 0;
+  margin: 0 15px;
 }
 
 .ril-logo.w-nav-brand img,
 img.ril-logoo {
   display: block !important;
   vertical-align: middle !important;
-  height: 120px !important;     /* FORCE 2x larger height */
+  height: 50px !important;
   width: auto !important;
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 300px !important; /* Ensure minimum width */
-  max-height: none !important; /* Remove any max-height constraints */
+  min-width: unset !important;
+  max-height: none !important;
+  object-fit: contain !important;
 }
 
 /* Navigation Menu - Allow it to shrink and grow, and push links to the right */
@@ -819,15 +820,19 @@ img.ril-logoo {
 /* Individual Navigation Links - Adjust for flexibility */
 .nav-link {
   position: relative;
-  font-size: 26px; /* Original size, will be adjusted in media queries */
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   letter-spacing: 0.5px;
-  padding: 18px 20px; /* Original padding, will be adjusted in media queries */
+  padding: 12px 16px;
   transition: color 0.3s ease;
-  white-space: nowrap; /* Prevent individual link text from wrapping */
-  display: flex;      /* Enable flexbox for vertical centering */
-  align-items: center; /* Vertically center text within the link */
-  line-height: 1;     /* Reset line-height for consistent alignment */
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+  border-bottom: none !important;
+  text-underline-offset: initial !important;
 }
 
 .nav-link::after {
@@ -856,7 +861,7 @@ img.ril-logoo {
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 2px solid rgba(238, 186, 107, 0.3);
   transition: box-shadow 0.3s var(--transition-smooth);
-  padding: 20px 0; /* Increased vertical padding for better spacing */
+  padding: 8px 0;
 }
 
 .navbar-2.scrolled {
@@ -1044,7 +1049,7 @@ img.ril-logoo {
   }
   
   .nav-link {
-    padding: 15px 10px;
+    padding: 12px 10px;
     border-bottom: 1px solid rgba(238, 186, 107, 0.1);
   }
   
@@ -1094,12 +1099,12 @@ img.ril-logoo {
    but elements need to be more compact. */
 @media screen and (max-width: 991px) {
   .ril-logo.w-nav-brand {
-    max-width: 300px; /* INCREASED: Much larger for tablets */
+    max-width: 180px;
   }
 
   .nav-link {
-    font-size: 16px;      /* Significantly reduce font size for more space */
-    padding: 10px 12px;   /* Reduce padding around links */
+    font-size: 14px;
+    padding: 8px 10px;
   }
 }
 
@@ -1108,7 +1113,12 @@ img.ril-logoo {
    These styles are for the expanded mobile menu, ensuring a clean vertical stack. */
 @media screen and (max-width: 767px) {
   .ril-logo.w-nav-brand {
-    max-width: 250px; /* INCREASED: Much larger for mobile */
+    max-width: 150px;
+  }
+
+  .ril-logo.w-nav-brand img,
+  img.ril-logoo {
+    height: 40px !important;
   }
 
   /* When the hamburger menu is active, stack nav items vertically */
@@ -1122,8 +1132,8 @@ img.ril-logoo {
   .nav-link {
     width: 100%;               /* Ensure each link takes full width in mobile menu */
     text-align: left;          /* Align text to the left */
-    font-size: 18px;           /* Adjust font size for mobile readability */
-    padding: 15px 10px;        /* Consistent padding for mobile links */
+    font-size: 16px;           /* Adjust font size for mobile readability */
+    padding: 12px 10px;        /* Consistent padding for mobile links */
     white-space: normal;       /* Allow link text to wrap if it's very long */
     /* Existing border-bottom from current enhancements.css is suitable */
   }
@@ -1202,7 +1212,6 @@ html {
 .div-block-24,
 .navbar-2,
 .navbar-3,
-.nav-link:hover,
 .icon:hover,
 .dropdown-toggle:hover,
 .quick-stack-2,
@@ -1252,8 +1261,7 @@ html {
 }
 
 /* Text decoration/underline overrides with gold */
-.text-center,
-.nav-link:hover {
+.text-center {
   -webkit-text-decoration: underline var(--gold-primary) !important;
   text-decoration: underline var(--gold-primary) !important;
 }
