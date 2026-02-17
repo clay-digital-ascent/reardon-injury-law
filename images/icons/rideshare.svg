@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <path d="M10 40V36Q10 33 13 32L20 30L23 26Q25 23 28 23H38Q41 23 43 26L46 30L51 32Q54 33 54 36V40" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="10" y1="40" x2="18" y2="40" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="46" y1="40" x2="54" y2="40" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="22" cy="42" r="5" stroke="#EEBA6B" stroke-width="2" fill="none"/>
+  <circle cx="22" cy="42" r="2" stroke="#EEBA6B" stroke-width="2" fill="none"/>
+  <circle cx="46" cy="42" r="5" stroke="#EEBA6B" stroke-width="2" fill="none"/>
+  <circle cx="46" cy="42" r="2" stroke="#EEBA6B" stroke-width="2" fill="none"/>
+  <rect x="42" y="10" width="10" height="16" rx="2" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M47 8C49 9 50.5 10.5 51 12.5" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M44 6C47 7 49.5 9.5 50.5 12.5" stroke="#EEBA6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
