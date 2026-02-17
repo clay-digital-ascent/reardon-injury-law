@@ -1001,6 +1001,66 @@ img.ril-logoo {
   transform: scaleX(1);
 }
 
+/* Footer logo - consistent sizing to match nav bar scale */
+.ril-logo-footer {
+  width: 200px !important;
+  height: auto !important;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Footer nav links - clean dark background styling */
+.div-block-23 {
+  border-top: none !important;
+  border-bottom: none !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.div-block-23 .w-nav-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.nav-bottom.w-nav-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: color 0.3s ease;
+}
+
+.nav-bottom.w-nav-link:last-child {
+  border-right: none;
+}
+
+.nav-bottom.w-nav-link:hover {
+  color: var(--gold-primary) !important;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.div-block-22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0;
+}
+
 /* =======================================
    RESPONSIVE BREAKPOINTS (CONSOLIDATED)
    ======================================= */
@@ -1143,6 +1203,27 @@ img.ril-logoo {
   
   .ril-footer {
     padding-bottom: 100px;
+  }
+
+  .ril-logo-footer {
+    width: 150px !important;
+    max-width: 150px;
+  }
+  
+  .nav-bottom.w-nav-link {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-bottom.w-nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .div-block-23 .w-nav-menu {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
