@@ -433,6 +433,17 @@ h2 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.practice-area-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .practice-area-card p {
@@ -458,6 +469,77 @@ h2 {
 
 .practice-area-card a:hover::after {
   transform: translateX(5px);
+}
+
+/* =======================================
+   PRACTICE AREA CARD - FULL CLICKABLE LINK
+   ======================================= */
+
+/* The wrapping <a> tag that makes the entire card clickable */
+.practice-area-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 16px;
+  outline: none;
+  transition: transform 0.4s var(--transition-smooth), box-shadow 0.4s var(--transition-smooth);
+}
+
+/* Remove hover effects from .practice-area-card itself when inside a link wrapper,
+   and apply them to the link wrapper instead */
+.practice-area-card-link:hover .practice-area-card,
+.practice-area-card-link:focus-visible .practice-area-card {
+  border-color: rgba(238, 186, 107, 0.4);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.4),
+    0 0 60px rgba(238, 186, 107, 0.1);
+}
+
+.practice-area-card-link:hover .practice-area-card::before,
+.practice-area-card-link:focus-visible .practice-area-card::before {
+  transform: scaleX(1);
+}
+
+.practice-area-card-link:hover {
+  transform: translateY(-8px);
+}
+
+/* Focus-visible for keyboard navigation */
+.practice-area-card-link:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: 4px;
+  border-radius: 16px;
+  transform: translateY(-4px);
+}
+
+/* The span that replaces the inner <a> - styled to look like the old link */
+.card-link-text {
+  color: var(--gold-primary);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.card-link-text::after {
+  content: '→';
+  transition: transform 0.3s ease;
+}
+
+.practice-area-card-link:hover .card-link-text::after {
+  transform: translateX(5px);
+}
+
+/* When card is inside a link wrapper, remove the card's own hover transform
+   (the link wrapper handles it) */
+.practice-area-card-link .practice-area-card {
+  transition: border-color 0.4s var(--transition-smooth), box-shadow 0.4s var(--transition-smooth);
+}
+
+.practice-area-card-link .practice-area-card:hover {
+  transform: none;
 }
 
 /* =======================================
@@ -774,35 +856,39 @@ textarea.text-field-2:focus {
 .container-10.w-container {
   display: flex;
   justify-content: space-between; /* Distribute space between logo and nav menu */
-  align-items: baseline;          /* Align items by text baseline for perfect alignment */
+  align-items: center;            /* Align items by text baseline for perfect alignment */
   flex-wrap: nowrap;              /* IMPORTANT: Prevent elements from wrapping to a new line */
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* RIL Logo - Make it responsive and prevent excessive shrinking/growing */
 .ril-logo.w-nav-brand {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center content horizontally */
-  flex-shrink: 0;   /* Prevent logo from shrinking below its content size */
-  flex-grow: 0;     /* Prevent logo from growing unnecessarily */
-  max-width: 500px; /* MUCH LARGER: Significantly bigger logo for desktop */
-  width: auto;      /* Let it size naturally */
-  height: auto;     /* Maintain aspect ratio */
-  line-height: 1;   /* Reset line-height to prevent misalignment */
-  padding: 10px 0;  /* Add vertical padding so logo doesn't touch top/bottom */
-  margin: 0 20px;   /* Add horizontal margin */
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 350px;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 2px 0;
+  margin: 0 5px;
 }
 
 .ril-logo.w-nav-brand img,
 img.ril-logoo {
   display: block !important;
   vertical-align: middle !important;
-  height: 120px !important;     /* FORCE 2x larger height */
+  height: 90px !important;
   width: auto !important;
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 300px !important; /* Ensure minimum width */
-  max-height: none !important; /* Remove any max-height constraints */
+  min-width: unset !important;
+  max-height: none !important;
+  object-fit: contain !important;
 }
 
 /* Navigation Menu - Allow it to shrink and grow, and push links to the right */
@@ -814,20 +900,26 @@ img.ril-logoo {
   flex-shrink: 1;   /* Allow the nav menu to shrink if space is limited */
   flex-grow: 1;     /* Allow the nav menu to grow to fill available space */
   justify-content: flex-end; /* Align nav links to the right within the nav menu */
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /* Individual Navigation Links - Adjust for flexibility */
 .nav-link {
   position: relative;
-  font-size: 26px; /* Original size, will be adjusted in media queries */
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   letter-spacing: 0.5px;
-  padding: 18px 20px; /* Original padding, will be adjusted in media queries */
+  padding: 10px 14px;
   transition: color 0.3s ease;
-  white-space: nowrap; /* Prevent individual link text from wrapping */
-  display: flex;      /* Enable flexbox for vertical centering */
-  align-items: center; /* Vertically center text within the link */
-  line-height: 1;     /* Reset line-height for consistent alignment */
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+  border-bottom: none !important;
+  text-underline-offset: initial !important;
 }
 
 .nav-link::after {
@@ -854,13 +946,14 @@ img.ril-logoo {
   background: rgba(20, 20, 21, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 2px solid rgba(238, 186, 107, 0.3);
+  border-bottom: none;
+  box-shadow: 0 2px 0 0 rgba(238, 186, 107, 0.3);
   transition: box-shadow 0.3s var(--transition-smooth);
-  padding: 20px 0; /* Increased vertical padding for better spacing */
+  padding: 2px 0;
 }
 
 .navbar-2.scrolled {
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 0 0 rgba(238, 186, 107, 0.3), 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* =======================================
@@ -906,6 +999,66 @@ img.ril-logoo {
 
 .nav-bottom:hover::after {
   transform: scaleX(1);
+}
+
+/* Footer logo - consistent sizing to match nav bar scale */
+.ril-logo-footer {
+  width: 200px !important;
+  height: auto !important;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Footer nav links - clean dark background styling */
+.div-block-23 {
+  border-top: none !important;
+  border-bottom: none !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.div-block-23 .w-nav-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.nav-bottom.w-nav-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: color 0.3s ease;
+}
+
+.nav-bottom.w-nav-link:last-child {
+  border-right: none;
+}
+
+.nav-bottom.w-nav-link:hover {
+  color: var(--gold-primary) !important;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.div-block-22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0;
 }
 
 /* =======================================
@@ -1044,12 +1197,33 @@ img.ril-logoo {
   }
   
   .nav-link {
-    padding: 15px 10px;
+    padding: 12px 10px;
     border-bottom: 1px solid rgba(238, 186, 107, 0.1);
   }
   
   .ril-footer {
     padding-bottom: 100px;
+  }
+
+  .ril-logo-footer {
+    width: 150px !important;
+    max-width: 150px;
+  }
+  
+  .nav-bottom.w-nav-link {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-bottom.w-nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .div-block-23 .w-nav-menu {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -1079,6 +1253,11 @@ img.ril-logoo {
   .practice-area-card h3 {
     font-size: 18px;
   }
+
+  .practice-area-icon {
+    width: 24px;
+    height: 24px;
+  }
   
   .image-office-locations {
     height: 220px;
@@ -1094,12 +1273,17 @@ img.ril-logoo {
    but elements need to be more compact. */
 @media screen and (max-width: 991px) {
   .ril-logo.w-nav-brand {
-    max-width: 300px; /* INCREASED: Much larger for tablets */
+    max-width: 250px;
+  }
+
+  .ril-logo.w-nav-brand img,
+  img.ril-logoo {
+    height: 65px !important;
   }
 
   .nav-link {
-    font-size: 16px;      /* Significantly reduce font size for more space */
-    padding: 10px 12px;   /* Reduce padding around links */
+    font-size: 14px;
+    padding: 8px 10px;
   }
 }
 
@@ -1108,7 +1292,12 @@ img.ril-logoo {
    These styles are for the expanded mobile menu, ensuring a clean vertical stack. */
 @media screen and (max-width: 767px) {
   .ril-logo.w-nav-brand {
-    max-width: 250px; /* INCREASED: Much larger for mobile */
+    max-width: 180px;
+  }
+
+  .ril-logo.w-nav-brand img,
+  img.ril-logoo {
+    height: 55px !important;
   }
 
   /* When the hamburger menu is active, stack nav items vertically */
@@ -1122,8 +1311,8 @@ img.ril-logoo {
   .nav-link {
     width: 100%;               /* Ensure each link takes full width in mobile menu */
     text-align: left;          /* Align text to the left */
-    font-size: 18px;           /* Adjust font size for mobile readability */
-    padding: 15px 10px;        /* Consistent padding for mobile links */
+    font-size: 16px;           /* Adjust font size for mobile readability */
+    padding: 12px 10px;        /* Consistent padding for mobile links */
     white-space: normal;       /* Allow link text to wrap if it's very long */
     /* Existing border-bottom from current enhancements.css is suitable */
   }
@@ -1202,7 +1391,6 @@ html {
 .div-block-24,
 .navbar-2,
 .navbar-3,
-.nav-link:hover,
 .icon:hover,
 .dropdown-toggle:hover,
 .quick-stack-2,
@@ -1252,8 +1440,7 @@ html {
 }
 
 /* Text decoration/underline overrides with gold */
-.text-center,
-.nav-link:hover {
+.text-center {
   -webkit-text-decoration: underline var(--gold-primary) !important;
   text-decoration: underline var(--gold-primary) !important;
 }

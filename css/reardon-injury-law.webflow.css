@@ -2265,3 +2265,93 @@ h1 {
   font-style: normal;
   font-display: swap;
 }
+
+/* =======================================
+   SCROLL REVEAL ANIMATION SYSTEM (sr-*)
+   Unique classes to avoid conflicts with
+   existing enhancements.css reveal system
+   ======================================= */
+
+/* --- Custom Properties for Reveal Tuning --- */
+:root {
+  --sr-duration: 0.8s;
+  --sr-easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --sr-distance: 60px;
+  --sr-stagger-gap: 120ms;
+}
+
+/* --- Base hidden states --- */
+.sr-up,
+.sr-left,
+.sr-right {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition:
+    opacity var(--sr-duration) var(--sr-easing),
+    transform var(--sr-duration) var(--sr-easing);
+}
+
+.sr-up {
+  transform: translateY(var(--sr-distance));
+}
+
+.sr-left {
+  transform: translateX(calc(-1 * var(--sr-distance)));
+}
+
+.sr-right {
+  transform: translateX(var(--sr-distance));
+}
+
+/* --- Revealed state --- */
+.sr-up.is-revealed,
+.sr-left.is-revealed,
+.sr-right.is-revealed {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* --- Stagger container + children --- */
+.sr-stagger .sr-child {
+  opacity: 0;
+  transform: translateY(40px);
+  will-change: opacity, transform;
+  transition:
+    opacity var(--sr-duration) var(--sr-easing),
+    transform var(--sr-duration) var(--sr-easing);
+}
+
+.sr-stagger.is-revealed .sr-child {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays for children (up to 8) */
+.sr-stagger.is-revealed .sr-child:nth-child(1) { transition-delay: 0ms; }
+.sr-stagger.is-revealed .sr-child:nth-child(2) { transition-delay: var(--sr-stagger-gap); }
+.sr-stagger.is-revealed .sr-child:nth-child(3) { transition-delay: calc(var(--sr-stagger-gap) * 2); }
+.sr-stagger.is-revealed .sr-child:nth-child(4) { transition-delay: calc(var(--sr-stagger-gap) * 3); }
+.sr-stagger.is-revealed .sr-child:nth-child(5) { transition-delay: calc(var(--sr-stagger-gap) * 4); }
+.sr-stagger.is-revealed .sr-child:nth-child(6) { transition-delay: calc(var(--sr-stagger-gap) * 5); }
+.sr-stagger.is-revealed .sr-child:nth-child(7) { transition-delay: calc(var(--sr-stagger-gap) * 6); }
+.sr-stagger.is-revealed .sr-child:nth-child(8) { transition-delay: calc(var(--sr-stagger-gap) * 7); }
+
+/* --- Micro-interactions: subtle hover lift on revealed cards --- */
+.sr-child.is-revealed:hover,
+.sr-stagger.is-revealed .sr-child:hover {
+  transform: translateY(-6px);
+  transition-duration: 0.3s;
+}
+
+/* --- Accessibility: respect prefers-reduced-motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .sr-up,
+  .sr-left,
+  .sr-right,
+  .sr-stagger .sr-child {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+}
