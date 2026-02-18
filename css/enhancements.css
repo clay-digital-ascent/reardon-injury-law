@@ -953,22 +953,11 @@ img.ril-logoo {
   background: rgba(20, 20, 21, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: none;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, transparent 0%, #eeba6b 30%, #f5e6b8 50%, #eeba6b 70%, transparent 100%) 1;
   box-shadow: none;
-  position: relative;
   transition: box-shadow 0.3s var(--transition-smooth);
   padding: 2px 0;
-}
-
-.navbar-2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent 0%, #eeba6b 30%, #f5e6b8 50%, #eeba6b 70%, transparent 100%);
-  pointer-events: none;
 }
 
 .navbar-2.scrolled {
