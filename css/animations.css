@@ -179,3 +179,116 @@
     animation: none !important;
   }
 }
+
+/* =======================================
+   REVEAL.JS SCROLL ANIMATION STATES
+   Classes set by reveal.js — these MUST be defined here
+   ======================================= */
+
+/* Initial hidden states */
+.sr-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sr-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sr-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Revealed state — added by reveal.js IntersectionObserver */
+.sr-up.is-revealed,
+.sr-left.is-revealed,
+.sr-right.is-revealed {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Stagger children */
+.sr-child {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sr-child.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* reveal / reveal-left / reveal-right (used on location wrappers) */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.reveal.is-revealed,
+.reveal-left.is-revealed,
+.reveal-right.is-revealed {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Stagger delays for sr-child items */
+.sr-child:nth-child(1) { transition-delay: 0ms; }
+.sr-child:nth-child(2) { transition-delay: 100ms; }
+.sr-child:nth-child(3) { transition-delay: 200ms; }
+.sr-child:nth-child(4) { transition-delay: 300ms; }
+.sr-child:nth-child(5) { transition-delay: 400ms; }
+.sr-child:nth-child(6) { transition-delay: 500ms; }
+
+/* Stagger for stagger-item class */
+.stagger-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s cubic-bezier(0.645, 0.045, 0.355, 1),
+              transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.stagger-item.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-item:nth-child(1) { transition-delay: 0ms; }
+.stagger-item:nth-child(2) { transition-delay: 120ms; }
+.stagger-item:nth-child(3) { transition-delay: 240ms; }
+.stagger-item:nth-child(4) { transition-delay: 360ms; }
+.stagger-item:nth-child(5) { transition-delay: 480ms; }
+.stagger-item:nth-child(6) { transition-delay: 600ms; }
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .sr-up, .sr-left, .sr-right, .reveal, .reveal-left, .reveal-right,
+  .sr-child, .stagger-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

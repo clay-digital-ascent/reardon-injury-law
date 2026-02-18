@@ -31,7 +31,10 @@
   // Respect prefers-reduced-motion
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   if (prefersReducedMotion.matches) {
-    document.querySelectorAll('.sr-up, .sr-left, .sr-right, .sr-stagger').forEach(function (el) {
+    document.querySelectorAll(
+      '.sr-up, .sr-left, .sr-right, .sr-stagger, .sr-child, ' +
+      '.reveal, .reveal-left, .reveal-right, .stagger-item'
+    ).forEach(function (el) {
       el.classList.add('is-revealed');
     });
     return;
@@ -53,8 +56,11 @@
     });
   }, observerOptions);
 
-  // Observe all sr-* elements
-  var targets = document.querySelectorAll('.sr-up, .sr-left, .sr-right, .sr-stagger');
+  // Observe all sr-* and reveal-* elements
+  var targets = document.querySelectorAll(
+    '.sr-up, .sr-left, .sr-right, .sr-stagger, .sr-child, ' +
+    '.reveal, .reveal-left, .reveal-right, .stagger-item'
+  );
   targets.forEach(function (el) {
     observer.observe(el);
   });
