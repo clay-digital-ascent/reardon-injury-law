@@ -88,23 +88,21 @@ document.addEventListener('DOMContentLoaded', function() {
     accordions.forEach(function(accordion) {
       if (accordion.dataset.accordionBound === 'true') return;
 
-      // Clone the header row to strip all Webflow listeners on it
+      // Clone to strip all Webflow listeners
       const header = accordion.querySelector('.div-block-29');
       if (!header) return;
       const freshHeader = header.cloneNode(true);
       header.parentNode.replaceChild(freshHeader, header);
 
-      // Also remove data-w-id from accordion to prevent Webflow re-binding
+      // Remove data-w-id so Webflow doesn't re-bind
       accordion.removeAttribute('data-w-id');
       accordion.dataset.accordionBound = 'true';
 
-      // Ensure the answer panel has height-based visibility (not display:none)
+      // Clear any inline styles that would fight CSS
       const panel = accordion.querySelector('.div-block-30');
       if (panel) {
-        panel.style.overflow = 'hidden';
-        panel.style.transition = 'max-height 0.35s ease';
-        panel.style.maxHeight = '0px';
-        panel.style.display = 'block';
+        panel.style.removeProperty('max-height');
+        panel.style.removeProperty('display');
       }
 
       freshHeader.addEventListener('click', function(e) {
@@ -114,24 +112,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // Close all
         accordions.forEach(function(other) {
           other.classList.remove('active');
-          const otherPanel = other.querySelector('.div-block-30');
-          if (otherPanel) otherPanel.style.maxHeight = '0px';
-          const otherSvg = other.querySelector('.questions-button');
-          if (otherSvg) otherSvg.style.transform = 'rotate(0deg)';
         });
 
-        // Open clicked if it was closed
+        // Open if it was closed
         if (!isActive) {
           accordion.classList.add('active');
-          if (panel) panel.style.maxHeight = panel.scrollHeight + 100 + 'px';
-          const svg = freshHeader.querySelector('.questions-button');
-          if (svg) svg.style.transform = 'rotate(45deg)';
         }
       });
     });
   }
 
-  // Wait for Webflow to finish its init, then take over
+  // Wait for Webflow to finish, then take over
   setTimeout(initFaqAccordion, 800);
 
   // =======================================
