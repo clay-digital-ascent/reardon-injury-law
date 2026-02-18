@@ -77,30 +77,49 @@ document.addEventListener('DOMContentLoaded', function() {
   }, { passive: true });
 
   // =======================================
-  // FAQ ACCORDION ENHANCEMENTS (SIMPLIFIED)
+  // FAQ ACCORDION ENHANCEMENTS (ROBUST)
   // =======================================
-  const accordions = document.querySelectorAll('.accordion-text-block');
-  
-  accordions.forEach(accordion => {
-    const header = accordion.querySelector('.div-block-29');
-    if (header) {
-      header.addEventListener('click', () => {
+  function initFaqAccordion() {
+    const accordions = document.querySelectorAll('.accordion-text-block');
+    if (!accordions.length) return;
+
+    accordions.forEach(function(accordion) {
+      // Remove any previously attached listeners by cloning
+      // (safe because we re-attach to all items each call)
+      // Instead, use a data attribute to avoid double-binding
+      if (accordion.dataset.accordionBound === 'true') return;
+      accordion.dataset.accordionBound = 'true';
+
+      // Listen on the ENTIRE .accordion-text-block, not just .div-block-29
+      // This is more reliable as a fallback if Webflow captures clicks on inner elements
+      accordion.addEventListener('click', function(e) {
+        // Don't toggle if user is selecting text inside an open answer
+        if (window.getSelection && window.getSelection().toString().length > 0) return;
+
         const isActive = accordion.classList.contains('active');
-        
+
         // Close all others
-        accordions.forEach(other => {
-          if (other !== accordion) other.classList.remove('active');
+        accordions.forEach(function(other) {
+          if (other !== accordion) {
+            other.classList.remove('active');
+          }
         });
-        
+
         // Toggle current
-        if (!isActive) {
-          accordion.classList.add('active');
-        } else {
+        if (isActive) {
           accordion.classList.remove('active');
+        } else {
+          accordion.classList.add('active');
         }
       });
-    }
-  });
+    });
+  }
+
+  // Call immediately
+  initFaqAccordion();
+
+  // Re-attach after Webflow JS finishes its init (handles race condition)
+  setTimeout(initFaqAccordion, 600);
 
   // =======================================
   // SMOOTH SCROLL FOR ANCHOR LINKS

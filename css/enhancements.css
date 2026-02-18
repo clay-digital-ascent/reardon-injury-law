@@ -647,7 +647,12 @@ h2 {
 }
 
 .div-block-29 {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  gap: 16px;
 }
 
 .questions-button {
@@ -666,7 +671,7 @@ h2 {
 }
 
 .accordion-text-block.active .div-block-30 {
-  max-height: 300px;
+  max-height: 600px;
   padding-top: 15px;
 }
 
