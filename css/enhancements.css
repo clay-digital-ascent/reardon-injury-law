@@ -954,13 +954,25 @@ img.ril-logoo {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: none;
-  box-shadow: 0 2px 0 0 rgba(238, 186, 107, 0.3);
+  box-shadow: none;
+  position: relative;
   transition: box-shadow 0.3s var(--transition-smooth);
   padding: 2px 0;
 }
 
+.navbar-2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #eeba6b 30%, #f5e6b8 50%, #eeba6b 70%, transparent 100%);
+  pointer-events: none;
+}
+
 .navbar-2.scrolled {
-  box-shadow: 0 2px 0 0 rgba(238, 186, 107, 0.3), 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* =======================================
@@ -1234,34 +1246,45 @@ img.ril-logoo {
     align-items: center;
   }
 
+  /* Office locations — stack cleanly on mobile, image always on top */
   .office-locations {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    padding: 0 16px;
-    gap: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 24px 16px !important;
+    margin-bottom: 0 !important;
+    gap: 14px !important;
+    border-bottom: 1px solid rgba(238, 186, 107, 0.15);
   }
 
-  .image-office-locations {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 16px;
+  /* Always put image first regardless of HTML order */
+  .office-locations .image-office-locations {
+    order: -1 !important;
+    width: 100% !important;
+    max-width: 340px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+    margin: 0 !important;
+  }
+
+  .office-locations > div {
+    order: 1 !important;
+    text-align: center !important;
+    width: 100% !important;
   }
 
   .heading-for-office-locations {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-    text-align: center;
+    font-size: 1.3rem !important;
+    margin-bottom: 6px !important;
+    text-align: center !important;
   }
 
   .text-block-officelocations {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    text-align: center;
-    word-break: break-word;
-    white-space: normal;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+    color: rgba(255,255,255,0.75) !important;
   }
 }
 
@@ -1688,11 +1711,10 @@ svg.questions-button:hover {
    "View All Practice Areas" button — NOT gold, secondary style
    ======================================= */
 .btn-secondary.button-3,
-.btn-secondary.button-3:hover,
 .btn-secondary.w-button {
   background-color: transparent !important;
   background: transparent !important;
-  color: var(--gold-primary) !important;
+  color: #ffffff !important;
   border: 2px solid var(--gold-primary) !important;
   border-radius: 8px;
   padding: 14px 32px;
