@@ -78,48 +78,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // =======================================
   // FAQ ACCORDION ENHANCEMENTS (ROBUST)
+  // Strips Webflow's own handlers by cloning nodes, then attaches ours.
+  // Only listens on .div-block-29 (header row) to avoid double-fire.
   // =======================================
   function initFaqAccordion() {
     const accordions = document.querySelectorAll('.accordion-text-block');
     if (!accordions.length) return;
 
     accordions.forEach(function(accordion) {
-      // Remove any previously attached listeners by cloning
-      // (safe because we re-attach to all items each call)
-      // Instead, use a data attribute to avoid double-binding
       if (accordion.dataset.accordionBound === 'true') return;
+
+      // Clone the header row to strip all Webflow listeners on it
+      const header = accordion.querySelector('.div-block-29');
+      if (!header) return;
+      const freshHeader = header.cloneNode(true);
+      header.parentNode.replaceChild(freshHeader, header);
+
+      // Also remove data-w-id from accordion to prevent Webflow re-binding
+      accordion.removeAttribute('data-w-id');
       accordion.dataset.accordionBound = 'true';
 
-      // Listen on the ENTIRE .accordion-text-block, not just .div-block-29
-      // This is more reliable as a fallback if Webflow captures clicks on inner elements
-      accordion.addEventListener('click', function(e) {
-        // Don't toggle if user is selecting text inside an open answer
-        if (window.getSelection && window.getSelection().toString().length > 0) return;
+      // Ensure the answer panel has height-based visibility (not display:none)
+      const panel = accordion.querySelector('.div-block-30');
+      if (panel) {
+        panel.style.overflow = 'hidden';
+        panel.style.transition = 'max-height 0.35s ease';
+        panel.style.maxHeight = '0px';
+        panel.style.display = 'block';
+      }
 
+      freshHeader.addEventListener('click', function(e) {
+        e.stopPropagation();
         const isActive = accordion.classList.contains('active');
 
-        // Close all others
+        // Close all
         accordions.forEach(function(other) {
-          if (other !== accordion) {
-            other.classList.remove('active');
-          }
+          other.classList.remove('active');
+          const otherPanel = other.querySelector('.div-block-30');
+          if (otherPanel) otherPanel.style.maxHeight = '0px';
+          const otherSvg = other.querySelector('.questions-button');
+          if (otherSvg) otherSvg.style.transform = 'rotate(0deg)';
         });
 
-        // Toggle current
-        if (isActive) {
-          accordion.classList.remove('active');
-        } else {
+        // Open clicked if it was closed
+        if (!isActive) {
           accordion.classList.add('active');
+          if (panel) panel.style.maxHeight = panel.scrollHeight + 100 + 'px';
+          const svg = freshHeader.querySelector('.questions-button');
+          if (svg) svg.style.transform = 'rotate(45deg)';
         }
       });
     });
   }
 
-  // Call immediately
-  initFaqAccordion();
-
-  // Re-attach after Webflow JS finishes its init (handles race condition)
-  setTimeout(initFaqAccordion, 600);
+  // Wait for Webflow to finish its init, then take over
+  setTimeout(initFaqAccordion, 800);
 
   // =======================================
   // SMOOTH SCROLL FOR ANCHOR LINKS

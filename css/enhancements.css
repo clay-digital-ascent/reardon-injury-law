@@ -1441,7 +1441,6 @@ html {
 /* NOTE: Removed .text-headings (should have dark bg with gold border) */
 /* NOTE: Removed .practice-areas:hover (was turning entire section gold) */
 .button-primary,
-.button-3,
 .button-4,
 .card-top-bar,
 .div-block-3:hover,
@@ -1472,8 +1471,6 @@ html {
 
 /* Border color overrides with gold */
 /* NOTE: .text-headings border is handled in its dedicated rule above */
-.button-3,
-.button-3:hover,
 .button-4,
 .button-4:hover,
 .div-block-6,
@@ -1685,4 +1682,25 @@ svg.questions-button:hover {
 .accordion-text-block.active svg.questions-button {
   transform: rotate(45deg);
   color: var(--gold-light);
+}
+
+/* =======================================
+   "View All Practice Areas" button — NOT gold, secondary style
+   ======================================= */
+.btn-secondary.button-3,
+.btn-secondary.button-3:hover,
+.btn-secondary.w-button {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: var(--gold-primary) !important;
+  border: 2px solid var(--gold-primary) !important;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.btn-secondary.button-3:hover {
+  background-color: var(--gold-primary) !important;
+  color: var(--dark-bg) !important;
 }
