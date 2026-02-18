@@ -669,16 +669,19 @@ h2 {
   transform: rotate(45deg);
 }
 
-/* Accordion content animation with max-height */
+/* FAQ Accordion Panel - MUST use !important to override Webflow */
 .div-block-30 {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s var(--transition-smooth), padding 0.5s var(--transition-smooth);
+  max-height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  padding-top: 0 !important;
+  display: block !important;
+  height: auto !important;
 }
 
 .accordion-text-block.active .div-block-30 {
-  max-height: 600px;
-  padding-top: 15px;
+  max-height: 600px !important;
+  padding-top: 15px !important;
 }
 
 .text-block-17 {
