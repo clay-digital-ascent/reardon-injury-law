@@ -77,60 +77,70 @@ document.addEventListener('DOMContentLoaded', function() {
   }, { passive: true });
 
   // =======================================
-  // FAQ ACCORDION — complete Webflow override
-  // Strategy: clone entire accordion block to strip ALL Webflow listeners,
-  // then use direct max-height inline style (not CSS class) to open/close.
-  // This avoids any CSS specificity fight with Webflow's own .active rules.
+  // FAQ ACCORDION — reliable Webflow override
   // =======================================
   function initFaqAccordion() {
-    var wrappers = document.querySelectorAll('.accordion-text-block');
+    var wrappers = Array.from(document.querySelectorAll('.accordion-text-block'));
     if (!wrappers.length) return;
 
-    wrappers.forEach(function(original) {
-      // Clone the whole block — this strips every Webflow event listener
-      var fresh = original.cloneNode(true);
-      fresh.removeAttribute('data-w-id');
-      original.parentNode.replaceChild(fresh, original);
+    wrappers.forEach(function(block) {
+      // Clone entire block to strip ALL Webflow listeners
+      var clone = block.cloneNode(true);
+      clone.removeAttribute('data-w-id');
+      clone.dataset.open = '0';
+      block.parentNode.replaceChild(clone, block);
+    });
 
-      var panel = fresh.querySelector('.div-block-30');
-      var svg   = fresh.querySelector('.questions-button');
+    // Re-query after DOM replacement
+    var accordions = Array.from(document.querySelectorAll('.accordion-text-block'));
 
-      // Force panel closed via inline style (wins over any CSS)
+    accordions.forEach(function(acc) {
+      // Force panel visible so scrollHeight is readable, then hide it
+      var panel = acc.querySelector('.div-block-30');
       if (panel) {
-        panel.style.cssText = 'overflow:hidden; max-height:0; transition:max-height 0.4s ease; display:block;';
+        panel.style.cssText = 'display:block; overflow:hidden; max-height:0px; transition:max-height 0.4s ease;';
       }
-      fresh.style.cursor = 'pointer';
 
-      fresh.addEventListener('click', function(e) {
+      acc.style.cursor = 'pointer';
+
+      acc.addEventListener('click', function(e) {
         e.stopImmediatePropagation();
-        var isOpen = fresh.dataset.open === '1';
+        var isOpen = acc.dataset.open === '1';
 
-        // Close all siblings first
-        document.querySelectorAll('.accordion-text-block').forEach(function(other) {
-          var otherPanel = other.querySelector('.div-block-30');
-          var otherSvg   = other.querySelector('.questions-button');
-          if (otherPanel) otherPanel.style.maxHeight = '0px';
-          if (otherSvg)   otherSvg.style.transform = 'rotate(0deg)';
+        // Close all
+        accordions.forEach(function(other) {
+          var p = other.querySelector('.div-block-30');
+          var svg = other.querySelector('.questions-button');
+          if (p) p.style.maxHeight = '0px';
+          if (svg) svg.style.transform = 'rotate(0deg)';
           other.dataset.open = '0';
           other.classList.remove('active');
         });
 
-        // Toggle clicked one
+        // Open clicked if it was closed
         if (!isOpen) {
-          if (panel) panel.style.maxHeight = panel.scrollHeight + 60 + 'px';
-          if (svg)   svg.style.transform = 'rotate(45deg)';
-          fresh.dataset.open = '1';
-          fresh.classList.add('active');
+          if (panel) {
+            // Temporarily set to auto to measure real height
+            panel.style.maxHeight = 'none';
+            var h = panel.scrollHeight;
+            panel.style.maxHeight = '0px';
+            // Force reflow
+            panel.offsetHeight;
+            panel.style.maxHeight = (h + 40) + 'px';
+          }
+          var svg = acc.querySelector('.questions-button');
+          if (svg) svg.style.transform = 'rotate(45deg)';
+          acc.dataset.open = '1';
+          acc.classList.add('active');
         }
       });
     });
   }
 
-  // Run after Webflow fully initialises
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { setTimeout(initFaqAccordion, 300); });
+    document.addEventListener('DOMContentLoaded', function() { setTimeout(initFaqAccordion, 400); });
   } else {
-    setTimeout(initFaqAccordion, 300);
+    setTimeout(initFaqAccordion, 400);
   }
 
   // =======================================
