@@ -403,6 +403,9 @@ h2 {
   padding: 35px;
   position: relative;
   overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   transition: border-color 0.4s var(--transition-smooth), transform 0.4s var(--transition-smooth), box-shadow 0.4s var(--transition-smooth);
 }
 
@@ -449,6 +452,7 @@ h2 {
 }
 
 .practice-area-card p {
+  flex: 1;
   font-size: 15px;
   line-height: 1.7;
   color: var(--text-light);
@@ -479,7 +483,9 @@ h2 {
 
 /* The wrapping <a> tag that makes the entire card clickable */
 .practice-area-card-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   text-decoration: none;
   color: inherit;
   border-radius: 16px;
