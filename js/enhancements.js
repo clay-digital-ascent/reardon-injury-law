@@ -3,6 +3,14 @@
    Simplified scroll animations + interactions
    ======================================= */
 
+// Fix scroll restoration — prevent browser from restoring mid-page scroll on refresh
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+window.addEventListener('load', function() {
+  window.scrollTo(0, 0);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
   
   // =======================================
@@ -79,9 +87,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // =======================================
   // FAQ ACCORDION — reliable Webflow override
   // =======================================
+  var faqInitDone = false;
   function initFaqAccordion() {
+    if (faqInitDone) return;
     var wrappers = Array.from(document.querySelectorAll('.accordion-text-block'));
     if (!wrappers.length) return;
+    faqInitDone = true;
 
     wrappers.forEach(function(block) {
       // Clone entire block to strip ALL Webflow listeners
@@ -137,11 +148,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { setTimeout(initFaqAccordion, 400); });
-  } else {
-    setTimeout(initFaqAccordion, 400);
-  }
+  // Run AFTER Webflow fully initializes using Webflow's official push hook
+  // This guarantees our code runs last, after Webflow resets accordion state
+  window.Webflow = window.Webflow || [];
+  window.Webflow.push(function() {
+    setTimeout(initFaqAccordion, 200);
+  });
+  // Fallback: also run after a longer delay in case Webflow hook doesn't fire
+  setTimeout(initFaqAccordion, 1500);
 
   // =======================================
   // SMOOTH SCROLL FOR ANCHOR LINKS
