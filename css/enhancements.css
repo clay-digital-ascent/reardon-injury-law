@@ -178,9 +178,9 @@ h2 {
 
 /* Enhanced button in gold box */
 .div-block-24 .button-3 {
-  background: linear-gradient(180deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
-  color: var(--dark-bg);
-  border: none;
+  background: transparent !important;
+  color: var(--gold-primary) !important;
+  border: 3px solid var(--gold-primary) !important;
   border-radius: 10px;
   font-size: 18px;
   font-weight: 700;
@@ -189,7 +189,7 @@ h2 {
   letter-spacing: 1px;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth);
+  transition: background 0.3s var(--transition-smooth), color 0.3s var(--transition-smooth), transform 0.3s var(--transition-smooth), box-shadow 0.3s var(--transition-smooth);
 }
 
 .div-block-24 .button-3::before {
@@ -209,6 +209,8 @@ h2 {
 }
 
 .div-block-24 .button-3:hover {
+  background: linear-gradient(180deg, var(--gold-primary) 0%, var(--gold-dark) 100%) !important;
+  color: var(--dark-bg) !important;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(238, 186, 107, 0.25);
 }
@@ -1206,8 +1208,9 @@ img.ril-logoo {
   }
 
   .ril-logo-footer {
-    width: 150px !important;
-    max-width: 150px;
+    width: 180px !important;
+    max-width: 180px;
+    height: auto !important;
   }
   
   .nav-bottom.w-nav-link {
@@ -1224,6 +1227,36 @@ img.ril-logoo {
   .div-block-23 .w-nav-menu {
     flex-direction: column;
     align-items: center;
+  }
+
+  .office-locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 16px;
+    gap: 20px;
+  }
+
+  .image-office-locations {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .heading-for-office-locations {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .text-block-officelocations {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
   }
 }
 
@@ -1292,12 +1325,13 @@ img.ril-logoo {
    These styles are for the expanded mobile menu, ensuring a clean vertical stack. */
 @media screen and (max-width: 767px) {
   .ril-logo.w-nav-brand {
-    max-width: 180px;
+    max-width: 250px;
   }
 
   .ril-logo.w-nav-brand img,
   img.ril-logoo {
-    height: 55px !important;
+    height: 120px !important;
+    width: auto !important;
   }
 
   /* When the hamburger menu is active, stack nav items vertically */
@@ -1320,6 +1354,26 @@ img.ril-logoo {
   /* Remove border from the last nav link in the mobile menu for a cleaner look */
   .nav-link:last-child {
     border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .ril-logo.w-nav-brand img,
+  img.ril-logoo {
+    height: 100px !important;
+    width: auto !important;
+  }
+
+  .ril-logo.w-nav-brand {
+    max-width: 200px;
+  }
+
+  .heading-for-office-locations {
+    font-size: 1.2rem;
+  }
+
+  .office-locations {
+    padding: 0 12px;
   }
 }
 
