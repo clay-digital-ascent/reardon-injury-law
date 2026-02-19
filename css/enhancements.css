@@ -891,14 +891,14 @@ textarea.text-field-2:focus {
   height: auto;
   line-height: 1;
   padding: 2px 0;
-  margin: 0 5px;
+  margin: 0 5px 0 20px;
 }
 
 .ril-logo.w-nav-brand img,
 img.ril-logoo {
   display: block !important;
   vertical-align: middle !important;
-  height: 90px !important;
+  height: 110px !important;
   width: auto !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -1020,9 +1020,9 @@ img.ril-logoo {
 
 /* Footer logo - consistent sizing to match nav bar scale */
 .ril-logo-footer {
-  width: 200px !important;
+  width: 280px !important;
   height: auto !important;
-  max-width: 200px;
+  max-width: 280px;
   display: block;
   margin: 0 auto 20px auto;
 }
