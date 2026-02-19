@@ -864,6 +864,19 @@ textarea.text-field-2:focus {
 }
 
 /* =======================================
+   SPINNING GLOW BORDER - MOBILE CTA
+   ======================================= */
+@keyframes spinGlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* =======================================
    NAVBAR ENHANCEMENTS (REVISED)
    ======================================= */
 
@@ -1152,6 +1165,78 @@ img.ril-logoo {
   .sticky-mobile-cta {
     display: block;
   }
+
+  /* Spinning glow border for mobile CTA */
+  .sticky-mobile-cta {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9999 !important;
+    padding: 12px 16px !important;
+    background: transparent !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .sticky-mobile-cta a {
+    position: relative;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    color: #141415;
+    text-decoration: none;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%);
+    z-index: 2;
+    overflow: visible;
+  }
+
+  .sticky-mobile-cta a::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 14px;
+    background: conic-gradient(
+      from 0deg,
+      #d4a017,
+      #f5e6b8,
+      #ffffff,
+      #f5e6b8,
+      #d4a017,
+      #b8860b,
+      #d4a017
+    );
+    z-index: -1;
+    animation: spinGlow 3.5s linear infinite, pulseGlow 2s ease-in-out infinite;
+  }
+
+  .sticky-mobile-cta a::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 18px;
+    background: conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(212, 160, 23, 0.4),
+      transparent,
+      rgba(212, 160, 23, 0.2),
+      transparent
+    );
+    z-index: -2;
+    animation: spinGlow 3.5s linear infinite reverse;
+    filter: blur(6px);
+  }
   
   h1 {
     font-size: 32px;
@@ -1188,6 +1273,41 @@ img.ril-logoo {
   .sectionnn {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  /* Mobile: Force practice area grids to single column */
+  .sectionnn .w-container {
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    box-sizing: border-box !important;
+  }
+
+  .sectionnn .w-container > div[style*="grid"] {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .sectionnn .practice-area-card,
+  .sectionnn .sr-child {
+    width: 100% !important;
+    min-width: 0 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .sectionnn .practice-area-card h3,
+  .sectionnn .sr-child h4 {
+    font-size: 18px !important;
+    word-wrap: break-word !important;
+  }
+
+  .sectionnn .practice-area-card p,
+  .sectionnn .sr-child p {
+    font-size: 14px !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
   }
   
   .practice-area-card {
@@ -1316,6 +1436,21 @@ img.ril-logoo {
   .practice-area-icon {
     width: 24px;
     height: 24px;
+  }
+
+  /* Extra small mobile: tighter spacing */
+  .sectionnn .w-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .sectionnn .w-container > div[style*="grid"] {
+    gap: 15px !important;
+  }
+
+  .sectionnn .practice-area-card,
+  .sectionnn .sr-child {
+    padding: 15px !important;
   }
   
   .image-office-locations {
