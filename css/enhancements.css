@@ -864,19 +864,6 @@ textarea.text-field-2:focus {
 }
 
 /* =======================================
-   SPINNING GLOW BORDER - MOBILE CTA
-   ======================================= */
-@keyframes spinGlow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-@keyframes pulseGlow {
-  0%, 100% { opacity: 0.8; }
-  50% { opacity: 1; }
-}
-
-/* =======================================
    NAVBAR ENHANCEMENTS (REVISED)
    ======================================= */
 
@@ -1166,78 +1153,6 @@ img.ril-logoo {
     display: block;
   }
 
-  /* Spinning glow border for mobile CTA */
-  .sticky-mobile-cta {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    z-index: 9999 !important;
-    padding: 12px 16px !important;
-    background: transparent !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-
-  .sticky-mobile-cta a {
-    position: relative;
-    display: inline-block;
-    padding: 16px 32px;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: Montserrat, sans-serif;
-    color: #141415;
-    text-decoration: none;
-    border-radius: 12px;
-    background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%);
-    z-index: 2;
-    overflow: visible;
-  }
-
-  .sticky-mobile-cta a::before {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: -3px;
-    right: -3px;
-    bottom: -3px;
-    border-radius: 14px;
-    background: conic-gradient(
-      from 0deg,
-      #d4a017,
-      #f5e6b8,
-      #ffffff,
-      #f5e6b8,
-      #d4a017,
-      #b8860b,
-      #d4a017
-    );
-    z-index: -1;
-    animation: spinGlow 3.5s linear infinite, pulseGlow 2s ease-in-out infinite;
-  }
-
-  .sticky-mobile-cta a::after {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: -8px;
-    right: -8px;
-    bottom: -8px;
-    border-radius: 18px;
-    background: conic-gradient(
-      from 180deg,
-      transparent,
-      rgba(212, 160, 23, 0.4),
-      transparent,
-      rgba(212, 160, 23, 0.2),
-      transparent
-    );
-    z-index: -2;
-    animation: spinGlow 3.5s linear infinite reverse;
-    filter: blur(6px);
-  }
-  
   h1 {
     font-size: 32px;
     padding-bottom: 20px;
