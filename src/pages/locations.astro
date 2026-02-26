@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const extraStyles = `<style>
+.card-link:hover .settlement-card {
+  background: linear-gradient(180deg, #f0c86f 0%, #d4a84f 100%);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.card-link:hover .card-top-bar {
+  background-color: #f0c86f;
+  transition: background-color 0.25s ease;
+}
+.card-link:hover .card-title {
+  color: #ffffff;
+  transition: color 0.25s ease;
+}
+.card-link:hover .car-image {
+  filter: brightness(1.08);
+  transition: filter 0.25s ease;
+}
+</style>`;
+---
+<BaseLayout title="Locations | Reardon Injury Law" bodyClass="body-7" currentPage="locations" extraHeadStyles={extraStyles}>
+  <section class="sectionnn locations-page">
+    <div class="w-layout-blockcontainer container-18 w-container">
+      <div><h1 class="text-headings sr-left">Office Locations</h1></div>
+    </div>
+    <div class="w-layout-blockcontainer container-17 w-container sr-stagger">
+      <div class="office-locations sr-child"><img src="/images/nicholas-ceglia-s5-5t9cWe2E-unsplash.avif" loading="lazy" width="588" sizes="(max-width: 767px) 100vw, 588px" alt="" srcset="/images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-500.avif 500w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-800.avif 800w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-1080.avif 1080w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-1600.avif 1600w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-2000.avif 2000w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash-p-2600.avif 2600w, /images/nicholas-ceglia-s5-5t9cWe2E-unsplash.avif 4032w" class="image-office-locations"><div><h2 class="heading-for-office-locations sr-up">Orange County</h2><div class="text-block-officelocations">20902 Brookhurst St 101<br>Huntington Beach | California | 92646</div></div></div>
+      <div class="office-locations sr-child"><div><h2 class="heading-for-office-locations sr-up">Silicon Valley</h2><div class="text-block-officelocations">325 1st St. Suite 120<br>San Jose | California | 95113</div></div><img src="/images/hardik-pandya--Ey_0PMz900-unsplash.jpg" loading="lazy" width="651" sizes="(max-width: 767px) 100vw, 651px" alt="" srcset="/images/hardik-pandya--Ey_0PMz900-unsplash-p-500.jpg 500w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-800.jpg 800w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-1080.jpg 1080w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-1600.jpg 1600w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-2000.jpg 2000w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-2600.jpg 2600w, /images/hardik-pandya--Ey_0PMz900-unsplash-p-3200.jpg 3200w, /images/hardik-pandya--Ey_0PMz900-unsplash.jpg 4001w" class="image-office-locations"></div>
+      <div class="office-locations sr-child"><img src="/images/cedric-letsch-FYDNbPE9Bw4-unsplash.jpg" loading="lazy" width="620" sizes="(max-width: 767px) 100vw, 620px" alt="" srcset="/images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-500.jpg 500w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-800.jpg 800w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-1080.jpg 1080w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-1600.jpg 1600w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-2000.jpg 2000w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash-p-2600.jpg 2600w, /images/cedric-letsch-FYDNbPE9Bw4-unsplash.jpg 3000w" class="image-office-locations"><div><h2 class="heading-for-office-locations sr-up">Inland Empire</h2><div class="text-block-officelocations">1014 N. D St. <br>San Bernardino | California | 92410</div></div></div>
+      <div class="office-locations sr-child"><div><h2 class="heading-for-office-locations sr-up">San Diego County</h2><div class="text-block-officelocations">111 C St.<br>Encinitas | California | 92024</div></div><img src="/images/felix-wostmann-RIHKx32ACME-unsplash.jpg" loading="lazy" width="653" sizes="(max-width: 767px) 100vw, 653px" alt="" srcset="/images/felix-wostmann-RIHKx32ACME-unsplash-p-500.jpg 500w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-800.jpg 800w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-1080.jpg 1080w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-1600.jpg 1600w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-2000.jpg 2000w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-2600.jpg 2600w, /images/felix-wostmann-RIHKx32ACME-unsplash-p-3200.jpg 3200w, /images/felix-wostmann-RIHKx32ACME-unsplash.jpg 4898w" class="image-office-locations"></div>
+      <div class="office-locations sr-child"><img src="/images/cedric-letsch-UZVlSjrIJ3o-unsplash.jpg" loading="lazy" width="681" sizes="(max-width: 767px) 100vw, 681px" alt="" srcset="/images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-500.jpg 500w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-800.jpg 800w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-1080.jpg 1080w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-1600.jpg 1600w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-2000.jpg 2000w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-2600.jpg 2600w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash.jpg 3000w" class="image-office-locations"><div><h2 class="heading-for-office-locations sr-up">Los Angeles County</h2><div class="text-block-officelocations">440 East Route 66<br>Glendora | California | 91740</div></div></div>
+    </div>
+  </section>
+  <section class="form locations-pagee sr-up">
+    <div class="w-layout-blockcontainer container-22 w-container">
+      <div class="cta-header"><h1 class="cta-headerr sr-up">Contact us now!</h1></div>
+      <div><div class="textblockk">Our team will follow up with you as soon as possible.</div></div>
+      <div>
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"><label for="name" class="field-label-2">Name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label">Email Address</label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="message" class="field-label">Message to Our Team</label><textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+          <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+          <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

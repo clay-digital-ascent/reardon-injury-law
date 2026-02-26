@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+};
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function estimateReadTime(body: string): number {
+  const words = body.split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
+---
+<BaseLayout title={`${post.data.title} | Reardon Injury Law Blog`} description={post.data.description} currentPage="blog">
+  <article style="padding: 60px 20px 80px;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 720px;">
+
+      <div style="margin-bottom: 32px;">
+        <a href="/blog" style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 14px; text-decoration: none; font-weight: 600; letter-spacing: 0.5px;">&larr; BACK TO BLOG</a>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
+        <span style="background: rgba(238,186,107,0.15); color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">{post.data.category}</span>
+        <span style="color: rgba(255,255,255,0.5); font-family: 'Open Sans', sans-serif; font-size: 14px;">{formatDate(post.data.date)}</span>
+        <span style="color: rgba(255,255,255,0.4); font-family: 'Open Sans', sans-serif; font-size: 14px;">&middot; {estimateReadTime(post.body ?? "")} min read</span>
+      </div>
+
+      <h1 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 38px; font-weight: 700; line-height: 1.2; margin-bottom: 32px;">{post.data.title}</h1>
+
+      <div class="blog-content">
+        <Content />
+      </div>
+
+      <div style="margin-top: 60px; text-align: center; padding: 50px 40px; background: linear-gradient(145deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238, 186, 107, 0.3); border-radius: 16px; position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
+        <h3 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 24px; margin-bottom: 12px; font-weight: 700;">Injured? We Can Help.</h3>
+        <p style="color: rgba(255, 255, 255, 0.8); font-family: 'Open Sans', sans-serif; font-size: 16px; margin-bottom: 24px;">Free consultation. No fees unless we win your case.</p>
+        <a href="tel:6575227122" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 14px 40px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 16px; letter-spacing: 0.5px;">Call (657) 522-7122</a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .blog-content {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+  .blog-content h2 {
+    color: #eeba6b;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .blog-content h3 {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .blog-content p {
+    margin-bottom: 20px;
+  }
+  .blog-content ul, .blog-content ol {
+    margin-bottom: 20px;
+    padding-left: 24px;
+  }
+  .blog-content li {
+    margin-bottom: 8px;
+  }
+  .blog-content strong {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .blog-content a {
+    color: #eeba6b;
+    text-decoration: underline;
+  }
+  .blog-content blockquote {
+    border-left: 4px solid #eeba6b;
+    padding: 16px 20px;
+    margin: 24px 0;
+    background: rgba(238, 186, 107, 0.08);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+  }
+</style>

@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const extraStyles = `<style>
+.card-link:hover .settlement-card {
+  background: linear-gradient(180deg, #f0c86f 0%, #d4a84f 100%);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.card-link:hover .card-top-bar {
+  background-color: #f0c86f;
+  transition: background-color 0.25s ease;
+}
+.card-link:hover .card-title {
+  color: #ffffff;
+  transition: color 0.25s ease;
+}
+.card-link:hover .car-image {
+  filter: brightness(1.08);
+  transition: filter 0.25s ease;
+}
+</style>`;
+---
+<BaseLayout title="Contact Us | Reardon Injury Law" bodyClass="body-8" currentPage="contact" extraHeadStyles={extraStyles}>
+  <section class="form form-contact-page">
+    <div class="w-layout-blockcontainer container-22 w-container">
+      <div class="cta-header"><h1 class="cta-headerr sr-up">Contact us now!</h1></div>
+      <div class="sr-up"><div class="textblockk">Our team will follow up with you as soon as possible.</div></div>
+      <div>
+        <div class="w-form sr-up">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"><label for="name" class="field-label-2">Name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label">Email Address</label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="message" class="field-label">Message to Our Team</label><textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+          <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+          <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-18 sr-up">
+    <div class="w-layout-blockcontainer w-container">
+      <div>
+        <div class="text-block-18 sr-left">Office phone number - <strong>657-522-7122</strong><br><br>Hours of operation - Monday-Friday, 9am-5pm</div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

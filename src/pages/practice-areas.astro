@@ -1,0 +1,91 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const extraStyles = `<style>
+.card-link:hover .settlement-card {
+  background: linear-gradient(180deg, #f0c86f 0%, #d4a84f 100%);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.card-link:hover .card-top-bar {
+  background-color: #f0c86f;
+  transition: background-color 0.25s ease;
+}
+.card-link:hover .card-title {
+  color: #ffffff;
+  transition: color 0.25s ease;
+}
+.card-link:hover .car-image {
+  filter: brightness(1.08);
+  transition: filter 0.25s ease;
+}
+</style>`;
+---
+<BaseLayout title="Practice Areas | Reardon Injury Law" bodyClass="body-2" currentPage="practice-areas" extraHeadStyles={extraStyles}>
+  <section class="sectionnn practice-areas">
+    <div class="w-layout-blockcontainer container-11 w-container">
+      <div class="div-block-18">
+        <h1 class="text-headings sr-left">Our Practice Areas</h1>
+        <div class="text-block-10">Reardon Injury Law specializes in California auto accident cases and is committed to going above and beyond to protect our clients&#8217; rights. We understand the stress and pain that follow an accident, and we work tirelessly through a comprehensive legal process to advocate for you and secure the fair, just results you deserve.</div>
+      </div>
+      <div class="w-layout-blockcontainer w-container" style="max-width: 1200px;">
+        <div class="sr-stagger" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; padding: 40px 20px;">
+          <a href="/car-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Car Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/car.svg" alt="Car accident icon"> Car Accidents</h3>
+              <p>Car accidents can leave you with serious injuries, mounting medical bills, and lost wages. We fight to ensure you receive full compensation for your damages, including pain and suffering.</p>
+              <span class="card-link-text">Learn More</span>
+            </div>
+          </a>
+          <a href="/motorcycle-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Motorcycle Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/motorcycle.svg" alt="Motorcycle accident icon"> Motorcycle Accidents</h3>
+              <p>Motorcycle riders face unique dangers on California roads. Our team understands the severity of these accidents and works aggressively to protect your rights against biased insurance adjusters.</p>
+              <span class="card-link-text">Get Help Now</span>
+            </div>
+          </a>
+          <a href="/truck-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Truck Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/truck.svg" alt="Truck accident icon"> Truck Accidents</h3>
+              <p>Accidents involving commercial trucks often result in catastrophic injuries. We have experience taking on trucking companies and their insurers to secure maximum compensation for victims.</p>
+              <span class="card-link-text">Get Help Now</span>
+            </div>
+          </a>
+          <a href="/rideshare-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Rideshare Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/rideshare.svg" alt="Rideshare accident icon"> Rideshare Accidents</h3>
+              <p>Uber and Lyft accidents involve complex insurance issues. Whether you were a passenger, driver, or another motorist, we navigate these complicated claims to get you the compensation you deserve.</p>
+              <span class="card-link-text">Get Help Now</span>
+            </div>
+          </a>
+          <a href="/pedestrian-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Pedestrian Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/pedestrian.svg" alt="Pedestrian accident icon"> Pedestrian Accidents</h3>
+              <p>Pedestrians are extremely vulnerable in traffic accidents. If you or a loved one was struck by a vehicle, we will fight to hold the negligent driver accountable for your injuries.</p>
+              <span class="card-link-text">Get Help Now</span>
+            </div>
+          </a>
+          <a href="/bicycle-accidents" class="practice-area-card-link sr-child" aria-label="Learn more about Bicycle Accidents">
+            <div class="practice-area-card">
+              <h3><img class="practice-area-icon" src="/images/icons/bicycle.svg" alt="Bicycle accident icon"> Bicycle Accidents</h3>
+              <p>Cyclists deserve to share the road safely. When drivers fail to respect cyclists&#8217; rights, serious injuries result. We advocate for injured cyclists throughout California.</p>
+              <span class="card-link-text">Get Help Now</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form sr-up">
+    <div class="w-layout-blockcontainer container-22 w-container">
+      <div class="cta-header"><h1 class="cta-headerr sr-up">Contact us now!</h1></div>
+      <div><div class="textblockk">Our team will follow up with you as soon as possible.</div></div>
+      <div>
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"><label for="name" class="field-label-2">Name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label">Email Address</label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="message" class="field-label">Message to Our Team</label><textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+          <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+          <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
