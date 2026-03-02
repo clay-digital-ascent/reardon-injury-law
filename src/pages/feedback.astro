@@ -1,0 +1,290 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Share Your Feedback | Reardon Injury Law"
+  description="We'd love to hear about your experience with Reardon Injury Law."
+  extraHeadStyles='<meta name="robots" content="noindex, nofollow">'
+>
+  <section style="padding: 100px 20px 80px; min-height: 80vh; display: flex; align-items: center; justify-content: center;">
+    <div style="max-width: 640px; width: 100%; margin: 0 auto;">
+
+      <!-- Step 1: Greeting + Star Rating -->
+      <div id="step-rating" style="text-align: center; transition: opacity 0.3s ease, transform 0.3s ease;">
+        <div style="margin-bottom: 32px;">
+          <div style="width: 64px; height: 64px; margin: 0 auto 24px; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#141415" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h1 id="greeting-heading" style="font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; color: #ffffff; margin: 0 0 12px; line-height: 1.3;">
+            Thank You for Trusting<br><span style="color: #eeba6b;">Reardon Injury Law</span>
+          </h1>
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 17px; color: rgba(255,255,255,0.7); margin: 0; line-height: 1.6;">
+            Your experience matters to us.<br>How would you rate your time working with our team?
+          </p>
+        </div>
+
+        <div id="stars" style="display: flex; gap: 16px; justify-content: center; margin: 32px 0 16px; cursor: pointer;"></div>
+        <p id="rating-hint" style="font-family: 'Open Sans', sans-serif; font-size: 14px; color: rgba(255,255,255,0.4); margin: 0; min-height: 20px; transition: color 0.2s;">Tap a star to rate your experience</p>
+      </div>
+
+      <!-- Step 2a: Positive Path (4-5 stars) -->
+      <div id="step-positive" style="display: none; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; text-align: center;">
+        <div style="background: linear-gradient(180deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238,186,107,0.25); border-radius: 16px; padding: 40px 32px; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
+
+          <h2 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #ffffff; margin: 0 0 8px;">We're So Glad We Could Help!</h2>
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 16px; color: rgba(255,255,255,0.7); margin: 0 0 28px; line-height: 1.6;">
+            The biggest compliment you can give us is sharing your experience on Google.<br>It helps others find trustworthy legal representation.
+          </p>
+
+          <div style="background: rgba(238,186,107,0.08); border: 1px solid rgba(238,186,107,0.15); border-radius: 12px; padding: 20px 24px; margin-bottom: 24px; text-align: left;">
+            <p style="font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; color: #eeba6b; margin: 0 0 10px;">Not sure what to write? Here are some ideas:</p>
+            <ul style="font-family: 'Open Sans', sans-serif; font-size: 14px; color: rgba(255,255,255,0.7); margin: 0; padding-left: 20px; line-height: 2;">
+              <li>How was communication throughout your case?</li>
+              <li>Did you feel supported and informed along the way?</li>
+              <li>How was the outcome of your case?</li>
+              <li>Would you recommend us to a friend or family member?</li>
+            </ul>
+          </div>
+
+          <textarea id="review-text" placeholder="Write your review here first (optional — you can paste it on Google)..." style="width: 100%; min-height: 120px; background: #141415; border: 1px solid rgba(238,186,107,0.2); border-radius: 12px; padding: 16px; color: #ffffff; font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 1.6; resize: vertical; outline: none; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='rgba(238,186,107,0.5)'" onblur="this.style.borderColor='rgba(238,186,107,0.2)'"></textarea>
+
+          <button id="btn-copy-go" style="width: 100%; margin-top: 16px; padding: 16px 32px; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; border: none; border-radius: 10px; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-1px)';this.style.boxShadow='0 4px 20px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            Post Your Review on Google
+          </button>
+
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 13px; color: rgba(255,255,255,0.4); margin: 12px 0 0;">
+            <a id="direct-google-link" href="#" target="_blank" rel="noopener" style="color: rgba(238,186,107,0.6); text-decoration: none;">Or go directly to Google &rarr;</a>
+          </p>
+        </div>
+
+        <button id="btn-change-positive" style="background: none; border: none; color: rgba(255,255,255,0.4); font-family: 'Open Sans', sans-serif; font-size: 13px; cursor: pointer; margin-top: 16px; text-decoration: underline;">Change my rating</button>
+      </div>
+
+      <!-- Step 2b: Negative Path (1-3 stars) -->
+      <div id="step-negative" style="display: none; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; text-align: center;">
+        <div style="background: linear-gradient(180deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238,186,107,0.25); border-radius: 16px; padding: 40px 32px; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
+
+          <h2 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #ffffff; margin: 0 0 8px;">We Appreciate Your Honesty</h2>
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 16px; color: rgba(255,255,255,0.7); margin: 0 0 24px; line-height: 1.6;">
+            We're sorry your experience wasn't what you expected.<br>Your feedback helps us do better.
+          </p>
+
+          <textarea id="feedback-text" placeholder="Tell us about your experience..." style="width: 100%; min-height: 140px; background: #141415; border: 1px solid rgba(238,186,107,0.2); border-radius: 12px; padding: 16px; color: #ffffff; font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 1.6; resize: vertical; outline: none; box-sizing: border-box; transition: border-color 0.2s;" onfocus="this.style.borderColor='rgba(238,186,107,0.5)'" onblur="this.style.borderColor='rgba(238,186,107,0.2)'"></textarea>
+
+          <button id="btn-send-feedback" style="width: 100%; margin-top: 16px; padding: 16px 32px; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; border: none; border-radius: 10px; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-1px)';this.style.boxShadow='0 4px 20px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            Send Feedback
+          </button>
+
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 13px; color: rgba(255,255,255,0.4); margin: 16px 0 0; line-height: 1.6;">
+            You can also <a id="negative-google-link" href="#" target="_blank" rel="noopener" style="color: rgba(238,186,107,0.6); text-decoration: none;">leave a public review on Google</a>
+          </p>
+        </div>
+
+        <button id="btn-change-negative" style="background: none; border: none; color: rgba(255,255,255,0.4); font-family: 'Open Sans', sans-serif; font-size: 13px; cursor: pointer; margin-top: 16px; text-decoration: underline;">Change my rating</button>
+      </div>
+
+      <!-- Step 3: Thank You -->
+      <div id="step-thanks" style="display: none; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; text-align: center; padding: 60px 0;">
+        <div style="width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#141415" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </div>
+        <h2 style="font-family: 'Montserrat', sans-serif; font-size: 28px; font-weight: 700; color: #ffffff; margin: 0 0 12px;">Thank You!</h2>
+        <p style="font-family: 'Open Sans', sans-serif; font-size: 17px; color: rgba(255,255,255,0.7); margin: 0; line-height: 1.6;">
+          We truly appreciate you taking the time<br>to share your experience.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Toast notification for clipboard -->
+  <div id="toast" style="position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(20px); background: #eeba6b; color: #141415; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px; padding: 12px 24px; border-radius: 8px; opacity: 0; transition: opacity 0.3s ease, transform 0.3s ease; pointer-events: none; z-index: 1000;"></div>
+
+  <script>
+    (function() {
+      // ============================================================
+      // CONFIG — Replace PLACE_ID_HERE with the actual Google Place ID
+      // Find it at: https://developers.google.com/maps/documentation/places/web-service/place-id
+      // ============================================================
+      var GOOGLE_REVIEW_URL = 'https://search.google.com/local/writereview?placeid=PLACE_ID_HERE';
+      var FEEDBACK_EMAIL = 'clay@digitalascent.ai';
+
+      // Elements
+      var starsEl = document.getElementById('stars');
+      var hintEl = document.getElementById('rating-hint');
+      var stepRating = document.getElementById('step-rating');
+      var stepPositive = document.getElementById('step-positive');
+      var stepNegative = document.getElementById('step-negative');
+      var stepThanks = document.getElementById('step-thanks');
+      var toast = document.getElementById('toast');
+
+      // Set Google review URLs
+      document.getElementById('direct-google-link').href = GOOGLE_REVIEW_URL;
+      document.getElementById('negative-google-link').href = GOOGLE_REVIEW_URL;
+
+      // Personalize greeting from ?name= query param
+      var params = new URLSearchParams(window.location.search);
+      var clientName = params.get('name');
+      if (clientName) {
+        var decoded = decodeURIComponent(clientName);
+        document.getElementById('greeting-heading').innerHTML =
+          'Thank You, ' + decoded + ', for Trusting<br><span style="color: #eeba6b;">Reardon Injury Law</span>';
+      }
+
+      // Generate star SVGs
+      var selectedRating = 0;
+      var starPath = 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z';
+      var ratingLabels = ['', 'Poor', 'Below Average', 'Average', 'Great', 'Excellent'];
+
+      for (var i = 1; i <= 5; i++) {
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('width', '48');
+        svg.setAttribute('height', '48');
+        svg.setAttribute('viewBox', '0 0 24 24');
+        svg.setAttribute('data-value', String(i));
+        svg.style.transition = 'transform 0.15s ease';
+        svg.style.webkitTapHighlightColor = 'transparent';
+
+        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', starPath);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke', '#eeba6b');
+        path.setAttribute('stroke-width', '1.5');
+        path.setAttribute('stroke-linejoin', 'round');
+        path.style.transition = 'fill 0.15s ease';
+
+        svg.appendChild(path);
+        starsEl.appendChild(svg);
+
+        (function(val) {
+          svg.addEventListener('mouseenter', function() { highlightStars(val); });
+          svg.addEventListener('click', function() { selectRating(val); });
+          svg.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            selectRating(val);
+          });
+        })(i);
+      }
+
+      starsEl.addEventListener('mouseleave', function() {
+        highlightStars(selectedRating);
+      });
+
+      function highlightStars(count) {
+        var stars = starsEl.querySelectorAll('svg');
+        for (var j = 0; j < stars.length; j++) {
+          var p = stars[j].querySelector('path');
+          if (j < count) {
+            p.setAttribute('fill', '#eeba6b');
+            stars[j].style.transform = 'scale(1.15)';
+          } else {
+            p.setAttribute('fill', 'none');
+            stars[j].style.transform = 'scale(1)';
+          }
+        }
+        if (count > 0) {
+          hintEl.textContent = ratingLabels[count];
+          hintEl.style.color = '#eeba6b';
+        } else {
+          hintEl.textContent = 'Tap a star to rate your experience';
+          hintEl.style.color = 'rgba(255,255,255,0.4)';
+        }
+      }
+
+      function selectRating(rating) {
+        selectedRating = rating;
+        highlightStars(rating);
+
+        setTimeout(function() {
+          transition(stepRating, rating >= 4 ? stepPositive : stepNegative);
+        }, 400);
+      }
+
+      // Step transitions
+      function transition(from, to) {
+        from.style.opacity = '0';
+        from.style.transform = 'translateY(-10px)';
+
+        setTimeout(function() {
+          from.style.display = 'none';
+          to.style.display = 'block';
+          to.offsetHeight; // force reflow
+          to.style.opacity = '1';
+          to.style.transform = 'translateY(0)';
+          setTimeout(function() {
+            to.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 100);
+        }, 350);
+      }
+
+      // Show toast notification
+      function showToast(msg) {
+        toast.textContent = msg;
+        toast.style.opacity = '1';
+        toast.style.transform = 'translateX(-50%) translateY(0)';
+        setTimeout(function() {
+          toast.style.opacity = '0';
+          toast.style.transform = 'translateX(-50%) translateY(20px)';
+        }, 2500);
+      }
+
+      // "Post Your Review on Google" button
+      document.getElementById('btn-copy-go').addEventListener('click', function() {
+        var reviewText = document.getElementById('review-text').value.trim();
+
+        if (reviewText && navigator.clipboard) {
+          navigator.clipboard.writeText(reviewText).then(function() {
+            showToast('Copied to clipboard! Paste it on Google.');
+          }).catch(function() {
+            // Clipboard failed silently — still open Google
+          });
+        }
+
+        window.open(GOOGLE_REVIEW_URL, '_blank');
+
+        setTimeout(function() {
+          transition(stepPositive, stepThanks);
+        }, 1500);
+      });
+
+      // "Send Feedback" button (negative path)
+      document.getElementById('btn-send-feedback').addEventListener('click', function() {
+        var feedbackText = document.getElementById('feedback-text').value.trim();
+
+        if (feedbackText) {
+          var subject = encodeURIComponent('Client Feedback - Reardon Injury Law');
+          var body = encodeURIComponent(
+            'Rating: ' + selectedRating + '/5 stars\n\n' +
+            'Feedback:\n' + feedbackText + '\n\n' +
+            '---\nSubmitted via client feedback form'
+          );
+          window.location.href = 'mailto:' + FEEDBACK_EMAIL + '?subject=' + subject + '&body=' + body;
+        }
+
+        setTimeout(function() {
+          transition(stepNegative, stepThanks);
+        }, 500);
+      });
+
+      // "Change my rating" buttons
+      document.getElementById('btn-change-positive').addEventListener('click', function() {
+        selectedRating = 0;
+        transition(stepPositive, stepRating);
+        setTimeout(function() { highlightStars(0); }, 400);
+      });
+
+      document.getElementById('btn-change-negative').addEventListener('click', function() {
+        selectedRating = 0;
+        transition(stepNegative, stepRating);
+        setTimeout(function() { highlightStars(0); }, 400);
+      });
+    })();
+  </script>
+</BaseLayout>
