@@ -27,83 +27,188 @@ function estimateReadTime(body: string): number {
   return Math.max(1, Math.ceil(words / 200));
 }
 ---
-<BaseLayout title={`${post.data.title} | Reardon Injury Law Blog`} description={post.data.description} currentPage="blog">
-  <article style="padding: 60px 20px 80px;">
-    <div class="w-layout-blockcontainer w-container" style="max-width: 720px;">
+<BaseLayout title={`${post.data.title} | Reardon Injury Law Blog`} description={post.data.description} currentPage="blog" includeAnimationsCSS={true}>
 
-      <div style="margin-bottom: 32px;">
-        <a href="/blog" style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 14px; text-decoration: none; font-weight: 600; letter-spacing: 0.5px;">&larr; BACK TO BLOG</a>
+  <!-- Hero -->
+  <section style="padding: 100px 20px 0; position: relative; z-index: 1;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+
+      <div class="sr-up" style="margin-bottom: 20px;">
+        <a href="/blog" style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 13px; text-decoration: none; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">&larr; BACK TO BLOG</a>
       </div>
 
-      <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
-        <span style="background: rgba(238,186,107,0.15); color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">{post.data.category}</span>
+      <div class="sr-up" style="display: flex; gap: 12px; align-items: center; margin-bottom: 24px; flex-wrap: wrap;">
+        <span style="background: rgba(238,186,107,0.15); color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 11px; font-weight: 700; padding: 5px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">{post.data.category}</span>
         <span style="color: rgba(255,255,255,0.5); font-family: 'Open Sans', sans-serif; font-size: 14px;">{formatDate(post.data.date)}</span>
-        <span style="color: rgba(255,255,255,0.4); font-family: 'Open Sans', sans-serif; font-size: 14px;">&middot; {estimateReadTime(post.body ?? "")} min read</span>
+        <span style="color: rgba(255,255,255,0.35); font-family: 'Open Sans', sans-serif; font-size: 14px;">&middot; {estimateReadTime(post.body ?? "")} min read</span>
       </div>
 
-      <h1 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 38px; font-weight: 700; line-height: 1.2; margin-bottom: 32px;">{post.data.title}</h1>
+      <h1 class="sr-left" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 42px; font-weight: 700; line-height: 1.15; margin-bottom: 20px; max-width: 800px;">{post.data.title}</h1>
 
-      <div class="blog-content">
+      <p class="sr-up" style="color: rgba(255,255,255,0.6); font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 1.6; margin-bottom: 0; max-width: 700px;">{post.data.description}</p>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+    <div class="sr-up" style="height: 1px; background: linear-gradient(90deg, transparent, rgba(238,186,107,0.3), transparent);"></div>
+  </div>
+
+  <!-- Article body -->
+  <article style="padding: 0 20px 80px;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+
+      <div class="sr-up blog-content" id="blog-body">
         <Content />
       </div>
 
-      <div style="margin-top: 60px; text-align: center; padding: 50px 40px; background: linear-gradient(145deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238, 186, 107, 0.3); border-radius: 16px; position: relative; overflow: hidden;">
+      <!-- CTA -->
+      <div class="sr-up" style="margin-top: 60px; text-align: center; padding: 50px 40px; background: linear-gradient(145deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238, 186, 107, 0.3); border-radius: 16px; position: relative; overflow: hidden;">
         <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
-        <h3 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 24px; margin-bottom: 12px; font-weight: 700;">Injured? We Can Help.</h3>
-        <p style="color: rgba(255, 255, 255, 0.8); font-family: 'Open Sans', sans-serif; font-size: 16px; margin-bottom: 24px;">Free consultation. No fees unless we win your case.</p>
-        <a href="tel:6575227122" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 14px 40px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 16px; letter-spacing: 0.5px;">Call (657) 522-7122</a>
+        <h3 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 26px; margin-bottom: 12px; font-weight: 700;">Injured? We Can Help.</h3>
+        <p style="color: rgba(255, 255, 255, 0.8); font-family: 'Open Sans', sans-serif; font-size: 17px; margin-bottom: 28px;">Free consultation. No fees unless we win your case.</p>
+        <a href="tel:6575227122" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 16px 44px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 17px; letter-spacing: 0.5px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 24px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">Call (657) 522-7122</a>
       </div>
     </div>
   </article>
+
+  <!-- Scroll reveal for blog content children -->
+  <script>
+    (function() {
+      var body = document.getElementById('blog-body');
+      if (!body) return;
+      var children = body.children;
+      for (var i = 0; i < children.length; i++) {
+        children[i].classList.add('sr-child');
+      }
+      body.classList.add('sr-stagger');
+    })();
+  </script>
 </BaseLayout>
 
 <style is:global>
   .blog-content {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.88);
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.85;
   }
+
   .blog-content h2 {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 56px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(238, 186, 107, 0.2);
+  }
+
+  .blog-content h3 {
     color: #eeba6b;
     font-family: Montserrat, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 16px;
   }
-  .blog-content h3 {
-    color: #ffffff;
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 32px;
-    margin-bottom: 12px;
-  }
+
   .blog-content p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
+
   .blog-content ul, .blog-content ol {
-    margin-bottom: 20px;
-    padding-left: 24px;
+    margin-bottom: 28px;
+    padding-left: 0;
+    list-style: none;
   }
-  .blog-content li {
-    margin-bottom: 8px;
+
+  .blog-content ul li, .blog-content ol li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    line-height: 1.7;
   }
+
+  .blog-content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background: #eeba6b;
+    border-radius: 50%;
+  }
+
+  .blog-content ol {
+    counter-reset: blog-counter;
+  }
+
+  .blog-content ol li {
+    counter-increment: blog-counter;
+  }
+
+  .blog-content ol li::before {
+    content: counter(blog-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #eeba6b;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
   .blog-content strong {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
   }
+
   .blog-content a {
     color: #eeba6b;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(238, 186, 107, 0.3);
+    transition: border-color 0.2s;
   }
+
+  .blog-content a:hover {
+    border-bottom-color: #eeba6b;
+  }
+
   .blog-content blockquote {
-    border-left: 4px solid #eeba6b;
-    padding: 16px 20px;
-    margin: 24px 0;
-    background: rgba(238, 186, 107, 0.08);
-    border-radius: 0 8px 8px 0;
+    border-left: 3px solid #eeba6b;
+    padding: 24px 28px;
+    margin: 36px 0;
+    background: linear-gradient(135deg, rgba(238, 186, 107, 0.08) 0%, rgba(238, 186, 107, 0.03) 100%);
+    border-radius: 0 12px 12px 0;
     font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+  }
+
+  .blog-content blockquote p:last-child {
+    margin-bottom: 0;
+  }
+
+  .blog-content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(238, 186, 107, 0.25), transparent);
+    margin: 48px 0;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .blog-content {
+      font-size: 16px;
+    }
+    .blog-content h2 {
+      font-size: 24px;
+    }
+    .blog-content h3 {
+      font-size: 20px;
+    }
   }
 </style>
