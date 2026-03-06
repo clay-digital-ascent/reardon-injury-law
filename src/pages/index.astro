@@ -1,7 +1,56 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const faqSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of cases does Reardon Injury Law handle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reardon Injury Law focuses exclusively on personal injury cases, including car accidents, motorcycle accidents, truck accidents, rideshare accidents (Uber/Lyft), pedestrian accidents, and bicycle accidents. We also handle injuries related to unsafe premises and dog bites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Reardon Injury Law serve all of California?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we represent clients throughout the entire state of California. Whether your accident happened in Los Angeles, Orange County, San Diego, the Inland Empire, or anywhere else in the state, we can take your case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I choose Reardon Injury Law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The firm is led by John Reardon, a retired chiropractor with 20 years of clinical experience. Because of his medical background, he understands injuries at a deeper level than most attorneys — and he knows how to protect clients from being taken advantage of by insurance companies or unethical medical providers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to hire Reardon Injury Law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are no upfront costs, ever. We work on a contingency fee, meaning you pay nothing unless we win your case. Our fee is simply a percentage of the settlement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is Reardon Injury Law different from other law firms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Medical expertise: John Reardon spent two decades treating accident victims as a chiropractor. Chiropractor relationships: He built one of the largest networks of ethical chiropractors in California. Personal attention: You work directly with an attorney, not a giant call-center firm. Aggressive representation with transparent communication from start to finish."
+      }
+    }
+  ]
+});
+
+const extraHead = `<script type="application/ld+json">${faqSchema}</script>`;
 ---
-<BaseLayout title="Reardon Injury Law | Personal Injury Attorneys in California" currentPage="home" includeAnimationsCSS={true}>
+<BaseLayout title="Reardon Injury Law | Personal Injury Attorneys in California" currentPage="home" includeAnimationsCSS={true} extraHeadStyles={extraHead}>
   <div class="ril-page-main">
     <section class="hero-section">
       <div class="cover-image">
