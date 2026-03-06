@@ -26,8 +26,31 @@ function estimateReadTime(body: string): number {
   const words = body.split(/\s+/).length;
   return Math.max(1, Math.ceil(words / 200));
 }
+
+const articleSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "datePublished": post.data.date instanceof Date ? post.data.date.toISOString() : post.data.date,
+  "description": post.data.description,
+  "author": { "@type": "Organization", "name": "Reardon Injury Law" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Reardon Injury Law",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://reardon-injury-law.vercel.app/images/REARDON-LOGO.avif"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://reardon-injury-law.vercel.app/blog/${post.slug}/`
+  }
+});
+
+const extraHead = `<script type="application/ld+json">${articleSchema}</script>`;
 ---
-<BaseLayout title={`${post.data.title} | Reardon Injury Law Blog`} description={post.data.description} currentPage="blog" includeAnimationsCSS={true}>
+<BaseLayout title={`${post.data.title} | Reardon Injury Law Blog`} description={post.data.description} currentPage="blog" includeAnimationsCSS={true} pageType="article" extraHeadStyles={extraHead}>
 
   <!-- Hero -->
   <section style="padding: 100px 20px 0; position: relative; z-index: 1;">

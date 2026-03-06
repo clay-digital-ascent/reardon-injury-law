@@ -130,11 +130,67 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div><div class="textblockk">Our team will follow up with you as soon as possible.</div></div>
       <div>
         <div class="w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"><label for="name" class="field-label-2">Name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label">Email Address</label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="message" class="field-label">Message to Our Team</label><textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
-          <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
-          <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+          <form id="home-contact-form" name="email-form" data-name="Email Form" method="POST" class="form-2">
+            <input type="hidden" name="_subject" value="New Contact Form (Homepage) - Reardon Injury Law">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+            <label for="home-name" class="field-label-2">Name</label>
+            <input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="home-name">
+
+            <label for="home-email" class="field-label">Email Address</label>
+            <input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="home-email" required="">
+
+            <label for="home-phone" class="field-label">Phone Number</label>
+            <input class="text-field-2 w-input" maxlength="20" name="phone" data-name="Phone" placeholder="" type="tel" id="home-phone">
+
+            <label for="home-message" class="field-label">Message to Our Team</label>
+            <textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="home-message" required=""></textarea>
+
+            <input type="submit" data-wait="Please wait..." class="submit-button w-button" id="home-submit-btn" value="Submit">
+          </form>
+          <div class="w-form-done"><div>Thank you! Your submission has been received! We'll be in touch shortly.</div></div>
+          <div class="w-form-fail"><div>Oops! Something went wrong. Please call us directly at (657) 522-7122.</div></div>
         </div>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    (function() {
+      var form = document.getElementById('home-contact-form');
+      if (!form) return;
+      var btn = document.getElementById('home-submit-btn');
+      var wrapper = form.closest('.w-form');
+      var done = wrapper.querySelector('.w-form-done');
+      var fail = wrapper.querySelector('.w-form-fail');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        btn.value = 'Sending...';
+        btn.disabled = true;
+        fail.style.display = 'none';
+
+        var data = new FormData(form);
+
+        fetch('https://formsubmit.co/ajax/clay@digitalascent.ai', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: data
+        }).then(function(res) {
+          if (res.ok) {
+            form.style.display = 'none';
+            done.style.display = 'block';
+          } else {
+            throw new Error('Submit failed');
+          }
+        }).catch(function() {
+          fail.style.display = 'block';
+          btn.value = 'Submit';
+          btn.disabled = false;
+        });
+      });
+    })();
+  </script>
 </BaseLayout>

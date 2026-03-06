@@ -6,6 +6,8 @@ interface Props {
   currentPage?: string;
   includeAnimationsCSS?: boolean;
   extraHeadStyles?: string;
+  ogImage?: string;
+  pageType?: string;
 }
 
 const {
@@ -15,7 +17,46 @@ const {
   currentPage = "",
   includeAnimationsCSS = false,
   extraHeadStyles = "",
+  ogImage = "/images/REARDON-LOGO.avif",
+  pageType = "website",
 } = Astro.props;
+
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || "https://reardon-injury-law.vercel.app";
+const canonicalURL = `${siteUrl}${Astro.url.pathname}`;
+const ogImageURL = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Reardon Injury Law",
+  "url": siteUrl,
+  "logo": `${siteUrl}/images/REARDON-LOGO.avif`,
+  "telephone": "+1-657-522-7122",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Huntington Beach",
+    "addressRegion": "CA",
+    "postalCode": "92648",
+    "addressCountry": "US"
+  },
+  "description": "Personal injury attorneys serving all of California. Led by John Reardon, with 20 years of chiropractic experience before becoming an attorney.",
+  "priceRange": "Free Consultation",
+  "areaServed": {
+    "@type": "State",
+    "name": "California"
+  },
+  "knowsAbout": [
+    "Personal Injury Law",
+    "Car Accidents",
+    "Motorcycle Accidents",
+    "Truck Accidents",
+    "Bicycle Accidents",
+    "Pedestrian Accidents",
+    "Rideshare Accidents"
+  ]
+};
+
+const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +64,25 @@ const {
   <meta charset="utf-8">
   <title>{title}</title>
   <meta name="description" content={description}>
-  <meta content={title} property="og:title">
-  <meta content={title} property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="canonical" href={canonicalURL}>
+  <!-- Open Graph -->
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:type" content={pageType}>
+  <meta property="og:url" content={canonicalURL}>
+  <meta property="og:image" content={ogImageURL}>
+  <meta property="og:site_name" content="Reardon Injury Law">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={ogImageURL}>
+  <!-- JSON-LD Schema -->
+  <Fragment set:html={`<script type="application/ld+json">${JSON.stringify(schemaOrg)}</script>`} />
+  {GA4_ID && (
+    <Fragment set:html={`<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA4_ID}');</script>`} />
+  )}
   <link href="/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/css/webflow.css" rel="stylesheet" type="text/css">
   <link href="/css/reardon-injury-law.webflow.css" rel="stylesheet" type="text/css">

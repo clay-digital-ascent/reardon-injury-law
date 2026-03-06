@@ -20,16 +20,36 @@ const extraStyles = `<style>
 }
 </style>`;
 ---
-<BaseLayout title="Contact Us | Reardon Injury Law" bodyClass="body-8" currentPage="contact" extraHeadStyles={extraStyles}>
+<BaseLayout title="Contact Us | Reardon Injury Law" description="Contact Reardon Injury Law for a free personal injury consultation. Call (657) 522-7122 or submit the form below." bodyClass="body-8" currentPage="contact" extraHeadStyles={extraStyles}>
   <section class="form form-contact-page">
     <div class="w-layout-blockcontainer container-22 w-container">
       <div class="cta-header"><h1 class="cta-headerr sr-up">Contact us now!</h1></div>
       <div class="sr-up"><div class="textblockk">Our team will follow up with you as soon as possible.</div></div>
       <div>
         <div class="w-form sr-up">
-          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"><label for="name" class="field-label-2">Name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label">Email Address</label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="message" class="field-label">Message to Our Team</label><textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
-          <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
-          <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+          <form id="email-form" name="email-form" data-name="Email Form" method="POST" class="form-2">
+            <!-- Formsubmit.co config — change email below to firm email -->
+            <input type="hidden" name="_subject" value="New Contact Form Submission - Reardon Injury Law">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+            <label for="name" class="field-label-2">Name</label>
+            <input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name" required="">
+
+            <label for="email" class="field-label">Email Address</label>
+            <input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required="">
+
+            <label for="phone" class="field-label">Phone Number</label>
+            <input class="text-field-2 w-input" maxlength="20" name="phone" data-name="Phone" placeholder="" type="tel" id="phone">
+
+            <label for="message" class="field-label">Message to Our Team</label>
+            <textarea class="text-field-2 w-input" maxlength="1000" name="message" data-name="Message" placeholder="" id="message" required=""></textarea>
+
+            <input type="submit" data-wait="Please wait..." class="submit-button w-button" id="submit-btn" value="Submit">
+          </form>
+          <div class="w-form-done"><div>Thank you! Your submission has been received! We'll be in touch shortly.</div></div>
+          <div class="w-form-fail"><div>Oops! Something went wrong. Please call us directly at (657) 522-7122.</div></div>
         </div>
       </div>
     </div>
@@ -41,4 +61,40 @@ const extraStyles = `<style>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    (function() {
+      var form = document.getElementById('email-form');
+      if (!form) return;
+      var btn = document.getElementById('submit-btn');
+      var done = document.querySelector('.w-form-done');
+      var fail = document.querySelector('.w-form-fail');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        btn.value = 'Sending...';
+        btn.disabled = true;
+        fail.style.display = 'none';
+
+        var data = new FormData(form);
+
+        fetch('https://formsubmit.co/ajax/clay@digitalascent.ai', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: data
+        }).then(function(res) {
+          if (res.ok) {
+            form.style.display = 'none';
+            done.style.display = 'block';
+          } else {
+            throw new Error('Submit failed');
+          }
+        }).catch(function() {
+          fail.style.display = 'block';
+          btn.value = 'Submit';
+          btn.disabled = false;
+        });
+      });
+    })();
+  </script>
 </BaseLayout>
