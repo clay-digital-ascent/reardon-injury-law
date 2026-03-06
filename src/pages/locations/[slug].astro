@@ -1,0 +1,313 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const cities = await getCollection("cities");
+  return cities.map((city) => ({
+    params: { slug: city.slug },
+    props: { city },
+  }));
+};
+
+const { city } = Astro.props;
+const { Content } = await city.render();
+
+const mapQuery = encodeURIComponent(`${city.data.city}, California`);
+
+// LegalService schema — uses areaServed, NOT fake LocalBusiness address
+const localSchema = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": `Reardon Injury Law — ${city.data.city}`,
+  "url": `https://reardoninjurylaw.com/locations/${city.slug}/`,
+  "telephone": "+1-657-522-7122",
+  "description": city.data.metaDescription,
+  "priceRange": "Free Consultation",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Reardon Injury Law",
+    "url": "https://reardoninjurylaw.com"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": city.data.city,
+    "containedInPlace": {
+      "@type": "AdministrativeArea",
+      "name": city.data.county
+    }
+  }
+};
+
+// FAQPage schema from frontmatter FAQ items
+const faqSchema = city.data.faq?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": city.data.faq.map((item: { question: string; answer: string }) => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+} : null;
+
+const schemaScripts = `<script type="application/ld+json">${JSON.stringify(localSchema)}</script>${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>` : ''}`;
+
+const practiceAreas = [
+  { name: "Car Accidents", href: "/car-accidents", icon: "/images/icons/car.svg" },
+  { name: "Motorcycle Accidents", href: "/motorcycle-accidents", icon: "/images/icons/motorcycle.svg" },
+  { name: "Truck Accidents", href: "/truck-accidents", icon: "/images/icons/truck.svg" },
+  { name: "Bicycle Accidents", href: "/bicycle-accidents", icon: "/images/icons/bicycle.svg" },
+  { name: "Pedestrian Accidents", href: "/pedestrian-accidents", icon: "/images/icons/pedestrian.svg" },
+  { name: "Rideshare Accidents", href: "/rideshare-accidents", icon: "/images/icons/rideshare.svg" },
+];
+---
+<BaseLayout title={city.data.title} description={city.data.metaDescription} currentPage="locations" includeAnimationsCSS={true} extraHeadStyles={schemaScripts}>
+
+  <!-- Hero -->
+  <section style="padding: 100px 20px 60px; background: #141415; text-align: center; border-bottom: 1px solid rgba(238,186,107,0.2);">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+      <div class="sr-up" style="margin-bottom: 16px;">
+        <span style="background: rgba(238,186,107,0.15); color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 11px; font-weight: 700; padding: 5px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;">{city.data.county}</span>
+      </div>
+      <h1 class="sr-left" style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 42px; font-weight: 700; line-height: 1.15; margin-bottom: 20px;">Personal Injury Lawyer in {city.data.city}, California</h1>
+      <p class="sr-up" style="color: rgba(255,255,255,0.85); font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 1.6; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">{city.data.metaDescription}</p>
+      <a href="tel:6575227122" class="sr-up" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 16px 44px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 17px; letter-spacing: 0.5px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 24px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">Call (657) 522-7122 &ndash; Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- Google Map -->
+  <section style="padding: 0; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px; padding: 0 20px;">
+      <div class="sr-up" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(238,186,107,0.15);">
+        <iframe
+          src={`https://maps.google.com/maps?q=${mapQuery}&t=&z=12&ie=UTF8&iwloc=&output=embed`}
+          width="100%"
+          height="300"
+          style="border:0; display: block;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title={`Map of ${city.data.city}, California`}
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localized Content -->
+  <article style="padding: 60px 20px 40px; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+      <div class="sr-up city-content" id="city-body">
+        <Content />
+      </div>
+    </div>
+  </article>
+
+  <!-- Local Resources -->
+  {(city.data.hospitals?.length || city.data.courthouse) && (
+    <section style="padding: 60px 20px; background: linear-gradient(180deg, #1e1e1f 0%, #141415 100%);">
+      <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+        <h2 class="sr-up" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 40px;">Local Resources in {city.data.city}</h2>
+        <div class="sr-stagger" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+          {city.data.hospitals?.length && (
+            <div class="sr-child" style="background: rgba(238,186,107,0.08); border: 1px solid rgba(238,186,107,0.15); border-radius: 12px; padding: 28px;">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                <img src="/images/icons/medical-expertise.svg" alt="" style="width: 32px; height: 32px;">
+                <h3 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 18px; font-weight: 600; margin: 0;">Nearby Hospitals</h3>
+              </div>
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                {city.data.hospitals.map((h: string) => (
+                  <li style="color: rgba(255,255,255,0.85); font-family: 'Open Sans', sans-serif; font-size: 15px; padding: 6px 0; padding-left: 20px; position: relative;">
+                    <span style="position: absolute; left: 0; top: 12px; width: 6px; height: 6px; background: #eeba6b; border-radius: 50%;"></span>
+                    {h}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {city.data.courthouse && (
+            <div class="sr-child" style="background: rgba(238,186,107,0.08); border: 1px solid rgba(238,186,107,0.15); border-radius: 12px; padding: 28px;">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                <img src="/images/icons/gavel.svg" alt="" style="width: 32px; height: 32px;">
+                <h3 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 18px; font-weight: 600; margin: 0;">Local Courthouse</h3>
+              </div>
+              <p style="color: rgba(255,255,255,0.85); font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 1.6; margin: 0;">{city.data.courthouse}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ Section -->
+  {city.data.faq?.length && (
+    <section style="padding: 60px 20px; background: #141415;">
+      <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+        <h2 class="sr-up" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 40px;">Frequently Asked Questions</h2>
+        <div class="sr-stagger" style="display: flex; flex-direction: column; gap: 20px;">
+          {city.data.faq.map((item: { question: string; answer: string }) => (
+            <div class="sr-child" style="background: rgba(238,186,107,0.06); border: 1px solid rgba(238,186,107,0.12); border-radius: 12px; padding: 28px;">
+              <h3 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 18px; font-weight: 600; margin: 0 0 12px 0;">{item.question}</h3>
+              <p style="color: rgba(255,255,255,0.85); font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.7; margin: 0;">{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Practice Areas Grid -->
+  <section style="padding: 60px 20px; background: linear-gradient(180deg, #1e1e1f 0%, #141415 100%);">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
+      <h2 class="sr-up" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 16px;">Cases We Handle in {city.data.city}</h2>
+      <p class="sr-up" style="color: rgba(255,255,255,0.7); font-family: 'Open Sans', sans-serif; font-size: 16px; text-align: center; margin-bottom: 40px;">Our attorneys represent {city.data.city} residents in all types of personal injury cases.</p>
+      <div class="sr-stagger" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+        {practiceAreas.map((area) => (
+          <a href={area.href} class="sr-child" style="background: rgba(238,186,107,0.06); border: 1px solid rgba(238,186,107,0.15); border-radius: 12px; padding: 28px; text-decoration: none; display: flex; align-items: center; gap: 16px; transition: all 0.25s ease;" onmouseover="this.style.background='rgba(238,186,107,0.15)';this.style.borderColor='rgba(238,186,107,0.4)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(238,186,107,0.06)';this.style.borderColor='rgba(238,186,107,0.15)';this.style.transform='translateY(0)'">
+            <img src={area.icon} alt="" style="width: 36px; height: 36px; flex-shrink: 0;">
+            <span style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 600;">{area.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="padding: 60px 20px 80px; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 800px;">
+      <div class="sr-up" style="text-align: center; padding: 50px 40px; background: linear-gradient(145deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238, 186, 107, 0.3); border-radius: 16px; position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
+        <h3 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 26px; margin-bottom: 12px; font-weight: 700;">Injured in {city.data.city}? We Can Help.</h3>
+        <p style="color: rgba(255, 255, 255, 0.8); font-family: 'Open Sans', sans-serif; font-size: 17px; margin-bottom: 28px;">Free consultation. No fees unless we win your case.</p>
+        <a href="tel:6575227122" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 16px 44px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 17px; letter-spacing: 0.5px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 24px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">Call (657) 522-7122</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll reveal for city content children -->
+  <script>
+    (function() {
+      var body = document.getElementById('city-body');
+      if (!body) return;
+      var children = body.children;
+      for (var i = 0; i < children.length; i++) {
+        children[i].classList.add('sr-child');
+      }
+      body.classList.add('sr-stagger');
+    })();
+  </script>
+</BaseLayout>
+
+<style is:global>
+  .city-content {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.85;
+  }
+
+  .city-content h2 {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 56px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(238, 186, 107, 0.2);
+  }
+
+  .city-content h3 {
+    color: #eeba6b;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+
+  .city-content p { margin-bottom: 24px; }
+
+  .city-content ul, .city-content ol {
+    margin-bottom: 28px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .city-content ul li, .city-content ol li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    line-height: 1.7;
+  }
+
+  .city-content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background: #eeba6b;
+    border-radius: 50%;
+  }
+
+  .city-content ol { counter-reset: city-counter; }
+  .city-content ol li { counter-increment: city-counter; }
+  .city-content ol li::before {
+    content: counter(city-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #eeba6b;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .city-content strong { color: #ffffff; font-weight: 700; }
+
+  .city-content a {
+    color: #eeba6b;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(238, 186, 107, 0.3);
+    transition: border-color 0.2s;
+  }
+
+  .city-content a:hover { border-bottom-color: #eeba6b; }
+
+  .city-content blockquote {
+    border-left: 3px solid #eeba6b;
+    padding: 24px 28px;
+    margin: 36px 0;
+    background: linear-gradient(135deg, rgba(238, 186, 107, 0.08) 0%, rgba(238, 186, 107, 0.03) 100%);
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+  }
+
+  .city-content blockquote p:last-child { margin-bottom: 0; }
+
+  .city-content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(238, 186, 107, 0.25), transparent);
+    margin: 48px 0;
+  }
+
+  @media (max-width: 768px) {
+    .city-content { font-size: 16px; }
+    .city-content h2 { font-size: 24px; }
+    .city-content h3 { font-size: 20px; }
+  }
+
+  @media (max-width: 768px) {
+    section [style*="grid-template-columns: repeat(3"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>

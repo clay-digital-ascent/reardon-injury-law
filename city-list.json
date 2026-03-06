@@ -1,0 +1,46 @@
+{
+  "counties": [
+    {
+      "name": "Orange County",
+      "cities": [
+        "Huntington Beach", "Anaheim", "Irvine", "Santa Ana", "Newport Beach"
+      ]
+    },
+    {
+      "name": "Los Angeles County",
+      "cities": [
+        "Los Angeles", "Long Beach", "Pasadena", "Santa Monica"
+      ]
+    },
+    {
+      "name": "San Diego County",
+      "cities": [
+        "San Diego", "Chula Vista", "Oceanside"
+      ]
+    },
+    {
+      "name": "Santa Clara County",
+      "cities": [
+        "San Jose", "Santa Clara"
+      ]
+    },
+    {
+      "name": "San Bernardino County",
+      "cities": [
+        "San Bernardino"
+      ]
+    },
+    {
+      "name": "San Francisco County",
+      "cities": [
+        "San Francisco"
+      ]
+    },
+    {
+      "name": "Sacramento County",
+      "cities": [
+        "Sacramento", "Elk Grove"
+      ]
+    }
+  ]
+}
