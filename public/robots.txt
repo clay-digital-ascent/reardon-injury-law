@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /feedback
 
-Sitemap: https://reardon-injury-law.vercel.app/sitemap-index.xml
+Sitemap: https://reardoninjurylaw.com/sitemap-index.xml

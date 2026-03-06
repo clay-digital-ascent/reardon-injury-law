@@ -21,7 +21,7 @@ const {
   pageType = "website",
 } = Astro.props;
 
-const siteUrl = Astro.site?.href?.replace(/\/$/, '') || "https://reardon-injury-law.vercel.app";
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || "https://reardoninjurylaw.com";
 const canonicalURL = `${siteUrl}${Astro.url.pathname}`;
 const ogImageURL = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 

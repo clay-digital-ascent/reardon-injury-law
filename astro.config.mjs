@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://reardon-injury-law.vercel.app",
+  site: "https://reardoninjurylaw.com",
   output: "static",
   integrations: [sitemap()],
 });
