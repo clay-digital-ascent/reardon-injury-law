@@ -96,6 +96,41 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="/images/webclip.png" rel="apple-touch-icon">
   {extraHeadStyles && <Fragment set:html={extraHeadStyles} />}
+  <style is:inline>
+    .loc-dropdown { position: relative; display: inline-block; }
+    .loc-arrow { font-size: 10px; margin-left: 2px; opacity: 0.6; }
+    .loc-mega {
+      display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+      background: #1a1a1b; border: 1px solid rgba(238,186,107,0.2); border-radius: 12px;
+      padding: 28px 32px 16px; z-index: 1000; min-width: 680px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+    }
+    .loc-dropdown:hover .loc-mega { display: block; }
+    .loc-mega-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+    .loc-county-title {
+      color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; padding-bottom: 6px;
+      border-bottom: 1px solid rgba(238,186,107,0.2);
+    }
+    .loc-city {
+      display: block; color: rgba(255,255,255,0.75); font-family: 'Open Sans', sans-serif;
+      font-size: 13.5px; padding: 4px 0; text-decoration: none; transition: color 0.15s, padding-left 0.15s;
+    }
+    .loc-city:hover { color: #eeba6b; padding-left: 4px; }
+    .loc-mega-footer {
+      margin-top: 18px; padding-top: 14px; border-top: 1px solid rgba(238,186,107,0.12); text-align: center;
+    }
+    .loc-view-all {
+      color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 600;
+      text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s;
+    }
+    .loc-view-all:hover { opacity: 0.7; }
+    @media (max-width: 991px) {
+      .loc-dropdown { display: contents; }
+      .loc-mega { display: none !important; }
+      .loc-arrow { display: none; }
+    }
+  </style>
 </head>
 <body class={bodyClass}>
   <div class="page-wrapper">
@@ -108,7 +143,49 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
           <a href="/" class:list={["nav-link w-nav-link", { "w--current": currentPage === "home" }]}>HOME</a>
           <a href="/about" class:list={["nav-link w-nav-link", { "w--current": currentPage === "about" }]}>ABOUT</a>
           <a href="/practice-areas" class:list={["nav-link w-nav-link", { "w--current": currentPage === "practice-areas" }]}>PRACTICE AREAS</a>
-          <a href="/locations" class:list={["nav-link w-nav-link", { "w--current": currentPage === "locations" }]}>LOCATIONS</a>
+          <div class="loc-dropdown">
+            <a href="/locations" class:list={["nav-link w-nav-link", { "w--current": currentPage === "locations" }]}>LOCATIONS <span class="loc-arrow">&#9662;</span></a>
+            <div class="loc-mega">
+              <div class="loc-mega-grid">
+                <div class="loc-county">
+                  <div class="loc-county-title">Orange County</div>
+                  <a href="/locations/huntington-beach" class="loc-city">Huntington Beach</a>
+                  <a href="/locations/anaheim" class="loc-city">Anaheim</a>
+                  <a href="/locations/irvine" class="loc-city">Irvine</a>
+                  <a href="/locations/santa-ana" class="loc-city">Santa Ana</a>
+                  <a href="/locations/newport-beach" class="loc-city">Newport Beach</a>
+                </div>
+                <div class="loc-county">
+                  <div class="loc-county-title">Los Angeles County</div>
+                  <a href="/locations/los-angeles" class="loc-city">Los Angeles</a>
+                  <a href="/locations/long-beach" class="loc-city">Long Beach</a>
+                  <a href="/locations/pasadena" class="loc-city">Pasadena</a>
+                  <a href="/locations/santa-monica" class="loc-city">Santa Monica</a>
+                </div>
+                <div class="loc-county">
+                  <div class="loc-county-title">San Diego County</div>
+                  <a href="/locations/san-diego" class="loc-city">San Diego</a>
+                  <a href="/locations/chula-vista" class="loc-city">Chula Vista</a>
+                  <a href="/locations/oceanside" class="loc-city">Oceanside</a>
+                  <div class="loc-county-title" style="margin-top: 18px;">Santa Clara County</div>
+                  <a href="/locations/san-jose" class="loc-city">San Jose</a>
+                  <a href="/locations/santa-clara" class="loc-city">Santa Clara</a>
+                </div>
+                <div class="loc-county">
+                  <div class="loc-county-title">San Francisco</div>
+                  <a href="/locations/san-francisco" class="loc-city">San Francisco</a>
+                  <div class="loc-county-title" style="margin-top: 18px;">Sacramento County</div>
+                  <a href="/locations/sacramento" class="loc-city">Sacramento</a>
+                  <a href="/locations/elk-grove" class="loc-city">Elk Grove</a>
+                  <div class="loc-county-title" style="margin-top: 18px;">San Bernardino</div>
+                  <a href="/locations/san-bernardino" class="loc-city">San Bernardino</a>
+                </div>
+              </div>
+              <div class="loc-mega-footer">
+                <a href="/locations" class="loc-view-all">View All Office Locations &rarr;</a>
+              </div>
+            </div>
+          </div>
           <a href="/blog" class:list={["nav-link w-nav-link", { "w--current": currentPage === "blog" }]}>BLOG</a>
           <a href="/contact-page" class:list={["nav-link w-nav-link", { "w--current": currentPage === "contact" }]}>CONTACT US</a>
         </nav>
