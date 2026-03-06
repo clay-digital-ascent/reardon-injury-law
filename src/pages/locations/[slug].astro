@@ -100,7 +100,7 @@ const practiceAreas = [
   <!-- Localized Content -->
   <article style="padding: 60px 20px 40px; background: #141415;">
     <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
-      <div class="sr-up city-content" id="city-body">
+      <div class="city-content">
         <Content />
       </div>
     </div>
@@ -187,18 +187,6 @@ const practiceAreas = [
     </div>
   </section>
 
-  <!-- Scroll reveal for city content children -->
-  <script>
-    (function() {
-      var body = document.getElementById('city-body');
-      if (!body) return;
-      var children = body.children;
-      for (var i = 0; i < children.length; i++) {
-        children[i].classList.add('sr-child');
-      }
-      body.classList.add('sr-stagger');
-    })();
-  </script>
 </BaseLayout>
 
 <style is:global>

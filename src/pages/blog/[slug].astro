@@ -81,7 +81,7 @@ const extraHead = `<script type="application/ld+json">${articleSchema}</script>`
   <article style="padding: 0 20px 80px;">
     <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
 
-      <div class="sr-up blog-content" id="blog-body">
+      <div class="blog-content">
         <Content />
       </div>
 
@@ -95,18 +95,6 @@ const extraHead = `<script type="application/ld+json">${articleSchema}</script>`
     </div>
   </article>
 
-  <!-- Scroll reveal for blog content children -->
-  <script>
-    (function() {
-      var body = document.getElementById('blog-body');
-      if (!body) return;
-      var children = body.children;
-      for (var i = 0; i < children.length; i++) {
-        children[i].classList.add('sr-child');
-      }
-      body.classList.add('sr-stagger');
-    })();
-  </script>
 </BaseLayout>
 
 <style is:global>
