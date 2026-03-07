@@ -53,23 +53,29 @@ const extraStyles = `<style>
   <section id="areas-we-serve" style="padding: 80px 20px 60px; background: linear-gradient(180deg, #1a1a1b 0%, #141415 100%); border-top: 1px solid rgba(238,186,107,0.15);">
     <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
       <h2 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 12px;">Areas We Serve</h2>
-      <p style="color: rgba(255,255,255,0.7); font-family: 'Open Sans', sans-serif; font-size: 17px; text-align: center; margin-bottom: 50px; max-width: 650px; margin-left: auto; margin-right: auto;">Reardon Injury Law represents personal injury clients across California. Select a city to learn how we can help in your area.</p>
+      <p style="color: rgba(255,255,255,0.7); font-family: 'Open Sans', sans-serif; font-size: 17px; text-align: center; margin-bottom: 16px; max-width: 650px; margin-left: auto; margin-right: auto;">Reardon Injury Law represents personal injury clients across all 58 California counties. Click a county to see the cities we serve.</p>
+      <p style="color: rgba(238,186,107,0.6); font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center; margin-bottom: 40px;">{Object.keys(countyMap).length} counties &middot; {allCities.length} cities</p>
 
-      {sortedCounties.map(county => (
-        <div style="margin-bottom: 40px;">
-          <h3 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid rgba(238,186,107,0.2);">{county}</h3>
-          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px;">
-            {countyMap[county].sort((a, b) => a.data.city.localeCompare(b.data.city)).map(city => (
-              <a href={`/locations/${city.slug}`} class="area-city-card">
-                <span style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px; font-weight: 600;">{city.data.city}</span>
-                {city.data.population && (
-                  <span style="display: block; color: rgba(255,255,255,0.45); font-family: 'Open Sans', sans-serif; font-size: 12px; margin-top: 4px;">Pop. {city.data.population}</span>
-                )}
-              </a>
-            ))}
+      <div class="county-accordion-grid">
+        {sortedCounties.map((county, i) => (
+          <div class={`county-accordion${priorityCounties.includes(county) ? ' county-priority' : ''}`} data-county={county}>
+            <button class="county-accordion-btn" type="button" aria-expanded="false">
+              <span class="county-name">{county.replace(' County', '')}</span>
+              <span class="county-count">{countyMap[county].length} {countyMap[county].length === 1 ? 'city' : 'cities'}</span>
+              <svg class="county-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="county-cities-panel">
+              <div class="county-cities-grid">
+                {countyMap[county].sort((a, b) => a.data.city.localeCompare(b.data.city)).map(city => (
+                  <a href={`/locations/${city.slug}`} class="area-city-card">
+                    <span class="city-name">{city.data.city}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   </section>
 
@@ -89,12 +95,92 @@ const extraStyles = `<style>
 </BaseLayout>
 
 <style>
-  .area-city-card {
-    display: block;
-    background: rgba(255,255,255,0.04);
+  .county-accordion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  @media (max-width: 991px) {
+    .county-accordion-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .county-accordion-grid { grid-template-columns: 1fr; }
+  }
+
+  .county-accordion {
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 10px;
-    padding: 16px 20px;
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+  }
+  .county-accordion:hover {
+    border-color: rgba(238,186,107,0.25);
+  }
+  .county-priority {
+    border-color: rgba(238,186,107,0.2);
+  }
+
+  .county-accordion-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.03);
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s ease;
+  }
+  .county-accordion-btn:hover {
+    background: rgba(238,186,107,0.06);
+  }
+  .county-name {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    flex: 1;
+  }
+  .county-priority .county-name {
+    color: #eeba6b;
+  }
+  .county-count {
+    color: rgba(255,255,255,0.35);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .county-chevron {
+    color: rgba(255,255,255,0.3);
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+  }
+  .county-accordion.open .county-chevron {
+    transform: rotate(180deg);
+  }
+
+  .county-cities-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  .county-accordion.open .county-cities-panel {
+    max-height: 600px;
+  }
+  .county-cities-grid {
+    padding: 4px 12px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .area-city-card {
+    display: inline-block;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 6px;
+    padding: 6px 12px;
     text-decoration: none;
     transition: all 0.2s ease;
   }
@@ -102,4 +188,23 @@ const extraStyles = `<style>
     border-color: rgba(238,186,107,0.4);
     background: rgba(238,186,107,0.08);
   }
+  .city-name {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+  }
+  .area-city-card:hover .city-name {
+    color: #eeba6b;
+  }
 </style>
+
+<script is:inline>
+  document.querySelectorAll('.county-accordion-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var accordion = btn.closest('.county-accordion');
+      var wasOpen = accordion.classList.contains('open');
+      accordion.classList.toggle('open');
+      btn.setAttribute('aria-expanded', wasOpen ? 'false' : 'true');
+    });
+  });
+</script>
