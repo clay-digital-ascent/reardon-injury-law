@@ -5,22 +5,22 @@ county: "San Luis Obispo County"
 metaDescription: "Injured in an accident in Arroyo Grande, CA? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: ""
 dangerousAreas:
-  - "US-101 Corridor"
-  - "Residential intersections with stop signs"
-  - "Local roads at nighttime"
+ - "US-101 Corridor"
+ - "Residential intersections with stop signs"
+ - "Local roads at nighttime"
 hospitals:
-  - "Nearest available emergency room"
-  - "Local urgent care centers"
+ - "Nearest available emergency room"
+ - "Local urgent care centers"
 courthouse: "San Luis Obispo Superior Court"
 faq:
-  - question: "How much does a personal injury lawyer cost in Arroyo Grande?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Arroyo Grande?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, exchange information with the other driver, and avoid admitting fault. Then, contact an experienced personal injury attorney to understand your rights."
-  - question: "How long do I have to file a personal injury claim in Arroyo Grande, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What makes US-101 a high-risk area for accidents near Arroyo Grande?"
-    answer: "US-101 is the primary high-speed corridor through San Luis Obispo County, carrying significant commute and commercial traffic. This combination of high speeds and heavy volume increases the risk of severe and often fatal accidents, especially involving large trucks and multi-vehicle pileups."
+ - question: "How much does a personal injury lawyer cost in Arroyo Grande?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Arroyo Grande?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, exchange information with the other driver, and avoid admitting fault. Then, contact an experienced personal injury attorney to understand your rights."
+ - question: "How long do I have to file a personal injury claim in Arroyo Grande, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What makes US-101 a high-risk area for accidents near Arroyo Grande?"
+   answer: "US-101 is the primary high-speed corridor through San Luis Obispo County, carrying significant commute and commercial traffic. This combination of high speeds and heavy volume increases the risk of severe and often fatal accidents, especially involving large trucks and multi-vehicle pileups."
 ---
 
 ## Why Arroyo Grande Residents Trust Reardon Injury Law
@@ -43,12 +43,12 @@ On local streets, different dangers emerge. According to the California Office o
 
 Reardon Injury Law is equipped to handle a wide range of personal injury claims. Our dual legal-medical expertise is a critical asset in proving liability and demonstrating the full extent of our clients' damages. We proudly represent individuals in Arroyo Grande who have been injured in:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on Grand Avenue to high-speed crashes on US-101, we investigate every detail to hold negligent drivers accountable.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with commercial big rigs often result in severe injuries. We have the resources to take on trucking companies and their insurers to fight for justice.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists face unique dangers from inattentive drivers. We work to protect the rights of riders and secure fair compensation for their injuries.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** When a vehicle strikes a pedestrian, the results are almost always tragic. We advocate fiercely for victims injured in crosswalks, parking lots, and on sidewalks.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Arroyo Grande’s scenic roads should be safe for cyclists. When they are not, we step in to help injured riders recover damages for their medical care and other losses.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities. We navigate these intricate policies to ensure our clients’ rights are protected.
+* **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on Grand Avenue to high-speed crashes on US-101, we investigate every detail to hold negligent drivers accountable.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with commercial big rigs often result in severe injuries. We have the resources to take on trucking companies and their insurers to fight for justice.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists face unique dangers from inattentive drivers. We work to protect the rights of riders and secure fair compensation for their injuries.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** When a vehicle strikes a pedestrian, the results are almost always tragic. We advocate fiercely for victims injured in crosswalks, parking lots, and on sidewalks.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Arroyo Grande’s scenic roads should be safe for cyclists. When they are not, we step in to help injured riders recover damages for their medical care and other losses.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities. We navigate these intricate policies to ensure our clients’ rights are protected.
 
 If you have suffered any type of injury due to someone else's negligence, we encourage you to explore our full list of <a href="/practice-areas">practice areas</a> and contact us for a free case evaluation.
 
@@ -56,24 +56,24 @@ If you have suffered any type of injury due to someone else's negligence, we enc
 
 The steps you take immediately following an accident are crucial for protecting both your health and your legal rights.
 
-1.  **Prioritize Safety:** If you are able, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
-2.  **Call 911:** Report the accident to law enforcement immediately. The Arroyo Grande Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles crashes on US-101. A police report is a vital piece of evidence.
-3.  **Seek Medical Attention:** Your health is the top priority. Even if your injuries seem minor, it is essential to be evaluated by a medical professional at the nearest emergency room or an urgent care center. Some serious injuries, like internal bleeding or traumatic brain injuries, may not have immediate symptoms.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries.
-5.  **Exchange Information:** Get the names, contact information, driver’s license numbers, and insurance details of all drivers involved. Also, collect contact information from any witnesses.
-6.  **Do Not Admit Fault:** Be polite, but do not apologize or admit fault to anyone at the scene, including the other driver or police. Stick to the objective facts of what happened.
-7.  **Contact an Attorney:** Before you speak with an insurance adjuster, contact an experienced personal injury lawyer. An attorney can advise you on how to protect your rights and handle all communications with the insurance companies on your behalf.
+1. **Prioritize Safety:** If you are able, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
+2. **Call 911:** Report the accident to law enforcement immediately. The Arroyo Grande Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles crashes on US-101. A police report is a vital piece of evidence.
+3. **Seek Medical Attention:** Your health is the top priority. Even if your injuries seem minor, it is essential to be evaluated by a medical professional at the nearest emergency room or an urgent care center. Some serious injuries, like internal bleeding or traumatic brain injuries, may not have immediate symptoms.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries.
+5. **Exchange Information:** Get the names, contact information, driver’s license numbers, and insurance details of all drivers involved. Also, collect contact information from any witnesses.
+6. **Do Not Admit Fault:** Be polite, but do not apologize or admit fault to anyone at the scene, including the other driver or police. Stick to the objective facts of what happened.
+7. **Contact an Attorney:** Before you speak with an insurance adjuster, contact an experienced personal injury lawyer. An attorney can advise you on how to protect your rights and handle all communications with the insurance companies on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. Here are some key California laws that may affect your case:
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
-*   **Statute of Limitations:** In most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city bus, a poorly maintained road). In these cases, you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often not enough to cover the costs of a serious injury. An experienced attorney can help you identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a variety of losses, including:
-    *   **Economic Damages:** Medical bills (past and future), lost wages, diminished earning capacity, and property damage.
-    *   **Non-Economic Damages:** Pain and suffering, emotional distress, loss of enjoyment of life, and loss of consortium.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
+* **Statute of Limitations:** In most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city bus, a poorly maintained road). In these cases, you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often not enough to cover the costs of a serious injury. An experienced attorney can help you identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a variety of losses, including:
+ * **Economic Damages:** Medical bills (past and future), lost wages, diminished earning capacity, and property damage.
+ * **Non-Economic Damages:** Pain and suffering, emotional distress, loss of enjoyment of life, and loss of consortium.
 
 ## Contact Reardon Injury Law Today
 

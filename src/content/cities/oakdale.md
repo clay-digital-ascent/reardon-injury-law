@@ -5,22 +5,22 @@ county: "Stanislaus County"
 metaDescription: "Injured in an accident in Oakdale, CA? Reardon Injury Law can help. Our experienced personal injury lawyers offer free consultations to protect your rights. No fee unless we win."
 population: "22,942"
 dangerousAreas:
-  - "Intersections along State Route 108/120 (F Street)"
-  - "Rural roads surrounding Oakdale in Stanislaus County"
-  - "Areas with high nighttime traffic between 9:00 PM and 2:59 AM"
+ - "Intersections along State Route 108/120 (F Street)"
+ - "Rural roads surrounding Oakdale in Stanislaus County"
+ - "Areas with high nighttime traffic between 9:00 PM and 2:59 AM"
 hospitals:
-  - "Oak Valley Hospital"
-  - "Memorial Medical Center (Modesto)"
+ - "Oak Valley Hospital"
+ - "Memorial Medical Center (Modesto)"
 courthouse: "Stanislaus County Superior Court in Modesto"
 faq:
-  - question: "How much does a personal injury lawyer cost in Oakdale?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Oakdale?"
-    answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even for minor pain. Document the scene with photos, gather witness information, and avoid admitting fault before speaking with an attorney."
-  - question: "How long do I have to file a personal injury claim in Oakdale, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
-  - question: "Why are bicycle accidents a specific concern in Oakdale?"
-    answer: "State traffic data shows Oakdale has a notable rate of bicycle-related injuries, with six victims in a recent year, three of whom were under 15. This highlights the vulnerability of cyclists, especially children, on local roads."
+ - question: "How much does a personal injury lawyer cost in Oakdale?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Oakdale?"
+   answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even for minor pain. Document the scene with photos, gather witness information, and avoid admitting fault before speaking with an attorney."
+ - question: "How long do I have to file a personal injury claim in Oakdale, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
+ - question: "Why are bicycle accidents a specific concern in Oakdale?"
+   answer: "State traffic data shows Oakdale has a notable rate of bicycle-related injuries, with six victims in a recent year, three of whom were under 15. This highlights the vulnerability of cyclists, especially children, on local roads."
 ---
 
 ## Why Oakdale Residents Trust Reardon Injury Law
@@ -45,11 +45,11 @@ Furthermore, the data shows a significant risk for cyclists. Oakdale has a conce
 
 At Reardon Injury Law, our team has the experience and resources to handle a wide range of personal injury claims. We are prepared to help Oakdale residents who have been harmed by another's negligence in any of the following situations:
 
-*   **Car Accidents:** From rear-end collisions on East F Street to intersection T-bones, we handle all types of <a href="/car-accidents">car accidents</a>, including those involving uninsured or underinsured motorists.
-*   **Motorcycle Accidents:** Motorcyclists are uniquely vulnerable on the road. We fight to protect the rights of riders who have been injured due to inattentive drivers. Learn more about <a href="/motorcycle-accidents">motorcycle accidents</a>.
-*   **Truck Accidents:** Collisions with large commercial trucks can be catastrophic. These cases are complex, often involving federal regulations and corporate liability, and require the skill of an experienced <a href="/truck-accidents">truck accidents</a> lawyer.
-*   **Bicycle & Pedestrian Accidents:** As the local data shows, cyclists and pedestrians face serious risks. We are dedicated to securing justice for victims of <a href="/bicycle-accidents">bicycle accidents</a> and <a href="/pedestrian-accidents">pedestrian accidents</a>.
-*   **Rideshare Accidents:** Accidents involving Uber or Lyft can present complicated insurance questions. We can help you navigate the claims process for <a href="/rideshare-accidents">rideshare accidents</a>.
+* **Car Accidents:** From rear-end collisions on East F Street to intersection T-bones, we handle all types of <a href="/car-accidents">car accidents</a>, including those involving uninsured or underinsured motorists.
+* **Motorcycle Accidents:** Motorcyclists are uniquely vulnerable on the road. We fight to protect the rights of riders who have been injured due to inattentive drivers. Learn more about <a href="/motorcycle-accidents">motorcycle accidents</a>.
+* **Truck Accidents:** Collisions with large commercial trucks can be catastrophic. These cases are complex, often involving federal regulations and corporate liability, and require the skill of an experienced <a href="/truck-accidents">truck accidents</a> lawyer.
+* **Bicycle & Pedestrian Accidents:** As the local data shows, cyclists and pedestrians face serious risks. We are dedicated to securing justice for victims of <a href="/bicycle-accidents">bicycle accidents</a> and <a href="/pedestrian-accidents">pedestrian accidents</a>.
+* **Rideshare Accidents:** Accidents involving Uber or Lyft can present complicated insurance questions. We can help you navigate the claims process for <a href="/rideshare-accidents">rideshare accidents</a>.
 
 This is not an exhaustive list. If you or a loved one has been injured due to someone else's carelessness, we encourage you to visit our <a href="/practice-areas">practice areas</a> page or contact us directly to learn how we can help.
 
@@ -57,21 +57,21 @@ This is not an exhaustive list. If you or a loved one has been injured due to so
 
 The steps you take in the minutes and hours after an accident are crucial for protecting both your health and your legal rights. If you are involved in a collision in Oakdale, try to remain calm and follow this guide:
 
-1.  **Prioritize Safety:** Move to a safe location away from traffic if possible. Check on yourself and others involved for injuries.
-2.  **Call 911:** Report the accident immediately. The Oakdale Police Department or the California Highway Patrol (CHP) will respond to document the scene and create an official report.
-3.  **Seek Medical Attention:** Even if you feel fine, it is vital to get a medical evaluation. Adrenaline can mask serious injuries. Go to an emergency room like the one at **Oak Valley Hospital** or see your primary care physician as soon as possible.
-4.  **Document Everything:** Use your phone to take pictures of the accident scene, vehicle damage, road conditions, and any visible injuries. If there are witnesses, get their names and contact information.
-5.  **Avoid Admitting Fault:** Be careful what you say to the other driver and to insurance adjusters. Do not apologize or accept blame. Stick to the facts of what happened.
-6.  **Contact an Oakdale Personal Injury Lawyer:** Before you give a recorded statement to an insurance company, speak with an attorney. An experienced lawyer can advise you of your rights and protect you from tactics used by insurers to minimize your claim.
+1. **Prioritize Safety:** Move to a safe location away from traffic if possible. Check on yourself and others involved for injuries.
+2. **Call 911:** Report the accident immediately. The Oakdale Police Department or the California Highway Patrol (CHP) will respond to document the scene and create an official report.
+3. **Seek Medical Attention:** Even if you feel fine, it is vital to get a medical evaluation. Adrenaline can mask serious injuries. Go to an emergency room like the one at **Oak Valley Hospital** or see your primary care physician as soon as possible.
+4. **Document Everything:** Use your phone to take pictures of the accident scene, vehicle damage, road conditions, and any visible injuries. If there are witnesses, get their names and contact information.
+5. **Avoid Admitting Fault:** Be careful what you say to the other driver and to insurance adjusters. Do not apologize or accept blame. Stick to the facts of what happened.
+6. **Contact an Oakdale Personal Injury Lawyer:** Before you give a recorded statement to an insurance company, speak with an attorney. An experienced lawyer can advise you of your rights and protect you from tactics used by insurers to minimize your claim.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. It is important to understand the key California laws that will affect your claim.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your final settlement or award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your total damages.
-*   **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. In most cases, you have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). However, a critical exception applies if your claim is against a government entity (e.g., a city bus, a poorly maintained public road). In these cases, you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. A serious accident can easily result in medical bills and lost wages that far exceed these amounts, making it essential to explore all avenues for recovery.
-*   **Recoverable Compensation:** As an injury victim, you may be entitled to compensation for a wide range of damages, including past and future medical expenses, lost income, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your final settlement or award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your total damages.
+* **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. In most cases, you have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). However, a critical exception applies if your claim is against a government entity (e.g., a city bus, a poorly maintained public road). In these cases, you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. A serious accident can easily result in medical bills and lost wages that far exceed these amounts, making it essential to explore all avenues for recovery.
+* **Recoverable Compensation:** As an injury victim, you may be entitled to compensation for a wide range of damages, including past and future medical expenses, lost income, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

@@ -5,22 +5,22 @@ county: "Santa Barbara County"
 metaDescription: "Injured in an accident in Buellton, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "N/A"
 dangerousAreas:
-  - "State Route 154 (San Marcos Pass Road)"
-  - "US Route 101 corridor through Buellton"
-  - "Roads connecting to local wineries and tourist destinations"
+ - "State Route 154 (San Marcos Pass Road)"
+ - "US Route 101 corridor through Buellton"
+ - "Roads connecting to local wineries and tourist destinations"
 hospitals:
-  - "Nearby medical centers in Santa Barbara County"
-  - "Local urgent care facilities"
+ - "Nearby medical centers in Santa Barbara County"
+ - "Local urgent care facilities"
 courthouse: "Santa Barbara County Superior Court"
 faq:
-  - question: "How much does a personal injury lawyer cost in Buellton?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Buellton?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information with other drivers, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
-  - question: "How long do I have to file a personal injury claim in Buellton, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under Code of Civil Procedure § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "Are accidents on Highway 101 near Buellton handled differently?"
-    answer: "Accidents on US-101 are often more severe due to higher speeds and heavy commercial truck traffic, and they are typically investigated by the California Highway Patrol (CHP). An attorney can help you navigate the specific challenges of a highway accident claim, from securing the CHP report to dealing with large trucking company insurers."
+ - question: "How much does a personal injury lawyer cost in Buellton?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Buellton?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information with other drivers, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
+ - question: "How long do I have to file a personal injury claim in Buellton, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under Code of Civil Procedure § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "Are accidents on Highway 101 near Buellton handled differently?"
+   answer: "Accidents on US-101 are often more severe due to higher speeds and heavy commercial truck traffic, and they are typically investigated by the California Highway Patrol (CHP). An attorney can help you navigate the specific challenges of a highway accident claim, from securing the CHP report to dealing with large trucking company insurers."
 ---
 
 ## Why Buellton Residents Trust Reardon Injury Law
@@ -47,35 +47,35 @@ At Reardon Injury Law, our deep understanding of both medicine and law allows us
 
 Our <a href="/practice-areas">practice areas</a> include:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Avenue of the Flags to high-speed collisions on US-101, we handle all types of auto accident claims.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving large commercial trucks are complex and require an attorney experienced in federal trucking regulations and dealing with corporate insurance policies.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable on scenic roads like SR-154. We fight to protect the rights of riders who have been injured by negligent drivers.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Even in a small town, pedestrians can be struck in crosswalks, parking lots, or along local streets.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With its beautiful landscapes, the Buellton area is popular with cyclists. We represent bicyclists who have been injured by careless or aggressive drivers.
-*   **Rideshare Accidents:** We help clients navigate the complicated insurance issues involved in accidents involving Uber and Lyft.
-*   **Wrongful Death:** If you have lost a loved one due to someone else's negligence, we can help you pursue a wrongful death claim to secure justice and financial stability for your family.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Avenue of the Flags to high-speed collisions on US-101, we handle all types of auto accident claims.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving large commercial trucks are complex and require an attorney experienced in federal trucking regulations and dealing with corporate insurance policies.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable on scenic roads like SR-154. We fight to protect the rights of riders who have been injured by negligent drivers.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Even in a small town, pedestrians can be struck in crosswalks, parking lots, or along local streets.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With its beautiful landscapes, the Buellton area is popular with cyclists. We represent bicyclists who have been injured by careless or aggressive drivers.
+* **Rideshare Accidents:** We help clients navigate the complicated insurance issues involved in accidents involving Uber and Lyft.
+* **Wrongful Death:** If you have lost a loved one due to someone else's negligence, we can help you pursue a wrongful death claim to secure justice and financial stability for your family.
 
 ## What to Do After an Accident in Buellton
 
 The moments after an accident are disorienting. Taking the right steps can protect your health and your legal rights.
 
-1.  **Prioritize Safety:** If possible, move your vehicle to the side of the road to avoid further collisions, especially on busy routes like US-101. Turn on your hazard lights. Check on yourself and your passengers for injuries.
-2.  **Call 911:** Report the accident immediately. Depending on your location, the responding agency may be the Buellton Police Department or, for accidents on US-101 and SR-154, the California Highway Patrol (CHP). A police report is a crucial piece of evidence for your claim.
-3.  **Seek Medical Attention:** Even if you feel fine, it's vital to get a medical evaluation. Adrenaline can mask serious injuries like whiplash, internal bleeding, or concussions. Paramedics may transport you to a nearby medical center in Santa Barbara County for immediate care. A documented medical visit creates a direct link between the accident and your injuries.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene. Capture vehicle damage, license plates, skid marks, traffic signals, and any visible injuries.
-5.  **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details from all other drivers involved. Also, get the names and phone numbers of any witnesses. Do not discuss fault or apologize for the accident.
-6.  **Contact an Attorney:** Before you speak with an insurance adjuster—even your own—contact an experienced personal injury attorney. Insurance companies are focused on minimizing their payouts. An attorney at Reardon Injury Law will protect your interests from the very beginning and handle all communications on your behalf.
+1. **Prioritize Safety:** If possible, move your vehicle to the side of the road to avoid further collisions, especially on busy routes like US-101. Turn on your hazard lights. Check on yourself and your passengers for injuries.
+2. **Call 911:** Report the accident immediately. Depending on your location, the responding agency may be the Buellton Police Department or, for accidents on US-101 and SR-154, the California Highway Patrol (CHP). A police report is a crucial piece of evidence for your claim.
+3. **Seek Medical Attention:** Even if you feel fine, it's vital to get a medical evaluation. Adrenaline can mask serious injuries like whiplash, internal bleeding, or concussions. Paramedics may transport you to a nearby medical center in Santa Barbara County for immediate care. A documented medical visit creates a direct link between the accident and your injuries.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene. Capture vehicle damage, license plates, skid marks, traffic signals, and any visible injuries.
+5. **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details from all other drivers involved. Also, get the names and phone numbers of any witnesses. Do not discuss fault or apologize for the accident.
+6. **Contact an Attorney:** Before you speak with an insurance adjuster—even your own—contact an experienced personal injury attorney. Insurance companies are focused on minimizing their payouts. An attorney at Reardon Injury Law will protect your interests from the very beginning and handle all communications on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be complex. An experienced attorney can help you understand the specific California laws that will impact your case.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. For example, if you were found to be 20% at fault, your final compensation award would simply be reduced by 20%.
-*   **Statute of Limitations:** In most personal injury cases, California Code of Civil Procedure § 335.1 gives you **two years** from the date of the injury to file a lawsuit. However, there is a critical exception: if your claim is against a government entity (such as the City of Buellton, Santa Barbara County, or the State of California), you must file a formal claim within just **six months** of the incident. Missing these deadlines can permanently bar you from recovering any compensation.
-*   **California Minimum Insurance:** The state's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often exhausted quickly. Our firm excels at identifying all potential sources of compensation, including underinsured/uninsured motorist policies and third-party liability.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a wide range of damages, including:
-    *   **Economic Damages:** Medical bills (past and future), lost wages, loss of future earning capacity, and property damage.
-    *   **Non-Economic Damages:** Pain and suffering, emotional distress, loss of enjoyment of life, and loss of consortium.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. For example, if you were found to be 20% at fault, your final compensation award would simply be reduced by 20%.
+* **Statute of Limitations:** In most personal injury cases, California Code of Civil Procedure § 335.1 gives you **two years** from the date of the injury to file a lawsuit. However, there is a critical exception: if your claim is against a government entity (such as the City of Buellton, Santa Barbara County, or the State of California), you must file a formal claim within just **six months** of the incident. Missing these deadlines can permanently bar you from recovering any compensation.
+* **California Minimum Insurance:** The state's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often exhausted quickly. Our firm excels at identifying all potential sources of compensation, including underinsured/uninsured motorist policies and third-party liability.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a wide range of damages, including:
+ * **Economic Damages:** Medical bills (past and future), lost wages, loss of future earning capacity, and property damage.
+ * **Non-Economic Damages:** Pain and suffering, emotional distress, loss of enjoyment of life, and loss of consortium.
 
 ## Contact Reardon Injury Law Today
 

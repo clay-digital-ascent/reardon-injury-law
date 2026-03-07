@@ -5,22 +5,22 @@ county: "Fresno County"
 metaDescription: "Injured in an accident in Clovis, CA? Reardon Injury Law can help. Our lead attorney is also a former chiropractor. Get a free, no-obligation consultation."
 population: "118,488"
 dangerousAreas:
-  - "Shaw and Willow Avenues"
-  - "Shaw and Clovis Avenues"
-  - "Shaw and Fowler Avenues"
+ - "Shaw and Willow Avenues"
+ - "Shaw and Clovis Avenues"
+ - "Shaw and Fowler Avenues"
 hospitals:
-  - "Clovis Community Medical Center"
-  - "Community Regional Medical Center"
+ - "Clovis Community Medical Center"
+ - "Community Regional Medical Center"
 courthouse: "Fresno County Superior Court - B.F. Sisk Courthouse, Fresno"
 faq:
-  - question: "How much does a personal injury lawyer cost in Clovis?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win your case."
-  - question: "What should I do after a car accident in Clovis?"
-    answer: "First, ensure everyone is safe and call 911. Seek immediate medical attention, document the scene with photos, exchange information, and avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Clovis, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "I was in a collision on Shaw Avenue. Is that a common place for accidents?"
-    answer: "Yes, unfortunately. Shaw Avenue is known for heavy commercial traffic and congestion, leading to a high number of collisions. Intersections like Shaw and Willow, Shaw and Clovis, and Shaw and Fowler are some of the most frequent accident sites in the city."
+ - question: "How much does a personal injury lawyer cost in Clovis?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win your case."
+ - question: "What should I do after a car accident in Clovis?"
+   answer: "First, ensure everyone is safe and call 911. Seek immediate medical attention, document the scene with photos, exchange information, and avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Clovis, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "I was in a collision on Shaw Avenue. Is that a common place for accidents?"
+   answer: "Yes, unfortunately. Shaw Avenue is known for heavy commercial traffic and congestion, leading to a high number of collisions. Intersections like Shaw and Willow, Shaw and Clovis, and Shaw and Fowler are some of the most frequent accident sites in the city."
 ---
 
 ## Why Clovis Residents Trust Reardon Injury Law
@@ -39,10 +39,10 @@ The stretch of **Shaw Avenue** is particularly notorious due to its dense concen
 
 Some of the most dangerous intersections in Clovis include:
 
-*   **Shaw and Willow Avenues:** This intersection had the highest number of crashes in Clovis in 2023, with 34 separate incidents recorded due to its massive traffic volume.
-*   **Shaw and Clovis Avenues:** Surrounded by retail outlets, this intersection is a constant site of congestion and collisions, with 22 crashes reported in 2023 alone.
-*   **Shaw and Fowler Avenues:** Located near a Walmart, a school, and other businesses, this intersection is a hotspot for serious accidents, including those resulting in severe injuries and even fatalities.
-*   **Herndon and Clovis Avenues:** Another major intersection that experiences frequent collisions, with 17 crashes occurring here in 2023.
+* **Shaw and Willow Avenues:** This intersection had the highest number of crashes in Clovis in 2023, with 34 separate incidents recorded due to its massive traffic volume.
+* **Shaw and Clovis Avenues:** Surrounded by retail outlets, this intersection is a constant site of congestion and collisions, with 22 crashes reported in 2023 alone.
+* **Shaw and Fowler Avenues:** Located near a Walmart, a school, and other businesses, this intersection is a hotspot for serious accidents, including those resulting in severe injuries and even fatalities.
+* **Herndon and Clovis Avenues:** Another major intersection that experiences frequent collisions, with 17 crashes occurring here in 2023.
 
 Accidents involving <a href="/motorcycle-accidents">motorcycle accidents</a> and <a href="/bicycle-accidents">bicycle accidents</a> are also a concern in these busy areas, where visibility can be limited and drivers are often distracted.
 
@@ -52,12 +52,12 @@ Reardon Injury Law is a full-service personal injury firm dedicated to helping v
 
 We regularly represent Clovis residents who have been injured in:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on local streets to serious collisions on major routes like State Route 168 and State Route 180.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** The high volume of commercial traffic on SR-168 and SR-180 means that collisions with large commercial trucks are a serious risk. These cases are complex and require a deep understanding of federal and state trucking regulations.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable to serious injury. We fight to protect the rights of riders who have been harmed by negligent drivers.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** With busy commercial zones like the area around Shaw Avenue, pedestrians are often at risk. We hold negligent drivers accountable for causing pedestrian injuries.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We advocate for cyclists injured by careless drivers who fail to share the road safely.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft can have complicated insurance issues. We have the experience to navigate these unique claims.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on local streets to serious collisions on major routes like State Route 168 and State Route 180.
+* **<a href="/truck-accidents">Truck Accidents</a>:** The high volume of commercial traffic on SR-168 and SR-180 means that collisions with large commercial trucks are a serious risk. These cases are complex and require a deep understanding of federal and state trucking regulations.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable to serious injury. We fight to protect the rights of riders who have been harmed by negligent drivers.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** With busy commercial zones like the area around Shaw Avenue, pedestrians are often at risk. We hold negligent drivers accountable for causing pedestrian injuries.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We advocate for cyclists injured by careless drivers who fail to share the road safely.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft can have complicated insurance issues. We have the experience to navigate these unique claims.
 
 If you have been injured in any type of accident caused by someone else's carelessness, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us for a free consultation.
 
@@ -65,21 +65,21 @@ If you have been injured in any type of accident caused by someone else's carele
 
 The moments after an accident are chaotic and stressful, but the steps you take can significantly impact your health and your ability to recover fair compensation.
 
-1.  **Prioritize Safety and Call 911:** If you are able, move to a safe location away from traffic. Call 911 immediately. The Clovis Police Department will likely respond to document the scene and create an official accident report.
-2.  **Seek Immediate Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. Get evaluated by a medical professional at a local hospital like **Clovis Community Medical Center** or the region's primary trauma center, **Community Regional Medical Center** in Fresno.
-3.  **Document Everything:** Use your phone to take pictures and videos of the accident scene, vehicle damage, your injuries, and any relevant road conditions or signs. If there are witnesses, get their names and contact information.
-4.  **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance information. Provide them with your information, but do not discuss fault.
-5.  **Be Cautious with Insurance Companies:** You will likely be contacted by the other party's insurance adjuster. Do not give a recorded statement or sign any documents without first speaking to an attorney. Their goal is to minimize their payout, not to protect your interests.
-6.  **Contact a Clovis Personal Injury Lawyer:** An experienced attorney can protect your rights, handle all communication with insurance companies, and begin building your case so you can focus on your recovery.
+1. **Prioritize Safety and Call 911:** If you are able, move to a safe location away from traffic. Call 911 immediately. The Clovis Police Department will likely respond to document the scene and create an official accident report.
+2. **Seek Immediate Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. Get evaluated by a medical professional at a local hospital like **Clovis Community Medical Center** or the region's primary trauma center, **Community Regional Medical Center** in Fresno.
+3. **Document Everything:** Use your phone to take pictures and videos of the accident scene, vehicle damage, your injuries, and any relevant road conditions or signs. If there are witnesses, get their names and contact information.
+4. **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance information. Provide them with your information, but do not discuss fault.
+5. **Be Cautious with Insurance Companies:** You will likely be contacted by the other party's insurance adjuster. Do not give a recorded statement or sign any documents without first speaking to an attorney. Their goal is to minimize their payout, not to protect your interests.
+6. **Contact a Clovis Personal Injury Lawyer:** An experienced attorney can protect your rights, handle all communication with insurance companies, and begin building your case so you can focus on your recovery.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. It is crucial to understand the California laws that will affect your claim.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final award will be reduced by 20%.
-*   **Statute of Limitations:** In California, you generally have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a public school, or a poorly maintained road owned by the City of Clovis or Fresno County), you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
-*   **California's Minimum Insurance:** The state's minimum liability insurance requirements are very low: $15,000 for injury to one person, $30,000 for all injuries in an accident, and $5,000 for property damage. A serious injury can easily result in medical bills that far exceed these minimums. An experienced attorney can help identify all potential sources of recovery, including your own uninsured/underinsured motorist coverage.
-*   **Types of Compensation:** As an injury victim, you may be entitled to compensation for various damages, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final award will be reduced by 20%.
+* **Statute of Limitations:** In California, you generally have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a public school, or a poorly maintained road owned by the City of Clovis or Fresno County), you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
+* **California's Minimum Insurance:** The state's minimum liability insurance requirements are very low: $15,000 for injury to one person, $30,000 for all injuries in an accident, and $5,000 for property damage. A serious injury can easily result in medical bills that far exceed these minimums. An experienced attorney can help identify all potential sources of recovery, including your own uninsured/underinsured motorist coverage.
+* **Types of Compensation:** As an injury victim, you may be entitled to compensation for various damages, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

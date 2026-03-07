@@ -5,22 +5,22 @@ county: "San Benito County"
 metaDescription: "Injured in an accident in Hollister, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "approx. 43,000"
 dangerousAreas:
-  - "Intersection of Highway 25 and Highway 156 (Turbo Roundabout)"
-  - "Segments of Highway 25"
-  - "Highway 156 Corridor"
+ - "Intersection of Highway 25 and Highway 156 (Turbo Roundabout)"
+ - "Segments of Highway 25"
+ - "Highway 156 Corridor"
 hospitals:
-  - "Trauma centers in nearby Gilroy"
-  - "Local urgent care clinics"
+ - "Trauma centers in nearby Gilroy"
+ - "Local urgent care clinics"
 courthouse: "The appropriate civil court serving San Benito County"
 faq:
-  - question: "How much does a personal injury lawyer cost in Hollister?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
-  - question: "What should I do after a car accident in Hollister?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with the other driver without admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Hollister, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
-  - question: "I was in a crash at the new turbo roundabout on Highway 25/156. Who is at fault?"
-    answer: "Fault in a crash at the Highway 25/156 turbo roundabout can be complex, especially since driver unfamiliarity has led to an increase in collisions. Determining liability requires a thorough investigation of traffic laws for roundabouts, witness statements, and physical evidence, making it crucial to consult an attorney."
+ - question: "How much does a personal injury lawyer cost in Hollister?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
+ - question: "What should I do after a car accident in Hollister?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with the other driver without admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Hollister, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
+ - question: "I was in a crash at the new turbo roundabout on Highway 25/156. Who is at fault?"
+   answer: "Fault in a crash at the Highway 25/156 turbo roundabout can be complex, especially since driver unfamiliarity has led to an increase in collisions. Determining liability requires a thorough investigation of traffic laws for roundabouts, witness statements, and physical evidence, making it crucial to consult an attorney."
 ---
 
 ## Why Hollister Residents Trust Reardon Injury Law
@@ -44,24 +44,24 @@ Beyond that specific intersection, **Highway 25** itself presents ongoing hazard
 Reardon Injury Law is exclusively dedicated to helping injury victims. Our focused experience allows us to provide knowledgeable and effective representation across a wide range of accident types. We understand the specific physics and legal nuances involved in each case.
 
 Our primary <a href="/practice-areas">practice areas</a> include:
-*   **<a href="/car-accidents">Car Accidents</a>**: From fender-benders on San Benito Street to high-speed collisions on the highway, we handle all types of auto accident claims.
-*   **<a href="/truck-accidents">Truck Accidents</a>**: Cases involving large commercial trucks are incredibly complex. We have the resources to take on trucking companies and their insurers to fight for the compensation you deserve.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are uniquely vulnerable on roads like Highway 25. We are passionate about protecting the rights of injured riders.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: Even in a smaller city, pedestrians can suffer catastrophic injuries when drivers are distracted or fail to yield the right-of-way.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>**: We advocate for cyclists who have been injured due to negligent drivers on both city streets and rural county roads.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft have unique insurance complexities that require an experienced attorney to navigate.
+* **<a href="/car-accidents">Car Accidents</a>**: From fender-benders on San Benito Street to high-speed collisions on the highway, we handle all types of auto accident claims.
+* **<a href="/truck-accidents">Truck Accidents</a>**: Cases involving large commercial trucks are incredibly complex. We have the resources to take on trucking companies and their insurers to fight for the compensation you deserve.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are uniquely vulnerable on roads like Highway 25. We are passionate about protecting the rights of injured riders.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: Even in a smaller city, pedestrians can suffer catastrophic injuries when drivers are distracted or fail to yield the right-of-way.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>**: We advocate for cyclists who have been injured due to negligent drivers on both city streets and rural county roads.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft have unique insurance complexities that require an experienced attorney to navigate.
 
 ## What to Do After an Accident in Hollister
 
 The moments after an accident are confusing and chaotic. Taking the right steps can protect your health and your legal rights.
 
-1.  **Prioritize Safety**: If you can, move your vehicle to the side of the road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers.
-2.  **Call 911**: Report the accident immediately. Depending on your location, the Hollister Police Department or the California Highway Patrol (CHP) will respond. A police report is a critical piece of evidence for your claim.
-3.  **Seek Medical Attention**: Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. You can visit a local urgent care clinic or seek care at an emergency room in a nearby city like Gilroy. A medical record creates a direct link between the accident and your injuries.
-4.  **Document the Scene**: If you are able, use your phone to take pictures of the vehicles, the surrounding area, any visible injuries, and road conditions. If there were witnesses, get their names and contact information.
-5.  **Exchange Information**: Get the other driver's name, contact information, driver's license number, and insurance details. Provide your own information, but do not apologize or admit fault.
-6.  **Do Not Give a Recorded Statement**: The other party's insurance adjuster may call you quickly and ask for a recorded statement. Politely decline and state that you will be speaking with an attorney first.
-7.  **Contact a Hollister Personal Injury Lawyer**: Call Reardon Injury Law for a free consultation. We can immediately advise you on your rights and begin handling all communication with the insurance companies on your behalf.
+1. **Prioritize Safety**: If you can, move your vehicle to the side of the road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers.
+2. **Call 911**: Report the accident immediately. Depending on your location, the Hollister Police Department or the California Highway Patrol (CHP) will respond. A police report is a critical piece of evidence for your claim.
+3. **Seek Medical Attention**: Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. You can visit a local urgent care clinic or seek care at an emergency room in a nearby city like Gilroy. A medical record creates a direct link between the accident and your injuries.
+4. **Document the Scene**: If you are able, use your phone to take pictures of the vehicles, the surrounding area, any visible injuries, and road conditions. If there were witnesses, get their names and contact information.
+5. **Exchange Information**: Get the other driver's name, contact information, driver's license number, and insurance details. Provide your own information, but do not apologize or admit fault.
+6. **Do Not Give a Recorded Statement**: The other party's insurance adjuster may call you quickly and ask for a recorded statement. Politely decline and state that you will be speaking with an attorney first.
+7. **Contact a Hollister Personal Injury Lawyer**: Call Reardon Injury Law for a free consultation. We can immediately advise you on your rights and begin handling all communication with the insurance companies on your behalf.
 
 ## Understanding Your Rights Under California Law
 
@@ -74,12 +74,12 @@ Navigating the legal system after an injury can be daunting. In California, seve
 **Minimum Insurance Requirements**: California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. For a serious injury, these amounts are often woefully inadequate. This is why it is critical to explore all avenues of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
 
 **Types of Compensation**: As an injury victim, you may be entitled to recover compensation for both economic and non-economic losses. This can include:
-*   Current and future medical expenses
-*   Lost wages and loss of future earning capacity
-*   Property damage
-*   Physical pain and suffering
-*   Emotional distress and mental anguish
-*   Loss of enjoyment of life
+* Current and future medical expenses
+* Lost wages and loss of future earning capacity
+* Property damage
+* Physical pain and suffering
+* Emotional distress and mental anguish
+* Loss of enjoyment of life
 
 ## Contact Reardon Injury Law Today
 

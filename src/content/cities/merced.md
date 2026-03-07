@@ -5,22 +5,22 @@ county: "Merced County"
 metaDescription: "Suffered an injury in Merced, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation, no fee unless we win."
 population: "~90,000"
 dangerousAreas:
-  - "State Route 99 (SR-99)"
-  - "Rural highways throughout Merced County"
-  - "High-speed urban corridors with limited lighting"
+ - "State Route 99 (SR-99)"
+ - "Rural highways throughout Merced County"
+ - "High-speed urban corridors with limited lighting"
 hospitals:
-  - "Dignity Health - Mercy Medical Center Merced"
-  - "Adventist Health Merced"
+ - "Dignity Health - Mercy Medical Center Merced"
+ - "Adventist Health Merced"
 courthouse: "Merced County Superior Court, Merced"
 faq:
-  - question: "How much does a personal injury lawyer cost in Merced?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay absolutely no attorney's fees unless we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Merced?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Then, contact our firm for a free consultation to protect your rights."
-  - question: "How long do I have to file a personal injury claim in Merced, California?"
-    answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
-  - question: "What makes driving on SR-99 in Merced so dangerous?"
-    answer: "State Route 99 through the Central Valley is known for high speeds, poor lighting, and frequent entries from agricultural vehicles, contributing to a high rate of serious accidents. These factors reduce driver reaction time and increase the risk of severe collisions."
+ - question: "How much does a personal injury lawyer cost in Merced?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay absolutely no attorney's fees unless we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Merced?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Then, contact our firm for a free consultation to protect your rights."
+ - question: "How long do I have to file a personal injury claim in Merced, California?"
+   answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
+ - question: "What makes driving on SR-99 in Merced so dangerous?"
+   answer: "State Route 99 through the Central Valley is known for high speeds, poor lighting, and frequent entries from agricultural vehicles, contributing to a high rate of serious accidents. These factors reduce driver reaction time and increase the risk of severe collisions."
 ---
 
 ## Why Merced Residents Trust Reardon Injury Law
@@ -43,12 +43,12 @@ Our firm has the experience and resources to handle a wide range of personal inj
 
 We regularly represent Merced residents in cases involving:
 
-*   **<a href="/car-accidents">Car Accidents</a>**: From rear-end collisions on G Street to high-speed crashes on SR-99, we handle all types of auto accidents.
-*   **<a href="/truck-accidents">Truck Accidents</a>**: These complex cases often involve serious injuries and require a deep understanding of federal trucking regulations and multiple liable parties.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are uniquely exposed to injury, and we fight to overcome the unfair biases they often face from insurance companies.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We advocate for pedestrians who have been injured due to negligent or distracted drivers, especially in areas with poor infrastructure.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>**: We help cyclists recover compensation for injuries caused by drivers who fail to share the road safely.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft have complex insurance rules. We know how to navigate these policies to identify all available coverage for your injuries.
+* **<a href="/car-accidents">Car Accidents</a>**: From rear-end collisions on G Street to high-speed crashes on SR-99, we handle all types of auto accidents.
+* **<a href="/truck-accidents">Truck Accidents</a>**: These complex cases often involve serious injuries and require a deep understanding of federal trucking regulations and multiple liable parties.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are uniquely exposed to injury, and we fight to overcome the unfair biases they often face from insurance companies.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We advocate for pedestrians who have been injured due to negligent or distracted drivers, especially in areas with poor infrastructure.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>**: We help cyclists recover compensation for injuries caused by drivers who fail to share the road safely.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft have complex insurance rules. We know how to navigate these policies to identify all available coverage for your injuries.
 
 If you have been injured in any type of accident caused by another's negligence, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us directly.
 
@@ -56,22 +56,22 @@ If you have been injured in any type of accident caused by another's negligence,
 
 The steps you take immediately following an accident are critical for both your health and your ability to file a successful personal injury claim.
 
-1.  **Prioritize Safety**: If you are able, move your vehicle to a safe location off the road to prevent further collisions. Turn on your hazard lights.
-2.  **Call 911**: Report the accident to law enforcement. The Merced Police Department will likely respond to incidents within city limits, while the California Highway Patrol (CHP) handles crashes on state highways like SR-99. An official police report is a vital piece of evidence.
-3.  **Seek Immediate Medical Attention**: Even if you feel fine, some serious injuries have delayed symptoms. Go to an emergency room at a local hospital like Dignity Health - Mercy Medical Center Merced or Adventist Health Merced, or see your primary care physician as soon as possible. This creates a medical record linking your injuries to the accident.
-4.  **Document the Scene**: Use your phone to take pictures and videos of everything: vehicle damage, your injuries, skid marks, traffic signals, and the surrounding area.
-5.  **Exchange Information**: Get the name, contact information, driver's license number, and insurance details from all other drivers involved. Also, get the names and phone numbers of any witnesses.
-6.  **Do Not Admit Fault**: When speaking to police or other drivers, stick to the facts. Avoid saying "I'm sorry" or accepting any blame, as these statements can be used against you later.
-7.  **Contact an Attorney**: Before you give a recorded statement to an insurance adjuster, call Reardon Injury Law. We will protect you from tactics used by insurers to devalue your claim and will handle all communications on your behalf.
+1. **Prioritize Safety**: If you are able, move your vehicle to a safe location off the road to prevent further collisions. Turn on your hazard lights.
+2. **Call 911**: Report the accident to law enforcement. The Merced Police Department will likely respond to incidents within city limits, while the California Highway Patrol (CHP) handles crashes on state highways like SR-99. An official police report is a vital piece of evidence.
+3. **Seek Immediate Medical Attention**: Even if you feel fine, some serious injuries have delayed symptoms. Go to an emergency room at a local hospital like Dignity Health - Mercy Medical Center Merced or Adventist Health Merced, or see your primary care physician as soon as possible. This creates a medical record linking your injuries to the accident.
+4. **Document the Scene**: Use your phone to take pictures and videos of everything: vehicle damage, your injuries, skid marks, traffic signals, and the surrounding area.
+5. **Exchange Information**: Get the name, contact information, driver's license number, and insurance details from all other drivers involved. Also, get the names and phone numbers of any witnesses.
+6. **Do Not Admit Fault**: When speaking to police or other drivers, stick to the facts. Avoid saying "I'm sorry" or accepting any blame, as these statements can be used against you later.
+7. **Contact an Attorney**: Before you give a recorded statement to an insurance adjuster, call Reardon Injury Law. We will protect you from tactics used by insurers to devalue your claim and will handle all communications on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system can be confusing, but understanding your rights is the first step toward securing justice. In California, several key laws govern personal injury claims.
 
-*   **Pure Comparative Negligence**: California law allows you to recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible for a crash, you can still collect 90% of your damages.
-*   **Statute of Limitations**: Time is limited. For most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (like the city of Merced for a dangerous road condition or a public bus), you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
-*   **California's Minimum Insurance**: The state’s minimum liability insurance requirements are very low ($15,000 per person / $30,000 per accident for bodily injury). In a serious accident, this is often not nearly enough to cover medical bills and lost wages. This is why it is so important to have Uninsured/Underinsured Motorist (UIM) coverage on your own policy.
-*   **Recoverable Damages**: As a victim, you may be entitled to compensation for economic and non-economic losses, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and pain and suffering.
+* **Pure Comparative Negligence**: California law allows you to recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible for a crash, you can still collect 90% of your damages.
+* **Statute of Limitations**: Time is limited. For most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (like the city of Merced for a dangerous road condition or a public bus), you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
+* **California's Minimum Insurance**: The state’s minimum liability insurance requirements are very low ($15,000 per person / $30,000 per accident for bodily injury). In a serious accident, this is often not nearly enough to cover medical bills and lost wages. This is why it is so important to have Uninsured/Underinsured Motorist (UIM) coverage on your own policy.
+* **Recoverable Damages**: As a victim, you may be entitled to compensation for economic and non-economic losses, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and pain and suffering.
 
 ## Contact Reardon Injury Law Today
 

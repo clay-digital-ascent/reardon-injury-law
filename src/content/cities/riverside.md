@@ -5,22 +5,22 @@ county: "Riverside County"
 metaDescription: "Injured in an accident in Riverside, CA? Reardon Injury Law offers expert legal guidance with a unique medical perspective. Free consultation. No fee unless we win."
 population: "Over 325,000"
 dangerousAreas:
-  - "Magnolia Avenue and Tyler Street"
-  - "Arlington Avenue and Indiana Avenue"
-  - "University Avenue and Chicago Avenue"
+ - "Magnolia Avenue and Tyler Street"
+ - "Arlington Avenue and Indiana Avenue"
+ - "University Avenue and Chicago Avenue"
 hospitals:
-  - "Riverside Community Hospital"
-  - "Kaiser Permanente Riverside Medical Center"
+ - "Riverside Community Hospital"
+ - "Kaiser Permanente Riverside Medical Center"
 courthouse: "Riverside Historic Courthouse"
 faq:
-  - question: "How much does a personal injury lawyer cost in Riverside?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Riverside?"
-    answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, document the scene with photos, and exchange information without admitting fault. Before speaking with insurance adjusters, contact an experienced attorney."
-  - question: "How long do I have to file a personal injury claim in Riverside, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
-  - question: "Why are intersections like Magnolia & Tyler so dangerous in Riverside?"
-    answer: "This intersection sees a dangerous mix of high-volume vehicle traffic from nearby shopping centers and significant foot traffic. Pedestrians must cross up to six lanes, creating a high-risk environment for serious accidents."
+ - question: "How much does a personal injury lawyer cost in Riverside?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Riverside?"
+   answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, document the scene with photos, and exchange information without admitting fault. Before speaking with insurance adjusters, contact an experienced attorney."
+ - question: "How long do I have to file a personal injury claim in Riverside, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
+ - question: "Why are intersections like Magnolia & Tyler so dangerous in Riverside?"
+   answer: "This intersection sees a dangerous mix of high-volume vehicle traffic from nearby shopping centers and significant foot traffic. Pedestrians must cross up to six lanes, creating a high-risk environment for serious accidents."
 ---
 
 ## Why Riverside Residents Trust Reardon Injury Law
@@ -49,12 +49,12 @@ While an accident can happen anywhere, certain roads and intersections in Rivers
 
 At Reardon Injury Law, we have the experience and resources to handle a wide range of personal injury claims. Given Riverside's traffic patterns—where improper turning and unsafe speed are the leading causes of collisions—we frequently represent clients injured in:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on Chicago Avenue to high-speed crashes on the I-15.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Assisting those injured in busy commercial areas like the Magnolia and Tyler intersection.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who are often overlooked on Riverside's wide, open roads.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Handling complex claims involving commercial vehicles on major arteries like I-10 and I-215.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists who face significant risks from inattentive drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the intricate insurance policies involved in Uber and Lyft accidents.
+* **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on Chicago Avenue to high-speed crashes on the I-15.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Assisting those injured in busy commercial areas like the Magnolia and Tyler intersection.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who are often overlooked on Riverside's wide, open roads.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Handling complex claims involving commercial vehicles on major arteries like I-10 and I-215.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists who face significant risks from inattentive drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the intricate insurance policies involved in Uber and Lyft accidents.
 
 If you have been injured in any type of accident caused by another's negligence, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us directly to discuss your case.
 
@@ -62,21 +62,21 @@ If you have been injured in any type of accident caused by another's negligence,
 
 The moments after an accident are chaotic and stressful. Taking the right steps can protect your health and your legal rights.
 
-1.  **Prioritize Safety:** If possible, move your vehicle to the side of the road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers for injuries.
-2.  **Call 911:** Report the accident immediately. The Riverside Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like the I-10, I-15, and I-215. A police report is a crucial piece of evidence.
-3.  **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Get evaluated by paramedics on the scene and follow up with a visit to an emergency room, such as at Riverside Community Hospital or Kaiser Permanente, or your primary care physician. This creates a medical record linking your injuries to the accident.
-4.  **Document Everything:** Use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, traffic signals, and any visible injuries. If there are witnesses, get their names and contact information.
-5.  **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance policy information. Provide your information, but do not apologize or admit fault.
-6.  **Contact an Attorney:** Before you speak with any insurance adjusters—even your own—consult with a personal injury lawyer. Insurance companies aim to minimize payouts. An attorney will protect your rights and handle all communications on your behalf.
+1. **Prioritize Safety:** If possible, move your vehicle to the side of the road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers for injuries.
+2. **Call 911:** Report the accident immediately. The Riverside Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like the I-10, I-15, and I-215. A police report is a crucial piece of evidence.
+3. **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Get evaluated by paramedics on the scene and follow up with a visit to an emergency room, such as at Riverside Community Hospital or Kaiser Permanente, or your primary care physician. This creates a medical record linking your injuries to the accident.
+4. **Document Everything:** Use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, traffic signals, and any visible injuries. If there are witnesses, get their names and contact information.
+5. **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance policy information. Provide your information, but do not apologize or admit fault.
+6. **Contact an Attorney:** Before you speak with any insurance adjusters—even your own—consult with a personal injury lawyer. Insurance companies aim to minimize payouts. An attorney will protect your rights and handle all communications on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires an understanding of specific state laws. Here are some key California regulations that may impact your case:
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. However, your final compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your settlement would be reduced by 20%.
-*   **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a poorly maintained public road), you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
-*   **California's Minimum Insurance:** The state's minimum liability insurance requirement is just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often woefully inadequate to cover medical bills and other losses. We can help you explore all avenues for compensation, including your own Uninsured/Underinsured Motorist coverage.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover both economic and non-economic damages. Economic damages cover tangible financial losses like medical bills, future medical care, lost wages, and loss of earning capacity. Non-economic damages compensate you for intangible harm, such as pain, suffering, emotional distress, and loss of enjoyment of life.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. However, your final compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your settlement would be reduced by 20%.
+* **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a poorly maintained public road), you must file a formal claim within **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from recovering compensation.
+* **California's Minimum Insurance:** The state's minimum liability insurance requirement is just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often woefully inadequate to cover medical bills and other losses. We can help you explore all avenues for compensation, including your own Uninsured/Underinsured Motorist coverage.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover both economic and non-economic damages. Economic damages cover tangible financial losses like medical bills, future medical care, lost wages, and loss of earning capacity. Non-economic damages compensate you for intangible harm, such as pain, suffering, emotional distress, and loss of enjoyment of life.
 
 ## Contact Reardon Injury Law Today
 

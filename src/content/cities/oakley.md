@@ -5,23 +5,23 @@ county: "Contra Costa County"
 metaDescription: "Injured in an accident in Oakley, CA? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation—no fee unless we win."
 population: "45,000"
 dangerousAreas:
-  - "State Route 4 (SR-4)"
-  - "Commute corridors on SR-4 toward Pittsburg/Antioch"
-  - "Rural roads and school zones vulnerable to hit-and-runs"
+ - "State Route 4 (SR-4)"
+ - "Commute corridors on SR-4 toward Pittsburg/Antioch"
+ - "Rural roads and school zones vulnerable to hit-and-runs"
 hospitals:
-  - "Kaiser Permanente Antioch Medical Center"
-  - "Sutter Delta Medical Center"
-  - "John Muir Medical Center Concord Campus"
+ - "Kaiser Permanente Antioch Medical Center"
+ - "Sutter Delta Medical Center"
+ - "John Muir Medical Center Concord Campus"
 courthouse: "Richard E. Arnason Justice Center in Martinez"
 faq:
-  - question: "How much does a personal injury lawyer cost in Oakley?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees unless we win your case. Your initial consultation is always free."
-  - question: "What should I do after a car accident in Oakley?"
-    answer: "First, ensure everyone's safety and call 911 to report the accident to the Oakley Police or CHP. Seek immediate medical attention, document the scene with photos, and exchange information without admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Oakley, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What makes accidents on State Route 4 in Oakley so complex?"
-    answer: "Accidents on SR-4 often involve high speeds, heavy commute traffic, and commercial trucks, which can lead to multi-vehicle pileups and catastrophic injuries. These factors complicate liability investigations and require an attorney experienced with complex freeway collisions."
+ - question: "How much does a personal injury lawyer cost in Oakley?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees unless we win your case. Your initial consultation is always free."
+ - question: "What should I do after a car accident in Oakley?"
+   answer: "First, ensure everyone's safety and call 911 to report the accident to the Oakley Police or CHP. Seek immediate medical attention, document the scene with photos, and exchange information without admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Oakley, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What makes accidents on State Route 4 in Oakley so complex?"
+   answer: "Accidents on SR-4 often involve high speeds, heavy commute traffic, and commercial trucks, which can lead to multi-vehicle pileups and catastrophic injuries. These factors complicate liability investigations and require an attorney experienced with complex freeway collisions."
 ---
 
 ## Why Oakley Residents Trust Reardon Injury Law
@@ -42,12 +42,12 @@ Statewide data indicates that Oakley has a notable rate of speed-related collisi
 
 Reardon Injury Law is equipped to handle a wide spectrum of personal injury claims. Our deep understanding of both the medical and legal aspects of an injury allows us to effectively represent clients who have been harmed by another's negligence. We frequently assist Oakley residents with cases involving:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Main Street to high-speed crashes on SR-4, we handle all types of auto collisions.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with semi-trucks and other commercial vehicles on major routes like SR-4 and nearby I-680 often cause catastrophic injuries and involve complex federal regulations.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are extremely vulnerable in traffic, and we fight to protect their rights and combat unfair biases from insurance companies.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals struck by vehicles in crosswalks, parking lots, or on neighborhood streets.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We help cyclists who have been injured due to inattentive or reckless drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities that require an experienced attorney to navigate.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Main Street to high-speed crashes on SR-4, we handle all types of auto collisions.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with semi-trucks and other commercial vehicles on major routes like SR-4 and nearby I-680 often cause catastrophic injuries and involve complex federal regulations.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are extremely vulnerable in traffic, and we fight to protect their rights and combat unfair biases from insurance companies.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals struck by vehicles in crosswalks, parking lots, or on neighborhood streets.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We help cyclists who have been injured due to inattentive or reckless drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities that require an experienced attorney to navigate.
 
 Our expertise extends beyond traffic-related incidents. To see a comprehensive list of the cases we handle, including premises liability (slip and fall) and other injury claims, please visit our <a href="/practice-areas">practice areas</a> page.
 
@@ -55,22 +55,22 @@ Our expertise extends beyond traffic-related incidents. To see a comprehensive l
 
 The steps you take in the minutes, hours, and days following an accident are critical for protecting your health and your legal rights.
 
-1.  **Ensure Your Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers.
-2.  **Call 911:** Report the accident immediately. The Oakley Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles collisions on State Route 4. A police report is crucial evidence for your claim.
-3.  **Seek Immediate Medical Attention:** Even if you feel fine, some serious injuries have delayed symptoms. Get checked out by paramedics or go to a nearby hospital like **Kaiser Permanente Antioch Medical Center** or **Sutter Delta Medical Center**. For severe injuries, you may be taken to the Level II trauma center at **John Muir Medical Center Concord Campus**.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your injuries.
-5.  **Exchange Information:** Get the other driver’s name, contact information, driver’s license number, license plate, and insurance details. Also, gather contact information from any witnesses.
-6.  **Do Not Admit Fault:** Avoid saying "I'm sorry" or accepting any blame. Stick to the facts when speaking with police. Do not give a recorded statement to the other party’s insurance company before consulting with an attorney.
-7.  **Contact an Oakley Injury Lawyer:** An experienced attorney can immediately begin protecting your rights, preserving evidence, and handling all communications with insurance companies so you can focus on your recovery.
+1. **Ensure Your Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers.
+2. **Call 911:** Report the accident immediately. The Oakley Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles collisions on State Route 4. A police report is crucial evidence for your claim.
+3. **Seek Immediate Medical Attention:** Even if you feel fine, some serious injuries have delayed symptoms. Get checked out by paramedics or go to a nearby hospital like **Kaiser Permanente Antioch Medical Center** or **Sutter Delta Medical Center**. For severe injuries, you may be taken to the Level II trauma center at **John Muir Medical Center Concord Campus**.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your injuries.
+5. **Exchange Information:** Get the other driver’s name, contact information, driver’s license number, license plate, and insurance details. Also, gather contact information from any witnesses.
+6. **Do Not Admit Fault:** Avoid saying "I'm sorry" or accepting any blame. Stick to the facts when speaking with police. Do not give a recorded statement to the other party’s insurance company before consulting with an attorney.
+7. **Contact an Oakley Injury Lawyer:** An experienced attorney can immediately begin protecting your rights, preserving evidence, and handling all communications with insurance companies so you can focus on your recovery.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires a clear understanding of California law. An insurance adjuster will not explain these rights to you, but we will.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
-*   **Statute of Limitations:** Time is limited. For most personal injury cases in California, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city bus, a dangerous public road). In these cases, you must file a formal claim within just **six months** of the accident. Missing this deadline can permanently bar you from recovering compensation.
-*   **Minimum Insurance Requirements:** California’s mandatory minimum liability insurance is only $15,000 per person for bodily injury, $30,000 per accident, and $5,000 for property damage. These low limits are often exhausted quickly in a serious accident. This is why it is vital to explore all avenues for compensation, including your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Recoverable Damages:** If you've been injured due to someone else's negligence, you may be entitled to compensation for both economic and non-economic losses. This can include medical bills (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, emotional distress, and loss of enjoyment of life. All civil personal injury cases for Oakley are filed at the **Richard E. Arnason Justice Center in Martinez**.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
+* **Statute of Limitations:** Time is limited. For most personal injury cases in California, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city bus, a dangerous public road). In these cases, you must file a formal claim within just **six months** of the accident. Missing this deadline can permanently bar you from recovering compensation.
+* **Minimum Insurance Requirements:** California’s mandatory minimum liability insurance is only $15,000 per person for bodily injury, $30,000 per accident, and $5,000 for property damage. These low limits are often exhausted quickly in a serious accident. This is why it is vital to explore all avenues for compensation, including your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Recoverable Damages:** If you've been injured due to someone else's negligence, you may be entitled to compensation for both economic and non-economic losses. This can include medical bills (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, emotional distress, and loss of enjoyment of life. All civil personal injury cases for Oakley are filed at the **Richard E. Arnason Justice Center in Martinez**.
 
 ## Contact Reardon Injury Law Today
 

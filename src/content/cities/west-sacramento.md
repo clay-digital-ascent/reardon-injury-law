@@ -5,22 +5,22 @@ county: "Yolo County"
 metaDescription: "Injured in West Sacramento? Reardon Injury Law offers expert legal help. Our attorney's unique medical background gives you an edge. Free consultation. No fee unless we win."
 population: "Approximately 54,000"
 dangerousAreas:
-  - "Interstate 80 (I-80)"
-  - "U.S. Route 50"
-  - "West Capitol Avenue"
+ - "Interstate 80 (I-80)"
+ - "U.S. Route 50"
+ - "West Capitol Avenue"
 hospitals:
-  - "UC Davis Medical Center"
-  - "Sutter Medical Center, Sacramento"
+ - "UC Davis Medical Center"
+ - "Sutter Medical Center, Sacramento"
 courthouse: "Yolo County Superior Court in Woodland"
 faq:
-  - question: "How much does a personal injury lawyer cost in West Sacramento?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in West Sacramento?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in West Sacramento, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "Where are personal injury lawsuits for West Sacramento incidents filed?"
-    answer: "Since West Sacramento is in Yolo County, civil lawsuits for personal injuries that occurred within the city are filed at the Yolo County Superior Court, which is located in Woodland, CA."
+ - question: "How much does a personal injury lawyer cost in West Sacramento?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in West Sacramento?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in West Sacramento, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "Where are personal injury lawsuits for West Sacramento incidents filed?"
+   answer: "Since West Sacramento is in Yolo County, civil lawsuits for personal injuries that occurred within the city are filed at the Yolo County Superior Court, which is located in Woodland, CA."
 ---
 
 ## Why West Sacramento Residents Trust Reardon Injury Law
@@ -45,12 +45,12 @@ At Reardon Injury Law, we focus exclusively on personal injury law, allowing us 
 
 We proudly represent West Sacramento clients in a wide range of injury claims, including:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Jefferson Boulevard to high-speed collisions on I-80.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Investigating complex cases involving commercial vehicles, which are common given West Sacramento's logistics and industrial centers.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who often suffer catastrophic injuries due to the negligence of other drivers.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Helping victims who were struck by vehicles while walking in neighborhoods or crossing busy streets.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists injured by inattentive or aggressive drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance issues involved in accidents with Uber and Lyft vehicles.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Jefferson Boulevard to high-speed collisions on I-80.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Investigating complex cases involving commercial vehicles, which are common given West Sacramento's logistics and industrial centers.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who often suffer catastrophic injuries due to the negligence of other drivers.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Helping victims who were struck by vehicles while walking in neighborhoods or crossing busy streets.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists injured by inattentive or aggressive drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance issues involved in accidents with Uber and Lyft vehicles.
 
 If you have suffered an injury due to someone else's carelessness, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us directly to discuss your specific situation.
 
@@ -58,22 +58,22 @@ If you have suffered an injury due to someone else's carelessness, please visit 
 
 The actions you take in the minutes, hours, and days following an accident are crucial for both your health and your potential legal claim. Follow these steps to protect yourself:
 
-1.  **Prioritize Safety and Call 911:** If you are able, move your vehicle to a safe location off the road. Check on yourself and others for injuries. Immediately call 911 to report the accident and request medical assistance. Depending on your location, the West Sacramento Police Department or the California Highway Patrol (CHP) will respond.
-2.  **Seek Immediate Medical Evaluation:** Even if you feel fine, it is essential to be examined by a medical professional. Adrenaline can mask serious injuries. Go to an emergency room at a nearby hospital like **UC Davis Medical Center** or **Sutter Medical Center, Sacramento**, or see your primary care doctor as soon as possible. This creates a medical record linking your injuries to the accident.
-3.  **Document the Scene:** If you are physically able, use your phone to take pictures and videos of the accident scene. Capture vehicle damage, skid marks, road conditions, traffic signals, and any visible injuries.
-4.  **Exchange Information:** Get the name, contact information, driver's license number, and insurance details from all other drivers involved. Also, gather contact information from any witnesses who saw what happened. Do not apologize or admit fault.
-5.  **File an Official Report:** The responding law enforcement agency will create an official traffic collision report. You will need this for your insurance claim and legal case. Make sure to get the report number from the officer at the scene.
-6.  **Contact an Attorney:** Before you give a recorded statement to any insurance company—even your own—speak with a qualified personal injury attorney. An attorney can handle all communications with adjusters and protect you from tactics designed to devalue your claim.
+1. **Prioritize Safety and Call 911:** If you are able, move your vehicle to a safe location off the road. Check on yourself and others for injuries. Immediately call 911 to report the accident and request medical assistance. Depending on your location, the West Sacramento Police Department or the California Highway Patrol (CHP) will respond.
+2. **Seek Immediate Medical Evaluation:** Even if you feel fine, it is essential to be examined by a medical professional. Adrenaline can mask serious injuries. Go to an emergency room at a nearby hospital like **UC Davis Medical Center** or **Sutter Medical Center, Sacramento**, or see your primary care doctor as soon as possible. This creates a medical record linking your injuries to the accident.
+3. **Document the Scene:** If you are physically able, use your phone to take pictures and videos of the accident scene. Capture vehicle damage, skid marks, road conditions, traffic signals, and any visible injuries.
+4. **Exchange Information:** Get the name, contact information, driver's license number, and insurance details from all other drivers involved. Also, gather contact information from any witnesses who saw what happened. Do not apologize or admit fault.
+5. **File an Official Report:** The responding law enforcement agency will create an official traffic collision report. You will need this for your insurance claim and legal case. Make sure to get the report number from the officer at the scene.
+6. **Contact an Attorney:** Before you give a recorded statement to any insurance company—even your own—speak with a qualified personal injury attorney. An attorney can handle all communications with adjusters and protect you from tactics designed to devalue your claim.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires a clear understanding of California law. Here are some key principles that will affect your case:
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your damages.
-*   **Statute of Limitations:** There is a strict deadline for filing a personal injury lawsuit in California. Under the California Code of Civil Procedure § 335.1, you have **two years** from the date of the injury to file your case. If you miss this deadline, you will likely lose your right to sue forever.
-*   **Government Claims Act:** If your injury was caused by a public entity—such as a dangerous road condition maintained by the City of West Sacramento or an accident with a Yolo County vehicle—the deadline is much shorter. You must file a formal claim with the government agency within **six months** of the injury.
-*   **California's Minimum Insurance Requirements:** The state only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage (15/30/5). These low limits are often insufficient to cover the costs of a serious injury, making it vital to explore all avenues for compensation, including your own Uninsured/Underinsured Motorist coverage.
-*   **Recoverable Damages:** As a victim, you may be entitled to compensation for both economic and non-economic losses. This can include medical expenses (past and future), lost wages, loss of future earning capacity, property damage, and compensation for pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your damages.
+* **Statute of Limitations:** There is a strict deadline for filing a personal injury lawsuit in California. Under the California Code of Civil Procedure § 335.1, you have **two years** from the date of the injury to file your case. If you miss this deadline, you will likely lose your right to sue forever.
+* **Government Claims Act:** If your injury was caused by a public entity—such as a dangerous road condition maintained by the City of West Sacramento or an accident with a Yolo County vehicle—the deadline is much shorter. You must file a formal claim with the government agency within **six months** of the injury.
+* **California's Minimum Insurance Requirements:** The state only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage (15/30/5). These low limits are often insufficient to cover the costs of a serious injury, making it vital to explore all avenues for compensation, including your own Uninsured/Underinsured Motorist coverage.
+* **Recoverable Damages:** As a victim, you may be entitled to compensation for both economic and non-economic losses. This can include medical expenses (past and future), lost wages, loss of future earning capacity, property damage, and compensation for pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

@@ -5,22 +5,22 @@ county: "Glenn County"
 metaDescription: "Hurt in an accident in Willows, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Contact our personal injury lawyer for a free consultation."
 population: "6,000"
 dangerousAreas:
-  - "State Route 99"
-  - "State Route 162"
-  - "Busy crossroads on major freight and commuter routes"
+ - "State Route 99"
+ - "State Route 162"
+ - "Busy crossroads on major freight and commuter routes"
 hospitals:
-  - "Enloe Medical Center (Chico)"
-  - "Major hospitals in Redding"
+ - "Enloe Medical Center (Chico)"
+ - "Major hospitals in Redding"
 courthouse: "Glenn County Superior Court, Willows"
 faq:
-  - question: "How much does a personal injury lawyer cost in Willows?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs and no attorney fees unless we win your case. Your initial consultation with us is always free."
-  - question: "What should I do after a car accident in Willows?"
-    answer: "First, ensure everyone is safe and call 911 to report the crash and request medical help. Seek immediate medical attention, document the scene with photos, exchange information with other parties, and avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Willows, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
-  - question: "Where would my personal injury lawsuit be filed if the accident happened in Willows?"
-    answer: "If your accident occurred in Willows or elsewhere in Glenn County, your case would be filed in the Civil Division of the Glenn County Superior Court, located right in Willows at 526 W. Sycamore Street."
+ - question: "How much does a personal injury lawyer cost in Willows?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs and no attorney fees unless we win your case. Your initial consultation with us is always free."
+ - question: "What should I do after a car accident in Willows?"
+   answer: "First, ensure everyone is safe and call 911 to report the crash and request medical help. Seek immediate medical attention, document the scene with photos, exchange information with other parties, and avoid admitting fault. Then, contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Willows, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within just six months."
+ - question: "Where would my personal injury lawsuit be filed if the accident happened in Willows?"
+   answer: "If your accident occurred in Willows or elsewhere in Glenn County, your case would be filed in the Civil Division of the Glenn County Superior Court, located right in Willows at 526 W. Sycamore Street."
 ---
 
 ## Why Willows Residents Trust Reardon Injury Law
@@ -45,13 +45,13 @@ Our firm is equipped to handle a wide range of personal injury claims. We unders
 
 We frequently represent Willows residents in cases involving:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on local streets to high-speed crashes on SR-99.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Investigating complex accidents involving semi-trucks, delivery vans, and other commercial vehicles.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Protecting the rights of injured riders who are often unfairly blamed for collisions.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Helping people who were struck by vehicles while walking or jogging.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Advocating for cyclists injured by negligent drivers on rural roads and city streets.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in Uber and Lyft crashes.
-*   **Wrongful Death:** Providing compassionate legal support to families who have lost a loved one due to someone else's negligence.
+* **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on local streets to high-speed crashes on SR-99.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Investigating complex accidents involving semi-trucks, delivery vans, and other commercial vehicles.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Protecting the rights of injured riders who are often unfairly blamed for collisions.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Helping people who were struck by vehicles while walking or jogging.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Advocating for cyclists injured by negligent drivers on rural roads and city streets.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in Uber and Lyft crashes.
+* **Wrongful Death:** Providing compassionate legal support to families who have lost a loved one due to someone else's negligence.
 
 If you have been injured in any type of accident, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us directly to discuss your situation.
 
@@ -59,22 +59,22 @@ If you have been injured in any type of accident, please visit our <a href="/pra
 
 The actions you take in the minutes, hours, and days following an accident are critical for protecting your health and your legal rights. If you are involved in a crash in or around Willows, follow these steps:
 
-1.  **Ensure Safety:** If you are able, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
-2.  **Call 911:** Report the accident immediately. The responding law enforcement agency will depend on your location. It could be the Willows Police Department, the Glenn County Sheriff’s Office, or the California Highway Patrol (CHP) for incidents on SR-99 or SR-162. A police report is a vital piece of evidence.
-3.  **Seek Medical Attention:** This is the most important step. Even if you feel fine, some serious injuries have delayed symptoms. Let paramedics evaluate you at the scene. For significant injuries, you will likely be transported to a hospital in a nearby city, such as **Enloe Medical Center** in Chico or another major facility in Redding. Following up with your doctor is crucial for your recovery and for documenting your injuries.
-4.  **Document Everything:** Use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and any visible injuries.
-5.  **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details from all other drivers involved. If there are witnesses, ask for their names and phone numbers. Their independent testimony can be invaluable.
-6.  **Do Not Admit Fault:** Be polite, but do not apologize or say the accident was your fault. Stick to the facts when speaking with police.
-7.  **Contact a Personal Injury Attorney:** Before you speak with any insurance adjusters—even your own—consult with an experienced attorney. Insurance companies are focused on minimizing their payouts. We will protect your rights and handle all communications with them on your behalf.
+1. **Ensure Safety:** If you are able, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
+2. **Call 911:** Report the accident immediately. The responding law enforcement agency will depend on your location. It could be the Willows Police Department, the Glenn County Sheriff’s Office, or the California Highway Patrol (CHP) for incidents on SR-99 or SR-162. A police report is a vital piece of evidence.
+3. **Seek Medical Attention:** This is the most important step. Even if you feel fine, some serious injuries have delayed symptoms. Let paramedics evaluate you at the scene. For significant injuries, you will likely be transported to a hospital in a nearby city, such as **Enloe Medical Center** in Chico or another major facility in Redding. Following up with your doctor is crucial for your recovery and for documenting your injuries.
+4. **Document Everything:** Use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and any visible injuries.
+5. **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details from all other drivers involved. If there are witnesses, ask for their names and phone numbers. Their independent testimony can be invaluable.
+6. **Do Not Admit Fault:** Be polite, but do not apologize or say the accident was your fault. Stick to the facts when speaking with police.
+7. **Contact a Personal Injury Attorney:** Before you speak with any insurance adjusters—even your own—consult with an experienced attorney. Insurance companies are focused on minimizing their payouts. We will protect your rights and handle all communications with them on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. At Reardon Injury Law, we ensure our clients understand their rights under California law. Here are a few key principles that may apply to your case:
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
-*   **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. In California, you have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). However, the deadline is much shorter for claims against a government entity (e.g., a city bus, a county vehicle, or an accident caused by a poorly maintained public road). In these cases, you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often not enough to cover the costs of a serious injury. Our firm excels at identifying all possible sources of compensation, including underinsured/uninsured motorist (UIM/UM) coverage and potential third-party liability.
-*   **Recoverable Damages:** As an injury victim, you may be entitled to compensation for economic and non-economic losses, including medical expenses (past and future), lost wages, diminished earning capacity, property damage, and pain and suffering.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible, you can still collect 90% of your damages.
+* **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. In California, you have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). However, the deadline is much shorter for claims against a government entity (e.g., a city bus, a county vehicle, or an accident caused by a poorly maintained public road). In these cases, you must file a formal claim within just **six months** under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often not enough to cover the costs of a serious injury. Our firm excels at identifying all possible sources of compensation, including underinsured/uninsured motorist (UIM/UM) coverage and potential third-party liability.
+* **Recoverable Damages:** As an injury victim, you may be entitled to compensation for economic and non-economic losses, including medical expenses (past and future), lost wages, diminished earning capacity, property damage, and pain and suffering.
 
 ## Contact Reardon Injury Law Today
 

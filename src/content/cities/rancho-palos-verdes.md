@@ -5,22 +5,22 @@ county: "Los Angeles County"
 metaDescription: "Injured in Rancho Palos Verdes? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "41,123"
 dangerousAreas:
-  - "Palos Verdes Drive West and Palos Verdes Drive North"
-  - "Verde Ridge Road and Hawthorne Boulevard"
-  - "Crenshaw Boulevard at Indian Peak Road"
+ - "Palos Verdes Drive West and Palos Verdes Drive North"
+ - "Verde Ridge Road and Hawthorne Boulevard"
+ - "Crenshaw Boulevard at Indian Peak Road"
 hospitals:
-  - "Providence Little Company of Mary Medical Center Torrance"
-  - "Harbor-UCLA Medical Center"
+ - "Providence Little Company of Mary Medical Center Torrance"
+ - "Harbor-UCLA Medical Center"
 courthouse: "Long Beach Courthouse"
 faq:
-  - question: "How much does a personal injury lawyer cost in Rancho Palos Verdes?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no upfront costs and owe us nothing unless we win your case. Your initial consultation is always free."
-  - question: "What should I do after a car accident in Rancho Palos Verdes?"
-    answer: "Prioritize safety and call 911 immediately. Seek medical attention, even for minor pain, and document the scene with photos. Avoid admitting fault and contact an experienced personal injury attorney to protect your rights."
-  - question: "How long do I have to file a personal injury claim in Rancho Palos Verdes, California?"
-    answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if a government entity is involved, you only have six months to file a formal claim."
-  - question: "My accident happened in Rancho Palos Verdes. Where should I go for medical care?"
-    answer: "While RPV has no hospitals, excellent care is nearby. Depending on your injuries, you may be taken to Providence Little Company of Mary in Torrance or the Level II trauma center at Harbor-UCLA Medical Center."
+ - question: "How much does a personal injury lawyer cost in Rancho Palos Verdes?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no upfront costs and owe us nothing unless we win your case. Your initial consultation is always free."
+ - question: "What should I do after a car accident in Rancho Palos Verdes?"
+   answer: "Prioritize safety and call 911 immediately. Seek medical attention, even for minor pain, and document the scene with photos. Avoid admitting fault and contact an experienced personal injury attorney to protect your rights."
+ - question: "How long do I have to file a personal injury claim in Rancho Palos Verdes, California?"
+   answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if a government entity is involved, you only have six months to file a formal claim."
+ - question: "My accident happened in Rancho Palos Verdes. Where should I go for medical care?"
+   answer: "While RPV has no hospitals, excellent care is nearby. Depending on your injuries, you may be taken to Providence Little Company of Mary in Torrance or the Level II trauma center at Harbor-UCLA Medical Center."
 ---
 
 ## Why Rancho Palos Verdes Residents Trust Reardon Injury Law
@@ -35,6 +35,6 @@ We believe that expert legal representation should be accessible to everyone, re
 
 While known for its scenic views, Rancho Palos Verdes has several roads and intersections where the risk of an accident is heightened. Commuter traffic, challenging road designs, and high speeds contribute to dangerous conditions for drivers, motorcyclists, and pedestrians.
 
-*   **Palos Verdes Drive West and Palos Verdes Drive North:** Located in neighboring Palos Verdes Estates, this confusing triangular intersection is a known trouble spot for RPV drivers. Poor visibility and the lack of a stop sign for northbound traffic on PV Drive West often lead to drivers pulling out unsafely, causing serious <a href="/car-accidents">car accidents</a>.
-*   **Verde Ridge Road and Hawthorne Boulevard:** This T-intersection presents significant risks due to utility boxes that can block a driver's view when turning from Verde Ridge onto the much busier Hawthorne Boulevard. This visibility issue has contributed to numerous severe collisions.
-*   **Crenshaw Boulevard at Indian Peak Road & Crestridge Road:** Crenshaw Boulevard is a major four-lane roadway with a 45-mph speed limit. These signalized intersections handle high traffic volumes as commuters travel through the peninsula. The combination of speed and congestion creates a high potential for devastating <a href="/
+* **Palos Verdes Drive West and Palos Verdes Drive North:** Located in neighboring Palos Verdes Estates, this confusing triangular intersection is a known trouble spot for RPV drivers. Poor visibility and the lack of a stop sign for northbound traffic on PV Drive West often lead to drivers pulling out unsafely, causing serious <a href="/car-accidents">car accidents</a>.
+* **Verde Ridge Road and Hawthorne Boulevard:** This T-intersection presents significant risks due to utility boxes that can block a driver's view when turning from Verde Ridge onto the much busier Hawthorne Boulevard. This visibility issue has contributed to numerous severe collisions.
+* **Crenshaw Boulevard at Indian Peak Road & Crestridge Road:** Crenshaw Boulevard is a major four-lane roadway with a 45-mph speed limit. These signalized intersections handle high traffic volumes as commuters travel through the peninsula. The combination of speed and congestion creates a high potential for devastating <a href="/

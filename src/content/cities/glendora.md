@@ -5,23 +5,23 @@ county: "Los Angeles County"
 metaDescription: "Injured in Glendora, CA? Reardon Injury Law provides expert legal help from an attorney with 20 years of medical experience. Free consultation. No fee unless we win."
 population: "52,000"
 dangerousAreas:
-  - "I-210 (Foothill Freeway)"
-  - "Grand Avenue and Sierra Madre Boulevard"
-  - "SR-66 (Foothill Boulevard)"
+ - "I-210 (Foothill Freeway)"
+ - "Grand Avenue and Sierra Madre Boulevard"
+ - "SR-66 (Foothill Boulevard)"
 hospitals:
-  - "Foothill Presbyterian Hospital"
-  - "Citadel Regional Medical Center"
-  - "Pomona Valley Hospital Medical Center"
+ - "Foothill Presbyterian Hospital"
+ - "Citadel Regional Medical Center"
+ - "Pomona Valley Hospital Medical Center"
 courthouse: "Pasadena Courthouse, Pasadena"
 faq:
-  - question: "How much does a personal injury lawyer cost in Glendora?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Glendora?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, even for minor pain, and document the scene with photos. Avoid admitting fault and contact a personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Glendora, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
-  - question: "What makes driving on the I-210 near Glendora so risky?"
-    answer: "The I-210 through Glendora is a major commute corridor, leading to heavy congestion, high-speed merges, and multi-vehicle collisions. Ongoing construction projects and interchanges with routes like the I-605 further increase the risk of serious accidents."
+ - question: "How much does a personal injury lawyer cost in Glendora?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Glendora?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, even for minor pain, and document the scene with photos. Avoid admitting fault and contact a personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Glendora, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
+ - question: "What makes driving on the I-210 near Glendora so risky?"
+   answer: "The I-210 through Glendora is a major commute corridor, leading to heavy congestion, high-speed merges, and multi-vehicle collisions. Ongoing construction projects and interchanges with routes like the I-605 further increase the risk of serious accidents."
 ---
 
 ## Why Glendora Residents Trust Reardon Injury Law
@@ -46,12 +46,12 @@ The unique combination of freeway traffic and busy local streets in Glendora lea
 
 Our primary areas of practice include:
 
-*   **<a href="/car-accidents">Car Accidents</a>**: From fender-benders on Grand Avenue to complex multi-vehicle crashes on the I-210, we handle all types of auto accident claims.
-*   **<a href="/truck-accidents">Truck Accidents</a>**: Cases involving large commercial trucks are incredibly complex. We have the resources and knowledge to take on trucking companies and their insurers after a devastating crash on the I-210 or I-605.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are especially vulnerable on Glendora’s freeways and winding foothill roads. We fight to protect the rights of injured riders.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We represent pedestrians who have been injured in crosswalks, parking lots, or near busy commercial centers and school zones.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>**: With its proximity to scenic foothill routes, Glendora is popular with cyclists. We help those who have been injured by negligent drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber and Lyft have unique insurance complications. We are experienced in navigating these complex claims to secure fair compensation.
+* **<a href="/car-accidents">Car Accidents</a>**: From fender-benders on Grand Avenue to complex multi-vehicle crashes on the I-210, we handle all types of auto accident claims.
+* **<a href="/truck-accidents">Truck Accidents</a>**: Cases involving large commercial trucks are incredibly complex. We have the resources and knowledge to take on trucking companies and their insurers after a devastating crash on the I-210 or I-605.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are especially vulnerable on Glendora’s freeways and winding foothill roads. We fight to protect the rights of injured riders.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We represent pedestrians who have been injured in crosswalks, parking lots, or near busy commercial centers and school zones.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>**: With its proximity to scenic foothill routes, Glendora is popular with cyclists. We help those who have been injured by negligent drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber and Lyft have unique insurance complications. We are experienced in navigating these complex claims to secure fair compensation.
 
 If you have been injured in an accident not listed here, please visit our main <a href="/practice-areas">practice areas</a> page or contact our office directly. We handle a broad range of injury cases, including premises liability (slip and fall) and wrongful death claims.
 
@@ -59,21 +59,21 @@ If you have been injured in an accident not listed here, please visit our main <
 
 The actions you take in the minutes and hours after an accident are critical for protecting your health and your legal rights. If you are involved in a collision in Glendora, follow these steps:
 
-1.  **Prioritize Safety**: If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers. Check on yourself and your passengers for injuries.
-2.  **Contact Emergency Services**: Call 911 immediately. The Glendora Police Department will typically respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like the I-210. A police report is an essential piece of evidence.
-3.  **Seek Medical Evaluation**: Even if you feel fine, it is crucial to be evaluated by a medical professional. Adrenaline can mask serious injuries. You can go to a local facility like **Foothill Presbyterian Hospital** in Glendora. For severe trauma, you may be transported to a regional trauma center like **Pomona Valley Hospital Medical Center**.
-4.  **Document Everything**: Use your phone to take extensive photos and videos of the accident scene, vehicle damage, road conditions, and any visible injuries. Exchange contact and insurance information with the other driver(s). If there are witnesses, get their names and phone numbers.
-5.  **Be Cautious in Your Communications**: Do not admit fault or apologize for the accident. When speaking with the other party’s insurance company, provide only basic information. Do not give a recorded statement or sign any documents without first consulting an attorney.
-6.  **Consult a Personal Injury Attorney**: Contact Reardon Injury Law for a free consultation. We can immediately advise you on your rights, handle communications with insurance companies, and begin building a strong claim on your behalf.
+1. **Prioritize Safety**: If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers. Check on yourself and your passengers for injuries.
+2. **Contact Emergency Services**: Call 911 immediately. The Glendora Police Department will typically respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like the I-210. A police report is an essential piece of evidence.
+3. **Seek Medical Evaluation**: Even if you feel fine, it is crucial to be evaluated by a medical professional. Adrenaline can mask serious injuries. You can go to a local facility like **Foothill Presbyterian Hospital** in Glendora. For severe trauma, you may be transported to a regional trauma center like **Pomona Valley Hospital Medical Center**.
+4. **Document Everything**: Use your phone to take extensive photos and videos of the accident scene, vehicle damage, road conditions, and any visible injuries. Exchange contact and insurance information with the other driver(s). If there are witnesses, get their names and phone numbers.
+5. **Be Cautious in Your Communications**: Do not admit fault or apologize for the accident. When speaking with the other party’s insurance company, provide only basic information. Do not give a recorded statement or sign any documents without first consulting an attorney.
+6. **Consult a Personal Injury Attorney**: Contact Reardon Injury Law for a free consultation. We can immediately advise you on your rights, handle communications with insurance companies, and begin building a strong claim on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. It is important to understand the key California laws that will affect your claim. Our team will guide you through every step, but here are some fundamental principles:
 
-*   **Pure Comparative Negligence**: California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your final award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of the total damages.
-*   **Statute of Limitations**: In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). If you miss this deadline, you will likely lose your right to seek compensation forever.
-*   **Claims Against Government Entities**: The deadline is much shorter if your claim is against a public entity, such as the City of Glendora or the State of California (e.g., an accident caused by a poorly maintained road or a city vehicle). You must file a formal notice of claim within **six months** of the injury.
-*   **Minimum Insurance Requirements**: California's minimum liability insurance coverage is only $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury, which is why it is vital to explore all potential sources of recovery, including your own Uninsured/Underinsured Motorist coverage.
+* **Pure Comparative Negligence**: California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your final award will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of the total damages.
+* **Statute of Limitations**: In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). If you miss this deadline, you will likely lose your right to seek compensation forever.
+* **Claims Against Government Entities**: The deadline is much shorter if your claim is against a public entity, such as the City of Glendora or the State of California (e.g., an accident caused by a poorly maintained road or a city vehicle). You must file a formal notice of claim within **six months** of the injury.
+* **Minimum Insurance Requirements**: California's minimum liability insurance coverage is only $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury, which is why it is vital to explore all potential sources of recovery, including your own Uninsured/Underinsured Motorist coverage.
 
 Compensation, or "damages," in a personal injury case can cover economic and non-economic losses, including medical expenses, future medical care, lost wages, diminished earning capacity, property damage, and pain and suffering.
 

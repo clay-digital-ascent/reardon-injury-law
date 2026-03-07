@@ -5,21 +5,21 @@ county: "Butte County"
 metaDescription: "Hurt in an accident in Oroville? Reardon Injury Law offers expert legal help. Our attorney's medical background provides a unique advantage. Free consultation."
 population: "16,000"
 dangerousAreas:
-  - "State Route 70 (Oroville Dam Boulevard and Feather River Boulevard segments)"
-  - "Highway 162 at State Route 70"
-  - "Rural-to-urban transition zones on major roads"
+ - "State Route 70 (Oroville Dam Boulevard and Feather River Boulevard segments)"
+ - "Highway 162 at State Route 70"
+ - "Rural-to-urban transition zones on major roads"
 hospitals:
-  - "Enloe Medical Center (Chico)"
+ - "Enloe Medical Center (Chico)"
 courthouse: "Butte County Superior Court, Oroville"
 faq:
-  - question: "How much does a personal injury lawyer cost in Oroville?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Oroville?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Oroville, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What makes State Route 70 so dangerous in the Oroville area?"
-    answer: "SR-70 near Oroville presents risks due to high-volume commuter traffic, freeway on-ramps, and sharp curves near the Feather River that can limit visibility. The mix of local traffic, big rigs, and rural-to-urban transitions also contributes to the potential for serious accidents."
+ - question: "How much does a personal injury lawyer cost in Oroville?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Oroville?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Oroville, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What makes State Route 70 so dangerous in the Oroville area?"
+   answer: "SR-70 near Oroville presents risks due to high-volume commuter traffic, freeway on-ramps, and sharp curves near the Feather River that can limit visibility. The mix of local traffic, big rigs, and rural-to-urban transitions also contributes to the potential for serious accidents."
 ---
 
 ## Why Oroville Residents Trust Reardon Injury Law
@@ -44,12 +44,12 @@ Beyond these specific locations, Oroville drivers must also be cautious in zones
 
 At Reardon Injury Law, our practice is exclusively focused on helping injury victims. Our deep knowledge of personal injury law, combined with our unique medical expertise, allows us to effectively handle a wide range of complex cases. We are prepared to assist Oroville residents who have been injured in:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From collisions on SR-70 to fender-benders on local streets, we handle all types of auto accidents.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving commercial trucks are complex due to federal regulations and multiple liable parties. We have the experience to take on trucking companies and their insurers.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are extremely vulnerable on the road. We fight to protect the rights of injured riders who are often unfairly blamed for collisions.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals who have been struck by vehicles while walking, ensuring their rights are upheld and their significant injuries are accounted for.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Bicyclists face serious risks from inattentive drivers. We help injured cyclists secure the compensation needed for their recovery.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft have unique insurance complications. We know how to navigate these complex claims.
+* **<a href="/car-accidents">Car Accidents</a>:** From collisions on SR-70 to fender-benders on local streets, we handle all types of auto accidents.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving commercial trucks are complex due to federal regulations and multiple liable parties. We have the experience to take on trucking companies and their insurers.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are extremely vulnerable on the road. We fight to protect the rights of injured riders who are often unfairly blamed for collisions.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals who have been struck by vehicles while walking, ensuring their rights are upheld and their significant injuries are accounted for.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Bicyclists face serious risks from inattentive drivers. We help injured cyclists secure the compensation needed for their recovery.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft have unique insurance complications. We know how to navigate these complex claims.
 
 If you or a loved one has suffered an injury in any type of accident caused by another's negligence, please explore our <a href="/practice-areas">practice areas</a> or call us to discuss your case.
 
@@ -57,12 +57,12 @@ If you or a loved one has suffered an injury in any type of accident caused by a
 
 The actions you take in the minutes and days following an accident are critical for protecting your health and your legal rights. Follow these steps:
 
-1.  **Prioritize Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers.
-2.  **Call 911:** Report the accident immediately. Depending on the location, the Oroville Police Department or the California Highway Patrol (CHP) will respond. A police report is a vital piece of evidence for your claim.
-3.  **Seek Medical Attention:** Even if you feel fine, it is essential to get a medical evaluation. Adrenaline can mask serious injuries. For severe trauma, you may be taken to a regional facility like Enloe Medical Center in Chico. For any injury, seeing a doctor creates a medical record that links your injuries to the accident.
-4.  **Document the Scene:** Use your phone to take pictures of the accident scene, vehicle damage, road conditions, traffic signs, and any visible injuries. If there are witnesses, get their names and contact information.
-5.  **Exchange Information:** Exchange names, contact details, driver's license numbers, and insurance information with all other drivers involved. Do not apologize or admit fault.
-6.  **Contact Your Attorney:** Before you give a recorded statement to any insurance company—even your own—speak with an experienced personal injury attorney. An adjuster's goal is to minimize the payout, and an attorney can protect you from saying something that could harm your claim.
+1. **Prioritize Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers.
+2. **Call 911:** Report the accident immediately. Depending on the location, the Oroville Police Department or the California Highway Patrol (CHP) will respond. A police report is a vital piece of evidence for your claim.
+3. **Seek Medical Attention:** Even if you feel fine, it is essential to get a medical evaluation. Adrenaline can mask serious injuries. For severe trauma, you may be taken to a regional facility like Enloe Medical Center in Chico. For any injury, seeing a doctor creates a medical record that links your injuries to the accident.
+4. **Document the Scene:** Use your phone to take pictures of the accident scene, vehicle damage, road conditions, traffic signs, and any visible injuries. If there are witnesses, get their names and contact information.
+5. **Exchange Information:** Exchange names, contact details, driver's license numbers, and insurance information with all other drivers involved. Do not apologize or admit fault.
+6. **Contact Your Attorney:** Before you give a recorded statement to any insurance company—even your own—speak with an experienced personal injury attorney. An adjuster's goal is to minimize the payout, and an attorney can protect you from saying something that could harm your claim.
 
 All personal injury cases are filed and heard at the **Butte County Superior Court**, located right in Oroville. Having a lawyer who understands local court procedures is a significant benefit.
 
@@ -70,10 +70,10 @@ All personal injury cases are filed and heard at the **Butte County Superior Cou
 
 Navigating the legal system can be confusing, but understanding a few key California laws is essential for any injury victim.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total award will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
-*   **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (such as the City of Oroville, Butte County, or the State of California for an issue on a state highway), you must file a formal claim within just **six months** of the accident. Missing this deadline can permanently bar you from recovering compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often completely inadequate to cover the costs of a serious injury. Our firm excels at identifying all possible sources of recovery beyond the at-fault driver's minimal policy.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover damages for medical expenses (past and future), lost wages, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total award will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
+* **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (such as the City of Oroville, Butte County, or the State of California for an issue on a state highway), you must file a formal claim within just **six months** of the accident. Missing this deadline can permanently bar you from recovering compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often completely inadequate to cover the costs of a serious injury. Our firm excels at identifying all possible sources of recovery beyond the at-fault driver's minimal policy.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover damages for medical expenses (past and future), lost wages, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

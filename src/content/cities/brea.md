@@ -5,22 +5,22 @@ county: "Orange County"
 metaDescription: "Suffered an injury in a Brea accident? Reardon Injury Law offers expert legal guidance with a unique medical perspective. Contact our Brea personal injury lawyer today."
 population: "47,000"
 dangerousAreas:
-  - "Brea Boulevard and Imperial Highway"
-  - "State Route 57 (Orange Freeway)"
-  - "Chapman Ave & Harbor Blvd (Fullerton)"
+ - "Brea Boulevard and Imperial Highway"
+ - "State Route 57 (Orange Freeway)"
+ - "Chapman Ave & Harbor Blvd (Fullerton)"
 hospitals:
-  - "Placentia-Linda Hospital"
-  - "St. Jude Medical Center"
+ - "Placentia-Linda Hospital"
+ - "St. Jude Medical Center"
 courthouse: "Superior Court of Orange County - Central Justice Center in Santa Ana"
 faq:
-  - question: "How much does a personal injury lawyer cost in Brea?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Brea?"
-    answer: "First, ensure everyone is safe and call 911 to report the accident to the Brea Police or CHP. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contacting an attorney early can protect your rights."
-  - question: "How long do I have to file a personal injury claim in Brea, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
-  - question: "What makes accidents on the SR-57 near Brea so common?"
-    answer: "The State Route 57 corridor through Brea is a major commute route, leading to heavy congestion, high speeds, and complex merges with other freeways. These factors, combined with driver distraction, significantly increase the risk of serious multi-vehicle collisions during peak hours."
+ - question: "How much does a personal injury lawyer cost in Brea?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Brea?"
+   answer: "First, ensure everyone is safe and call 911 to report the accident to the Brea Police or CHP. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contacting an attorney early can protect your rights."
+ - question: "How long do I have to file a personal injury claim in Brea, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
+ - question: "What makes accidents on the SR-57 near Brea so common?"
+   answer: "The State Route 57 corridor through Brea is a major commute route, leading to heavy congestion, high speeds, and complex merges with other freeways. These factors, combined with driver distraction, significantly increase the risk of serious multi-vehicle collisions during peak hours."
 ---
 
 ## Why Brea Residents Trust Reardon Injury Law
@@ -45,13 +45,13 @@ At Reardon Injury Law, our team is equipped to handle a wide spectrum of persona
 
 Our primary <a href="/practice-areas">practice areas</a> include:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** Representing victims of collisions on SR-57, Imperial Highway, and local Brea streets caused by distracted, drunk, or reckless drivers.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who often suffer catastrophic injuries due to the negligence of other motorists who fail to see them.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Tackling complex cases involving commercial trucks, which require a deep understanding of federal regulations and trucking company liability.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists injured by drivers who fail to share the road safely.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Seeking justice for individuals struck by vehicles in crosswalks, parking lots, or on sidewalks.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in accidents with Uber and Lyft vehicles.
-*   **Wrongful Death:** Providing compassionate legal support to families who have lost a loved one due to someone else's negligence.
+* **<a href="/car-accidents">Car Accidents</a>:** Representing victims of collisions on SR-57, Imperial Highway, and local Brea streets caused by distracted, drunk, or reckless drivers.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Advocating for riders who often suffer catastrophic injuries due to the negligence of other motorists who fail to see them.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Tackling complex cases involving commercial trucks, which require a deep understanding of federal regulations and trucking company liability.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Protecting the rights of cyclists injured by drivers who fail to share the road safely.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Seeking justice for individuals struck by vehicles in crosswalks, parking lots, or on sidewalks.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in accidents with Uber and Lyft vehicles.
+* **Wrongful Death:** Providing compassionate legal support to families who have lost a loved one due to someone else's negligence.
 
 No matter the circumstances of your injury, we are prepared to investigate your claim thoroughly and fight for the maximum compensation available.
 
@@ -59,22 +59,22 @@ No matter the circumstances of your injury, we are prepared to investigate your 
 
 The steps you take immediately following an accident are critical for protecting both your health and your legal rights. If you are injured in Brea, try to follow this guide:
 
-1.  **Ensure Your Safety:** If you can, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
-2.  **Call 911:** Report the accident immediately. The Brea Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles collisions on SR-57. An official police report is a vital piece of evidence.
-3.  **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. For emergency care, you may be transported to a nearby facility like **Placentia-Linda Hospital** or **St. Jude Medical Center** in Fullerton. A medical record creates a direct link between the accident and your injuries.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle positions, property damage, skid marks, traffic signals, and your injuries.
-5.  **Exchange Information:** Collect the names, contact numbers, driver's license numbers, insurance details, and license plate numbers of all drivers involved. If there are witnesses, get their names and contact information as well.
-6.  **Do Not Admit Fault:** When speaking to anyone at the scene—including other drivers and police—stick to the facts of what happened. Avoid apologizing or accepting blame, as these statements can be used against you later.
-7.  **Contact a Brea Personal Injury Lawyer:** Before speaking with an insurance adjuster, consult with an experienced attorney. Insurance companies are focused on minimizing their payout, and our team can protect you from their tactics and ensure your claim is valued fairly from the start.
+1. **Ensure Your Safety:** If you can, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers.
+2. **Call 911:** Report the accident immediately. The Brea Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles collisions on SR-57. An official police report is a vital piece of evidence.
+3. **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. For emergency care, you may be transported to a nearby facility like **Placentia-Linda Hospital** or **St. Jude Medical Center** in Fullerton. A medical record creates a direct link between the accident and your injuries.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle positions, property damage, skid marks, traffic signals, and your injuries.
+5. **Exchange Information:** Collect the names, contact numbers, driver's license numbers, insurance details, and license plate numbers of all drivers involved. If there are witnesses, get their names and contact information as well.
+6. **Do Not Admit Fault:** When speaking to anyone at the scene—including other drivers and police—stick to the facts of what happened. Avoid apologizing or accepting blame, as these statements can be used against you later.
+7. **Contact a Brea Personal Injury Lawyer:** Before speaking with an insurance adjuster, consult with an experienced attorney. Insurance companies are focused on minimizing their payout, and our team can protect you from their tactics and ensure your claim is valued fairly from the start.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be daunting. In California, several key laws will impact your claim.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total award will be reduced by your percentage of fault. For example, if you are found to be 20% responsible, you can still collect 80% of the damages.
-*   **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. Under California Code of Civil Procedure § 335.1, you generally have **two years** from the date of the injury to file. However, a critical exception exists for claims against government entities (e.g., a city bus, a dangerous public road). The **Government Claims Act** requires you to file a formal claim with the public entity within just **six months** of the injury. Missing this deadline can permanently bar you from recovering compensation.
-*   **California’s Minimum Insurance:** The state-mandated minimum liability insurance is only $15,000 per person, $30,000 per accident, and $5,000 for property damage. In any serious accident, these amounts are rarely enough to cover the full cost of medical bills and lost income. An experienced attorney can help identify other sources of recovery, such as your own Underinsured Motorist (UIM) coverage or third-party liability.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a wide range of damages, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total award will be reduced by your percentage of fault. For example, if you are found to be 20% responsible, you can still collect 80% of the damages.
+* **Statute of Limitations:** There are strict deadlines for filing a personal injury lawsuit. Under California Code of Civil Procedure § 335.1, you generally have **two years** from the date of the injury to file. However, a critical exception exists for claims against government entities (e.g., a city bus, a dangerous public road). The **Government Claims Act** requires you to file a formal claim with the public entity within just **six months** of the injury. Missing this deadline can permanently bar you from recovering compensation.
+* **California’s Minimum Insurance:** The state-mandated minimum liability insurance is only $15,000 per person, $30,000 per accident, and $5,000 for property damage. In any serious accident, these amounts are rarely enough to cover the full cost of medical bills and lost income. An experienced attorney can help identify other sources of recovery, such as your own Underinsured Motorist (UIM) coverage or third-party liability.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for a wide range of damages, including past and future medical expenses, lost wages, loss of future earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 All civil personal injury cases for Brea residents are filed and heard at the **Superior Court of Orange County - Central Justice Center in Santa Ana**. Our firm is intimately familiar with the procedures and personnel at this courthouse.
 

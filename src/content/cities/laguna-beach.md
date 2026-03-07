@@ -5,22 +5,22 @@ county: "Orange County"
 metaDescription: "Injured in an accident in Laguna Beach? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: "22,500"
 dangerousAreas:
-  - "Laguna Canyon Road (SR-133)"
-  - "Ortega Highway (SR-74)"
-  - "I-405 (San Diego Freeway) near the El Toro Y"
+ - "Laguna Canyon Road (SR-133)"
+ - "Ortega Highway (SR-74)"
+ - "I-405 (San Diego Freeway) near the El Toro Y"
 hospitals:
-  - "Saddleback Medical Center (Mission Viejo)"
-  - "Hospitals in nearby Irvine"
+ - "Saddleback Medical Center (Mission Viejo)"
+ - "Hospitals in nearby Irvine"
 courthouse: "Orange County Superior Court, Central Justice Center in Santa Ana"
 faq:
-  - question: "How much does a personal injury lawyer cost in Laguna Beach?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win your case."
-  - question: "What should I do after a car accident in Laguna Beach?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and request medical help. Document the scene with photos, exchange information with the other driver, and avoid admitting fault before speaking with an attorney."
-  - question: "How long do I have to file a personal injury claim in Laguna Beach, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, claims against government entities have a much shorter deadline of just six months."
-  - question: "What makes Laguna Canyon Road so dangerous for drivers?"
-    answer: "Laguna Canyon Road (SR-133) has narrow lanes, sharp curves, and steep grades that are challenging even for local drivers. Combined with heavy tourist traffic, frequent wildlife crossings, and a high rate of DUI-related incidents, it is one of the most hazardous routes in the area."
+ - question: "How much does a personal injury lawyer cost in Laguna Beach?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win your case."
+ - question: "What should I do after a car accident in Laguna Beach?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and request medical help. Document the scene with photos, exchange information with the other driver, and avoid admitting fault before speaking with an attorney."
+ - question: "How long do I have to file a personal injury claim in Laguna Beach, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, claims against government entities have a much shorter deadline of just six months."
+ - question: "What makes Laguna Canyon Road so dangerous for drivers?"
+   answer: "Laguna Canyon Road (SR-133) has narrow lanes, sharp curves, and steep grades that are challenging even for local drivers. Combined with heavy tourist traffic, frequent wildlife crossings, and a high rate of DUI-related incidents, it is one of the most hazardous routes in the area."
 ---
 
 ## Why Laguna Beach Residents Trust Reardon Injury Law
@@ -45,12 +45,12 @@ While known for its picturesque views, Laguna Beach and the surrounding areas ha
 
 Reardon Injury Law is equipped to handle a wide range of personal injury claims. Our deep understanding of both the medical and legal aspects of an injury allows us to effectively represent clients who have been harmed in various types of incidents. We frequently assist Laguna Beach residents with cases involving:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Pacific Coast Highway to serious collisions on Laguna Canyon Road.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** We understand the unique biases motorcyclists face and fight to protect their rights, especially after accidents on scenic but dangerous routes like the Ortega Highway.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Collisions involving commercial trucks are complex, often involving multiple liable parties and catastrophic injuries.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** In a walkable city like Laguna Beach, pedestrians are vulnerable to distracted and negligent drivers.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We advocate for cyclists who have been injured by drivers failing to share the road safely.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft have complicated insurance rules that require experienced legal guidance.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on Pacific Coast Highway to serious collisions on Laguna Canyon Road.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** We understand the unique biases motorcyclists face and fight to protect their rights, especially after accidents on scenic but dangerous routes like the Ortega Highway.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Collisions involving commercial trucks are complex, often involving multiple liable parties and catastrophic injuries.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** In a walkable city like Laguna Beach, pedestrians are vulnerable to distracted and negligent drivers.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We advocate for cyclists who have been injured by drivers failing to share the road safely.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft have complicated insurance rules that require experienced legal guidance.
 
 If you have been injured in these or any other type of accident, please visit our <a href="/practice-areas">practice areas</a> page to learn more or contact us directly to discuss the specifics of your situation.
 
@@ -58,22 +58,22 @@ If you have been injured in these or any other type of accident, please visit ou
 
 The moments after an accident are chaotic and stressful. Knowing what to do can protect your health and your legal rights.
 
-1.  **Prioritize Safety:** If you can, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers. Check on yourself and your passengers for injuries.
-2.  **Call 911:** Immediately report the accident to the police. In Laguna Beach, the Laguna Beach Police Department will likely respond. A police report is a critical piece of evidence. Request paramedics if anyone is injured.
-3.  **Seek Medical Attention:** Accept medical help at the scene. Even if you feel fine, some serious injuries have delayed symptoms. You may be transported to a nearby hospital, such as Saddleback Medical Center in Mission Viejo or another facility in Irvine, for a thorough evaluation. This creates an official record of your injuries.
-4.  **Document the Scene:** Use your phone to take pictures and videos of the accident scene from multiple angles. Capture vehicle damage, license plates, skid marks, traffic signs, and any visible injuries.
-5.  **Exchange Information:** Get the other driver’s name, contact information, driver’s license number, and insurance policy details. If there are witnesses, ask for their names and phone numbers.
-6.  **Do Not Admit Fault:** Avoid saying things like "I'm sorry" or "I think it was my fault." Stick to the facts when speaking with police and other drivers.
-7.  **Contact an Attorney:** Before you speak with an insurance adjuster, contact a personal injury attorney. The insurance company’s goal is to minimize their payout. An attorney will protect your interests and handle all communications on your behalf.
+1. **Prioritize Safety:** If you can, move your vehicle out of traffic to a safe location. Turn on your hazard lights to warn other drivers. Check on yourself and your passengers for injuries.
+2. **Call 911:** Immediately report the accident to the police. In Laguna Beach, the Laguna Beach Police Department will likely respond. A police report is a critical piece of evidence. Request paramedics if anyone is injured.
+3. **Seek Medical Attention:** Accept medical help at the scene. Even if you feel fine, some serious injuries have delayed symptoms. You may be transported to a nearby hospital, such as Saddleback Medical Center in Mission Viejo or another facility in Irvine, for a thorough evaluation. This creates an official record of your injuries.
+4. **Document the Scene:** Use your phone to take pictures and videos of the accident scene from multiple angles. Capture vehicle damage, license plates, skid marks, traffic signs, and any visible injuries.
+5. **Exchange Information:** Get the other driver’s name, contact information, driver’s license number, and insurance policy details. If there are witnesses, ask for their names and phone numbers.
+6. **Do Not Admit Fault:** Avoid saying things like "I'm sorry" or "I think it was my fault." Stick to the facts when speaking with police and other drivers.
+7. **Contact an Attorney:** Before you speak with an insurance adjuster, contact a personal injury attorney. The insurance company’s goal is to minimize their payout. An attorney will protect your interests and handle all communications on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires an understanding of key California laws. Here are some of the most important rules that may affect your case:
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" system. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final award will be reduced by 20%.
-*   **Statute of Limitations:** There is a strict time limit for filing a personal injury lawsuit. In California, you generally have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). Critically, if your claim is against a government entity—such as the City of Laguna Beach for a dangerous road condition or an accident with a city vehicle—you have only **six months** to file a formal notice of claim under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
-*   **California Minimum Insurance:** The state requires drivers to carry minimum liability insurance of only $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These amounts are often tragically insufficient to cover the costs of a serious injury. An experienced attorney can help identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover damages for both your economic and non-economic losses. This can include medical bills (past and future), lost wages, loss of earning capacity, property damage, as well as compensation for pain and suffering, emotional distress, and loss of enjoyment of life.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" system. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final award will be reduced by 20%.
+* **Statute of Limitations:** There is a strict time limit for filing a personal injury lawsuit. In California, you generally have **two years** from the date of the injury to file a claim (California Code of Civil Procedure § 335.1). Critically, if your claim is against a government entity—such as the City of Laguna Beach for a dangerous road condition or an accident with a city vehicle—you have only **six months** to file a formal notice of claim under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
+* **California Minimum Insurance:** The state requires drivers to carry minimum liability insurance of only $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These amounts are often tragically insufficient to cover the costs of a serious injury. An experienced attorney can help identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover damages for both your economic and non-economic losses. This can include medical bills (past and future), lost wages, loss of earning capacity, property damage, as well as compensation for pain and suffering, emotional distress, and loss of enjoyment of life.
 
 ## Contact Reardon Injury Law Today
 

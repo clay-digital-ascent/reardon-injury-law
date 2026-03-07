@@ -5,21 +5,21 @@ county: "Tulare County"
 metaDescription: "Injured in an accident in Tulare, CA? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: "70,000"
 dangerousAreas:
-  - "South I Street / West Inyo Avenue (SR-137)"
-  - "West Bardsley Avenue"
-  - "South K Street & South J Street"
+ - "South I Street / West Inyo Avenue (SR-137)"
+ - "West Bardsley Avenue"
+ - "South K Street & South J Street"
 hospitals:
-  - "Kaweah Health Medical Center"
+ - "Kaweah Health Medical Center"
 courthouse: "Tulare County Superior Court, Tulare"
 faq:
-  - question: "How much does a personal injury lawyer cost in Tulare?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only get paid if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Tulare?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash to the Tulare Police Department or CHP. Seek immediate medical attention, document the scene with photos, and avoid admitting fault. Then, contact an experienced personal injury attorney to protect your rights."
-  - question: "How long do I have to file a personal injury claim in Tulare, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
-  - question: "What makes roads like SR-137 (West Inyo Avenue) so dangerous in Tulare?"
-    answer: "State Route 137 through Tulare combines high-speed traffic with areas that lack adequate safety infrastructure for pedestrians and cyclists. This risk is amplified by its proximity to schools like Roosevelt Elementary, making it a known hotspot for serious accidents."
+ - question: "How much does a personal injury lawyer cost in Tulare?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only get paid if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Tulare?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash to the Tulare Police Department or CHP. Seek immediate medical attention, document the scene with photos, and avoid admitting fault. Then, contact an experienced personal injury attorney to protect your rights."
+ - question: "How long do I have to file a personal injury claim in Tulare, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have only six months to file a formal claim."
+ - question: "What makes roads like SR-137 (West Inyo Avenue) so dangerous in Tulare?"
+   answer: "State Route 137 through Tulare combines high-speed traffic with areas that lack adequate safety infrastructure for pedestrians and cyclists. This risk is amplified by its proximity to schools like Roosevelt Elementary, making it a known hotspot for serious accidents."
 ---
 
 ## Why Tulare Residents Trust Reardon Injury Law
@@ -34,22 +34,22 @@ We believe that everyone deserves access to quality legal representation, regard
 
 While an accident can happen anywhere, certain roads and intersections in Tulare present a higher risk due to traffic volume, design, and speed. Data shows that Tulare County has a high rate of traffic-related fatalities, and specific corridors within the city are known for being particularly hazardous.
 
-*   **South I Street / West Inyo Avenue (SR-137):** This intersection is a major concern, having been the site of multiple tragic <a href="/pedestrian-accidents">pedestrian accidents</a> and <a href="/bicycle-accidents">bicycle accidents</a>. The combination of high-speed state route traffic and a lack of sufficient safety infrastructure creates a dangerous environment.
-*   **West Inyo Avenue (SR-137) Corridor:** The entire stretch of SR-137 through Tulare sees high-speed traffic that is often inappropriate for a route passing directly by schools like Roosevelt Elementary and Alice Mulcahy Middle School. This has led to a significant number of vehicle, pedestrian, and bicycle collisions.
-*   **South K Street & South J Street:** These local streets have seen a concentration of pedestrian incidents, including fatalities. They highlight the risks present not just on highways, but on the community corridors people use every day.
-*   **West Bardsley Avenue:** Known for poor safety conditions, this road is of particular concern due to its proximity to schools and child centers, putting young residents at an elevated risk.
-*   **State Route 99:** As the primary freeway serving Tulare, SR-99 carries a massive volume of commuter and commercial traffic. High speeds and heavy congestion contribute to a significant number of serious <a href="/car-accidents">car accidents</a> and devastating <a href="/truck-accidents">truck accidents</a>.
+* **South I Street / West Inyo Avenue (SR-137):** This intersection is a major concern, having been the site of multiple tragic <a href="/pedestrian-accidents">pedestrian accidents</a> and <a href="/bicycle-accidents">bicycle accidents</a>. The combination of high-speed state route traffic and a lack of sufficient safety infrastructure creates a dangerous environment.
+* **West Inyo Avenue (SR-137) Corridor:** The entire stretch of SR-137 through Tulare sees high-speed traffic that is often inappropriate for a route passing directly by schools like Roosevelt Elementary and Alice Mulcahy Middle School. This has led to a significant number of vehicle, pedestrian, and bicycle collisions.
+* **South K Street & South J Street:** These local streets have seen a concentration of pedestrian incidents, including fatalities. They highlight the risks present not just on highways, but on the community corridors people use every day.
+* **West Bardsley Avenue:** Known for poor safety conditions, this road is of particular concern due to its proximity to schools and child centers, putting young residents at an elevated risk.
+* **State Route 99:** As the primary freeway serving Tulare, SR-99 carries a massive volume of commuter and commercial traffic. High speeds and heavy congestion contribute to a significant number of serious <a href="/car-accidents">car accidents</a> and devastating <a href="/truck-accidents">truck accidents</a>.
 
 ## Types of Cases We Handle in Tulare
 
 Our firm has the experience and resources to handle a wide range of personal injury claims. We understand the specific challenges associated with each type of accident and tailor our legal strategy to the unique facts of your case. Based on local traffic patterns in Tulare, we frequently represent clients injured in:
 
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Especially common along corridors like SR-137 and South K Street, we fight for the rights of vulnerable walkers who have been struck by negligent drivers.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With crashes often occurring near schools and on busy streets, we help cyclists recover compensation for their injuries and losses.
-*   **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on city streets to high-speed crashes on SR-99, we handle all types of auto accident claims.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Collisions involving large commercial trucks often result in catastrophic injuries. We have the expertise to take on complex trucking litigation.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists face unique dangers on the road. We advocate for riders who have been injured by inattentive drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft can have complicated insurance issues. We know how to navigate these claims to ensure you are properly compensated.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Especially common along corridors like SR-137 and South K Street, we fight for the rights of vulnerable walkers who have been struck by negligent drivers.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With crashes often occurring near schools and on busy streets, we help cyclists recover compensation for their injuries and losses.
+* **<a href="/car-accidents">Car Accidents</a>:** From rear-end collisions on city streets to high-speed crashes on SR-99, we handle all types of auto accident claims.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Collisions involving large commercial trucks often result in catastrophic injuries. We have the expertise to take on complex trucking litigation.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists face unique dangers on the road. We advocate for riders who have been injured by inattentive drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber or Lyft can have complicated insurance issues. We know how to navigate these claims to ensure you are properly compensated.
 
 Our <a href="/practice-areas">practice areas</a> also include wrongful death, premises liability (slip and fall), and other serious injury cases. If you or a loved one has been harmed due to someone else's negligence, we are here to help.
 
@@ -57,22 +57,22 @@ Our <a href="/practice-areas">practice areas</a> also include wrongful death, pr
 
 The steps you take immediately following an accident are crucial for protecting your health and your legal rights.
 
-1.  **Prioritize Safety:** If you are able, move your vehicle out of traffic. Turn on your hazard lights and check on others involved.
-2.  **Call 911:** Report the accident immediately. The Tulare Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles crashes on freeways like SR-99. An official police report is a vital piece of evidence.
-3.  **Seek Medical Attention:** Your health is the top priority. Adrenaline can mask serious injuries, so it is essential to be evaluated by a medical professional. For severe injuries, you may be transported to the regional trauma center, **Kaweah Health Medical Center** in nearby Visalia.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and any visible injuries.
-5.  **Gather Information:** Exchange contact and insurance information with the other driver(s). Get the names and phone numbers of any witnesses.
-6.  **Avoid Admitting Fault:** When speaking to anyone at the scene, stick to the facts of what happened. Do not apologize or accept blame, as these statements can be used against you later.
-7.  **Contact an Attorney:** Before you give a recorded statement to an insurance adjuster, speak with a personal injury lawyer. An attorney can advise you of your rights and handle all communications with the insurance companies on your behalf.
+1. **Prioritize Safety:** If you are able, move your vehicle out of traffic. Turn on your hazard lights and check on others involved.
+2. **Call 911:** Report the accident immediately. The Tulare Police Department will likely respond to incidents on city streets, while the California Highway Patrol (CHP) handles crashes on freeways like SR-99. An official police report is a vital piece of evidence.
+3. **Seek Medical Attention:** Your health is the top priority. Adrenaline can mask serious injuries, so it is essential to be evaluated by a medical professional. For severe injuries, you may be transported to the regional trauma center, **Kaweah Health Medical Center** in nearby Visalia.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and any visible injuries.
+5. **Gather Information:** Exchange contact and insurance information with the other driver(s). Get the names and phone numbers of any witnesses.
+6. **Avoid Admitting Fault:** When speaking to anyone at the scene, stick to the facts of what happened. Do not apologize or accept blame, as these statements can be used against you later.
+7. **Contact an Attorney:** Before you give a recorded statement to an insurance adjuster, speak with a personal injury lawyer. An attorney can advise you of your rights and handle all communications with the insurance companies on your behalf.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system can be complex, but understanding a few key California laws is essential for any injury victim.
 
-*   **Pure Comparative Negligence:** California law allows you to recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
-*   **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, the deadline is much shorter for claims against a government entity (e.g., the City of Tulare, Tulare County, or the State of California). Under the Government Claims Act, you must file a formal claim within **six months** of the incident.
-*   **Minimum Insurance Requirements:** California's mandatory minimum liability insurance is only $15,000 per person, $30,000 per accident for bodily injury, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury, which is why it is critical to identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Available Compensation (Damages):** As an injury victim, you may be entitled to compensation for economic and non-economic losses, including medical expenses (past and future), lost wages and earning capacity, property damage, and pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California law allows you to recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
+* **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, the deadline is much shorter for claims against a government entity (e.g., the City of Tulare, Tulare County, or the State of California). Under the Government Claims Act, you must file a formal claim within **six months** of the incident.
+* **Minimum Insurance Requirements:** California's mandatory minimum liability insurance is only $15,000 per person, $30,000 per accident for bodily injury, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury, which is why it is critical to identify all possible sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Available Compensation (Damages):** As an injury victim, you may be entitled to compensation for economic and non-economic losses, including medical expenses (past and future), lost wages and earning capacity, property damage, and pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

@@ -5,22 +5,22 @@ county: "Yolo County"
 metaDescription: "Injured in an accident in Winters, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "A close-knit community of over 7,000 residents"
 dangerousAreas:
-  - "Downtown intersections with heavy pedestrian traffic"
-  - "Rural roads surrounding the city, such as those off CA-128"
-  - "On/off-ramps for Interstate 505"
+ - "Downtown intersections with heavy pedestrian traffic"
+ - "Rural roads surrounding the city, such as those off CA-128"
+ - "On/off-ramps for Interstate 505"
 hospitals:
-  - "Sutter Davis Hospital"
-  - "Kaiser Permanente Vacaville Medical Center"
+ - "Sutter Davis Hospital"
+ - "Kaiser Permanente Vacaville Medical Center"
 courthouse: "Yolo County Superior Court in Woodland"
 faq:
-  - question: "How much does a personal injury lawyer cost in Winters?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
-  - question: "What should I do after a car accident in Winters?"
-    answer: "First, ensure everyone's safety and call 911 to report the accident and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
-  - question: "How long do I have to file a personal injury claim in Winters, California?"
-    answer: "In California, the statute of limitations is generally two years from the date of injury under CCP § 335.1. However, if your claim is against a government entity like the City of Winters or Yolo County, you have only six months to file a formal claim."
-  - question: "What if my accident happened on a rural road outside Winters city limits?"
-    answer: "Accidents on county roads or state highways like I-505 are often handled by the California Highway Patrol (CHP) rather than the Winters Police Department. Our firm is experienced in handling cases across all of Yolo County and understands the jurisdictional complexities of accidents that occur in rural areas."
+ - question: "How much does a personal injury lawyer cost in Winters?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
+ - question: "What should I do after a car accident in Winters?"
+   answer: "First, ensure everyone's safety and call 911 to report the accident and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
+ - question: "How long do I have to file a personal injury claim in Winters, California?"
+   answer: "In California, the statute of limitations is generally two years from the date of injury under CCP § 335.1. However, if your claim is against a government entity like the City of Winters or Yolo County, you have only six months to file a formal claim."
+ - question: "What if my accident happened on a rural road outside Winters city limits?"
+   answer: "Accidents on county roads or state highways like I-505 are often handled by the California Highway Patrol (CHP) rather than the Winters Police Department. Our firm is experienced in handling cases across all of Yolo County and understands the jurisdictional complexities of accidents that occur in rural areas."
 ---
 
 ## Why Winters Residents Trust Reardon Injury Law
@@ -45,14 +45,14 @@ At Reardon Injury Law, our practice is exclusively focused on representing injur
 
 Our <a href="/practice-areas">practice areas</a> include:
 
-*   <a href="/car-accidents">Car accidents</a>
-*   <a href="/motorcycle-accidents">Motorcycle accidents</a>
-*   <a href="/truck-accidents">Truck accidents</a>
-*   <a href="/pedestrian-accidents">Pedestrian accidents</a>
-*   <a href="/bicycle-accidents">Bicycle accidents</a>
-*   <a href="/rideshare-accidents">Rideshare accidents</a> (Uber & Lyft)
-*   Premises Liability (slip and fall)
-*   Wrongful Death
+* <a href="/car-accidents">Car accidents</a>
+* <a href="/motorcycle-accidents">Motorcycle accidents</a>
+* <a href="/truck-accidents">Truck accidents</a>
+* <a href="/pedestrian-accidents">Pedestrian accidents</a>
+* <a href="/bicycle-accidents">Bicycle accidents</a>
+* <a href="/rideshare-accidents">Rideshare accidents</a> (Uber & Lyft)
+* Premises Liability (slip and fall)
+* Wrongful Death
 
 Given the roads in and around Winters, we frequently assist clients injured in collisions on rural highways and those involving commercial trucks. No matter the cause of your injury, we are prepared to conduct a thorough investigation and build a powerful case on your behalf.
 
@@ -60,21 +60,21 @@ Given the roads in and around Winters, we frequently assist clients injured in c
 
 The moments after an accident are chaotic and stressful. Taking the right steps can protect your health and your legal rights.
 
-1.  **Prioritize Safety and Call 911:** Move to a safe location if possible. Call 911 immediately to report the accident and request medical assistance. Depending on your location, the Winters Police Department or the California Highway Patrol (CHP) will respond.
-2.  **Seek Medical Attention:** Even if you feel fine, it is critical to get a medical evaluation. Adrenaline can mask serious injuries like concussions or internal bleeding. Go to the nearest emergency room, such as Sutter Davis Hospital or Kaiser Permanente Vacaville Medical Center, or see your primary care doctor as soon as possible. This creates an official record of your injuries.
-3.  **Document Everything:** If you are able, take photos and videos of the accident scene, including vehicle damage, skid marks, traffic signals, and your injuries. Get the names and contact information of any witnesses.
-4.  **Exchange Information:** Exchange driver's licenses, insurance details, and contact information with the other driver(s) involved. Do not apologize or admit fault.
-5.  **Report the Accident:** You will need an official police report. You can typically obtain a copy from the responding agency (Winters PD or CHP) a week or two after the crash.
-6.  **Contact a Winters Personal Injury Lawyer:** Before you speak to any insurance adjusters, call Reardon Injury Law. The insurance company's goal is to minimize their payout. Our goal is to maximize your recovery.
+1. **Prioritize Safety and Call 911:** Move to a safe location if possible. Call 911 immediately to report the accident and request medical assistance. Depending on your location, the Winters Police Department or the California Highway Patrol (CHP) will respond.
+2. **Seek Medical Attention:** Even if you feel fine, it is critical to get a medical evaluation. Adrenaline can mask serious injuries like concussions or internal bleeding. Go to the nearest emergency room, such as Sutter Davis Hospital or Kaiser Permanente Vacaville Medical Center, or see your primary care doctor as soon as possible. This creates an official record of your injuries.
+3. **Document Everything:** If you are able, take photos and videos of the accident scene, including vehicle damage, skid marks, traffic signals, and your injuries. Get the names and contact information of any witnesses.
+4. **Exchange Information:** Exchange driver's licenses, insurance details, and contact information with the other driver(s) involved. Do not apologize or admit fault.
+5. **Report the Accident:** You will need an official police report. You can typically obtain a copy from the responding agency (Winters PD or CHP) a week or two after the crash.
+6. **Contact a Winters Personal Injury Lawyer:** Before you speak to any insurance adjusters, call Reardon Injury Law. The insurance company's goal is to minimize their payout. Our goal is to maximize your recovery.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system can be complex. An experienced attorney can help you understand the California laws that will impact your case.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
-*   **Statute of Limitations:** In most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception. If your claim is against a government entity—such as the City of Winters for a dangerous road condition or a Yolo County employee—you must file a formal claim within **six months** under the Government Claims Act. Missing this deadline can permanently bar you from recovering compensation.
-*   **California's Minimum Insurance Requirements:** The state only requires drivers to carry minimum liability coverage of $15,000 for a single person's injury, $30,000 for all injuries in an accident, and $5,000 for property damage. In a serious accident, these minimums are often exhausted immediately, which is why it's crucial to explore all sources of recovery, including your own uninsured/underinsured motorist coverage.
-*   **Compensation You Can Recover:** As an injury victim, you may be entitled to compensation for both economic and non-economic losses, including medical bills (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault, you can still collect 90% of your damages.
+* **Statute of Limitations:** In most personal injury cases, you have **two years** from the date of the injury to file a lawsuit (California Code of Civil Procedure § 335.1). However, there is a critical exception. If your claim is against a government entity—such as the City of Winters for a dangerous road condition or a Yolo County employee—you must file a formal claim within **six months** under the Government Claims Act. Missing this deadline can permanently bar you from recovering compensation.
+* **California's Minimum Insurance Requirements:** The state only requires drivers to carry minimum liability coverage of $15,000 for a single person's injury, $30,000 for all injuries in an accident, and $5,000 for property damage. In a serious accident, these minimums are often exhausted immediately, which is why it's crucial to explore all sources of recovery, including your own uninsured/underinsured motorist coverage.
+* **Compensation You Can Recover:** As an injury victim, you may be entitled to compensation for both economic and non-economic losses, including medical bills (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

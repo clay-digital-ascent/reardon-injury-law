@@ -5,22 +5,22 @@ county: "Riverside County"
 metaDescription: "Suffered an injury in Jurupa Valley? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: "Approximately 110,000"
 dangerousAreas:
-  - "Mission Boulevard / Rubidoux Boulevard"
-  - "Valley Way / Armstrong Road"
-  - "Mission Boulevard / Pacific Avenue"
+ - "Mission Boulevard / Rubidoux Boulevard"
+ - "Valley Way / Armstrong Road"
+ - "Mission Boulevard / Pacific Avenue"
 hospitals:
-  - "Riverside University Health System-Medical Center"
-  - "Other facilities in nearby Riverside"
+ - "Riverside University Health System-Medical Center"
+ - "Other facilities in nearby Riverside"
 courthouse: "Riverside Superior Court in Riverside"
 faq:
-  - question: "How much does a personal injury lawyer cost in Jurupa Valley?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no upfront costs. Our fee is a percentage of the compensation we win for you, so we don't get paid unless you do."
-  - question: "What should I do after a car accident in Jurupa Valley?"
-    answer: "Ensure everyone's safety and call 911 immediately. Seek medical attention, even for minor pain, document the scene with photos, and avoid admitting fault. Then, contact an experienced attorney to protect your rights."
-  - question: "How long do I have to file a personal injury claim in Jurupa Valley, California?"
-    answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, the deadline is much shorter—only six months."
-  - question: "What are common causes of pedestrian accidents in Jurupa Valley?"
-    answer: "Many pedestrian accidents in Jurupa Valley occur in dark, unlit areas, especially along Mission Boulevard and Rubidoux Boulevard. Common causes include drivers failing to yield the right-of-way at crosswalks and speeding, particularly during evening hours."
+ - question: "How much does a personal injury lawyer cost in Jurupa Valley?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no upfront costs. Our fee is a percentage of the compensation we win for you, so we don't get paid unless you do."
+ - question: "What should I do after a car accident in Jurupa Valley?"
+   answer: "Ensure everyone's safety and call 911 immediately. Seek medical attention, even for minor pain, document the scene with photos, and avoid admitting fault. Then, contact an experienced attorney to protect your rights."
+ - question: "How long do I have to file a personal injury claim in Jurupa Valley, California?"
+   answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, the deadline is much shorter—only six months."
+ - question: "What are common causes of pedestrian accidents in Jurupa Valley?"
+   answer: "Many pedestrian accidents in Jurupa Valley occur in dark, unlit areas, especially along Mission Boulevard and Rubidoux Boulevard. Common causes include drivers failing to yield the right-of-way at crosswalks and speeding, particularly during evening hours."
 ---
 
 ## Why Jurupa Valley Residents Trust Reardon Injury Law
@@ -61,12 +61,12 @@ If you have been injured in any type of accident caused by someone else’s care
 
 The steps you take immediately following an accident are critical for protecting both your health and your legal rights.
 
-1.  **Ensure Safety and Call 911:** Move to a safe location if you can and call 911 immediately. The Riverside County Sheriff's Department or the California Highway Patrol (CHP) will respond to document the scene and create an official report.
-2.  **Seek Medical Attention:** Your health is the top priority. Accept paramedic assistance and go to the emergency room if recommended. While Jurupa Valley does not have its own hospital, you will likely be transported to a nearby facility in Riverside, such as Riverside University Health System-Medical Center. Even if you feel fine, it's crucial to get a medical evaluation, as some serious injuries may not have immediate symptoms.
-3.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Get the names and contact information of any witnesses.
-4.  **Exchange Information:** Get the other driver’s name, contact details, driver’s license number, and insurance information. Provide your information but do not discuss fault.
-5.  **Do Not Admit Fault:** Avoid saying things like "I'm sorry" or "I didn't see you." These statements can be misinterpreted as an admission of guilt by insurance companies. Stick to the facts.
-6.  **Contact a Personal Injury Attorney:** Before you give a recorded statement to any insurance company—even your own—contact an experienced attorney. An insurance adjuster's goal is to minimize their company's payout, not to protect your best interests.
+1. **Ensure Safety and Call 911:** Move to a safe location if you can and call 911 immediately. The Riverside County Sheriff's Department or the California Highway Patrol (CHP) will respond to document the scene and create an official report.
+2. **Seek Medical Attention:** Your health is the top priority. Accept paramedic assistance and go to the emergency room if recommended. While Jurupa Valley does not have its own hospital, you will likely be transported to a nearby facility in Riverside, such as Riverside University Health System-Medical Center. Even if you feel fine, it's crucial to get a medical evaluation, as some serious injuries may not have immediate symptoms.
+3. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Get the names and contact information of any witnesses.
+4. **Exchange Information:** Get the other driver’s name, contact details, driver’s license number, and insurance information. Provide your information but do not discuss fault.
+5. **Do Not Admit Fault:** Avoid saying things like "I'm sorry" or "I didn't see you." These statements can be misinterpreted as an admission of guilt by insurance companies. Stick to the facts.
+6. **Contact a Personal Injury Attorney:** Before you give a recorded statement to any insurance company—even your own—contact an experienced attorney. An insurance adjuster's goal is to minimize their company's payout, not to protect your best interests.
 
 ## Understanding Your Rights Under California Law
 
@@ -76,8 +76,8 @@ Navigating the legal system after an injury can be confusing. It is important to
 - **Statute of Limitations:** In California, you have a limited time to file a personal injury lawsuit. For most cases, the deadline is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (like the city of Jurupa Valley or Riverside County), you must file a formal claim within **six months** of the injury under the Government Claims Act. Missing these deadlines can permanently bar you from seeking compensation.
 - **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often completely inadequate to cover the costs of a serious injury. An experienced attorney can help identify all potential sources of compensation, including underinsured motorist coverage or third-party liability.
 - **Types of Compensation:** Injury victims are entitled to seek compensation (damages) for all their losses, which can include:
-    - **Economic Damages:** Medical bills (past and future), lost wages, loss of future earning capacity, and property damage.
-    - **Non-Economic Damages:** Pain and suffering, emotional distress, scarring, disfigurement, and loss of enjoyment of life.
+ - **Economic Damages:** Medical bills (past and future), lost wages, loss of future earning capacity, and property damage.
+ - **Non-Economic Damages:** Pain and suffering, emotional distress, scarring, disfigurement, and loss of enjoyment of life.
 
 ## Contact Reardon Injury Law Today
 

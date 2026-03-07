@@ -5,23 +5,23 @@ county: "San Mateo County"
 metaDescription: "Injured in a San Bruno accident? Reardon Injury Law offers expert legal help with a unique medical perspective. Get a free consultation from a top San Bruno personal injury lawyer."
 population: "43,000"
 dangerousAreas:
-  - "Alemany Boulevard at San Bruno Avenue"
-  - "US-101"
-  - "I-380"
+ - "Alemany Boulevard at San Bruno Avenue"
+ - "US-101"
+ - "I-380"
 hospitals:
-  - "San Bruno Family Medical Center"
-  - "Kaiser Permanente San Bruno Medical Offices"
-  - "Peninsula Medical Center"
+ - "San Bruno Family Medical Center"
+ - "Kaiser Permanente San Bruno Medical Offices"
+ - "Peninsula Medical Center"
 courthouse: "San Mateo County Superior Court, Redwood City Campus"
 faq:
-  - question: "How much does a personal injury lawyer cost in San Bruno?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no attorney fees unless we win your case, and your initial consultation is always free."
-  - question: "What should I do after a car accident in San Bruno?"
-    answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even if you feel fine. Document the scene with photos, exchange information, and avoid admitting fault before speaking with an attorney."
-  - question: "How long do I have to file a personal injury claim in San Bruno, California?"
-    answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you only have six months to file a formal claim."
-  - question: "What are common causes of accidents on US-101 near San Bruno?"
-    answer: "Heavy commuter traffic on US-101 contributes to accidents from unsafe lane changes, speeding, and distracted driving. The I-380 interchange is also a known area for congestion and merging-related collisions."
+ - question: "How much does a personal injury lawyer cost in San Bruno?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no attorney fees unless we win your case, and your initial consultation is always free."
+ - question: "What should I do after a car accident in San Bruno?"
+   answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even if you feel fine. Document the scene with photos, exchange information, and avoid admitting fault before speaking with an attorney."
+ - question: "How long do I have to file a personal injury claim in San Bruno, California?"
+   answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you only have six months to file a formal claim."
+ - question: "What are common causes of accidents on US-101 near San Bruno?"
+   answer: "Heavy commuter traffic on US-101 contributes to accidents from unsafe lane changes, speeding, and distracted driving. The I-380 interchange is also a known area for congestion and merging-related collisions."
 ---
 
 ## Why San Bruno Residents Trust Reardon Injury Law
@@ -46,12 +46,12 @@ At Reardon Injury Law, our focused experience allows us to handle a wide range o
 
 Our primary <a href="/practice-areas">practice areas</a> include:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** As the most common type of injury claim, we have extensive experience navigating cases involving distracted driving, speeding, DUIs, and uninsured motorists on San Bruno's streets and highways like US-101.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are uniquely vulnerable on the road. We fight to protect the rights of riders who have been injured due to negligent drivers, unsafe lane changes, and road hazards.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with commercial trucks often result in catastrophic injuries. We have the resources to take on powerful trucking companies and their insurers to secure the compensation you need.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals who have been struck by vehicles in crosswalks, parking lots, or on sidewalks, ensuring the at-fault driver is held accountable.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With the Bay Area's cycling culture, bike accidents are unfortunately common. We advocate for cyclists injured by inattentive or aggressive drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have complex insurance implications. We understand the specific laws governing rideshare companies and can help you navigate your claim.
+* **<a href="/car-accidents">Car Accidents</a>:** As the most common type of injury claim, we have extensive experience navigating cases involving distracted driving, speeding, DUIs, and uninsured motorists on San Bruno's streets and highways like US-101.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are uniquely vulnerable on the road. We fight to protect the rights of riders who have been injured due to negligent drivers, unsafe lane changes, and road hazards.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Collisions with commercial trucks often result in catastrophic injuries. We have the resources to take on powerful trucking companies and their insurers to secure the compensation you need.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We represent individuals who have been struck by vehicles in crosswalks, parking lots, or on sidewalks, ensuring the at-fault driver is held accountable.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** With the Bay Area's cycling culture, bike accidents are unfortunately common. We advocate for cyclists injured by inattentive or aggressive drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have complex insurance implications. We understand the specific laws governing rideshare companies and can help you navigate your claim.
 
 If you or a loved one has been injured in any type of accident caused by someone else's negligence, we are here to help.
 
@@ -59,22 +59,22 @@ If you or a loved one has been injured in any type of accident caused by someone
 
 The moments following an accident are chaotic and stressful, but the actions you take can significantly impact your health and your ability to recover fair compensation. Follow these steps:
 
-1.  **Prioritize Safety:** If possible, move your vehicle to a safe location off the main road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers for injuries.
-2.  **Call 911:** Report the accident immediately. The San Bruno Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like US-101 and I-380. A police report is a crucial piece of evidence for your claim.
-3.  **Seek Medical Attention:** Even if you feel fine, it's vital to get a medical evaluation. Adrenaline can mask serious injuries. Go to an urgent care clinic like **San Bruno Family Medical Center** or **Kaiser Permanente San Bruno Medical Offices**, or a nearby hospital like **Peninsula Medical Center** in Burlingame for more severe injuries. This creates an official record of your injuries.
-4.  **Document Everything:** Use your phone to take photos and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your visible injuries. Get the names and contact information of any witnesses.
-5.  **Exchange Information:** Exchange names, contact information, driver's license numbers, and insurance details with the other driver(s). Do not discuss fault.
-6.  **Report to Your Insurer, But Be Cautious:** Inform your insurance company that an accident occurred, but do not give a recorded statement or accept a settlement offer before speaking with an attorney.
-7.  **Contact a San Bruno Personal Injury Lawyer:** Before you get entangled with the at-fault party's insurance adjuster, call Reardon Injury Law. We can handle all communications on your behalf and protect you from tactics designed to devalue your claim.
+1. **Prioritize Safety:** If possible, move your vehicle to a safe location off the main road to avoid further collisions. Turn on your hazard lights. Check on yourself and your passengers for injuries.
+2. **Call 911:** Report the accident immediately. The San Bruno Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on freeways like US-101 and I-380. A police report is a crucial piece of evidence for your claim.
+3. **Seek Medical Attention:** Even if you feel fine, it's vital to get a medical evaluation. Adrenaline can mask serious injuries. Go to an urgent care clinic like **San Bruno Family Medical Center** or **Kaiser Permanente San Bruno Medical Offices**, or a nearby hospital like **Peninsula Medical Center** in Burlingame for more severe injuries. This creates an official record of your injuries.
+4. **Document Everything:** Use your phone to take photos and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your visible injuries. Get the names and contact information of any witnesses.
+5. **Exchange Information:** Exchange names, contact information, driver's license numbers, and insurance details with the other driver(s). Do not discuss fault.
+6. **Report to Your Insurer, But Be Cautious:** Inform your insurance company that an accident occurred, but do not give a recorded statement or accept a settlement offer before speaking with an attorney.
+7. **Contact a San Bruno Personal Injury Lawyer:** Before you get entangled with the at-fault party's insurance adjuster, call Reardon Injury Law. We can handle all communications on your behalf and protect you from tactics designed to devalue your claim.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires a clear understanding of California's specific laws. An experienced attorney can ensure your rights are protected throughout the process.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your total damages.
-*   **Statute of Limitations:** Time is of the essence. In California, you generally have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities. If your injury was caused by a public agency—such as a city bus, a poorly maintained public road, or a government employee—you must file a formal claim within just **six months** under the Government Claims Act. Missing this deadline can permanently bar you from seeking compensation.
-*   **California Minimum Insurance:** California's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often insufficient to cover all your losses. This is why it's crucial to explore all avenues for recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Recoverable Damages:** As an injury victim, you may be entitled to compensation for a wide range of losses, including current and future medical expenses, lost wages and earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 20% at fault, you can still collect 80% of your total damages.
+* **Statute of Limitations:** Time is of the essence. In California, you generally have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities. If your injury was caused by a public agency—such as a city bus, a poorly maintained public road, or a government employee—you must file a formal claim within just **six months** under the Government Claims Act. Missing this deadline can permanently bar you from seeking compensation.
+* **California Minimum Insurance:** California's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In a serious accident, these amounts are often insufficient to cover all your losses. This is why it's crucial to explore all avenues for recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Recoverable Damages:** As an injury victim, you may be entitled to compensation for a wide range of losses, including current and future medical expenses, lost wages and earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

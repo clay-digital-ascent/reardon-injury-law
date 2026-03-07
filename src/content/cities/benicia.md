@@ -5,23 +5,23 @@ county: "Solano County"
 metaDescription: "Injured in an accident in Benicia, CA? Reardon Injury Law's unique medical insight can help. Contact our personal injury lawyer for a free consultation."
 population: "28,000"
 dangerousAreas:
-  - "I-680/I-780 interchange"
-  - "I-680 at Southampton Road"
-  - "School zones near Benicia High School"
+ - "I-680/I-780 interchange"
+ - "I-680 at Southampton Road"
+ - "School zones near Benicia High School"
 hospitals:
-  - "Sutter Solano Medical Center in Vallejo"
-  - "Kaiser Permanente Vallejo Medical Center"
-  - "John Muir Health Walnut Creek Medical Center"
+ - "Sutter Solano Medical Center in Vallejo"
+ - "Kaiser Permanente Vallejo Medical Center"
+ - "John Muir Health Walnut Creek Medical Center"
 courthouse: "Solano County Superior Court - Fairfield Branch"
 faq:
-  - question: "How much does a personal injury lawyer cost in Benicia?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no attorney's fees unless we successfully recover compensation for you. Your initial consultation is always free, so there is no financial risk to get expert legal advice."
-  - question: "What should I do after a car accident in Benicia?"
-    answer: "First, ensure everyone is safe and call 911. Seek immediate medical attention, even for what seems like minor pain. Document the scene with photos, exchange information with the other driver, but avoid admitting any fault before speaking with an experienced attorney."
-  - question: "How long do I have to file a personal injury claim in Benicia, California?"
-    answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have a much shorter deadline of only six months to file a formal claim."
-  - question: "What should I do if my accident happened on I-680 near Benicia?"
-    answer: "Accidents on major freeways like I-680 are typically investigated by the California Highway Patrol (CHP) and can be very complex. It's vital to get a medical evaluation immediately and contact an attorney who understands how to handle complex freeway accidents involving multiple parties and jurisdictions."
+ - question: "How much does a personal injury lawyer cost in Benicia?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, meaning you pay no attorney's fees unless we successfully recover compensation for you. Your initial consultation is always free, so there is no financial risk to get expert legal advice."
+ - question: "What should I do after a car accident in Benicia?"
+   answer: "First, ensure everyone is safe and call 911. Seek immediate medical attention, even for what seems like minor pain. Document the scene with photos, exchange information with the other driver, but avoid admitting any fault before speaking with an experienced attorney."
+ - question: "How long do I have to file a personal injury claim in Benicia, California?"
+   answer: "In California, you generally have two years from the date of injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you have a much shorter deadline of only six months to file a formal claim."
+ - question: "What should I do if my accident happened on I-680 near Benicia?"
+   answer: "Accidents on major freeways like I-680 are typically investigated by the California Highway Patrol (CHP) and can be very complex. It's vital to get a medical evaluation immediately and contact an attorney who understands how to handle complex freeway accidents involving multiple parties and jurisdictions."
 ---
 
 ## Why Benicia Residents Trust Reardon Injury Law
@@ -30,7 +30,7 @@ An unexpected injury can shatter the peace of life in a community like Benicia. 
 
 At Reardon Injury Law, we offer more than just legal representation; we provide a distinct advantage. Our founding attorney, John Reardon, practiced as a Doctor of Chiropractic for two decades before becoming a lawyer. This extensive medical background gives our firm a profound understanding of the anatomy of an injury. We don't just see a case file; we see the real-world impact on your body and your life. This unique insight allows us to build stronger, more compelling cases, effectively counter insurance company tactics that aim to downplay your injuries, and fight for the full compensation you rightfully deserve.
 
-While our main office is in Southern California, we are proud to represent clients throughout the state, including residents of Benicia and Solano County. We combine our deep legal and medical knowledge with a commitment to personalized client service, ensuring you are never just another case number. We handle the legal burdens so you can focus on what matters most: your recovery.
+Our commitment extends to every corner of the state, and we believe that everyone deserves access to skilled legal counsel. We combine our deep legal and medical knowledge with a commitment to personalized client service, ensuring you are never just another case number. We handle the legal burdens so you can focus on what matters most: your recovery.
 
 ## Accident Hotspots in Benicia
 
@@ -56,12 +56,12 @@ If you have been injured in another type of incident, please visit our <a href="
 
 The steps you take immediately following an accident are critical for protecting your health and your legal rights.
 
-1.  **Get to Safety and Call 911:** If you are able, move your vehicle out of traffic. Call 911 immediately to report the accident and any injuries. Depending on your location, the Benicia Police Department or the California Highway Patrol (CHP) will respond.
-2.  **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. You may be transported to a nearby hospital like **Sutter Solano Medical Center** or **Kaiser Permanente Vallejo Medical Center**. For severe, life-threatening injuries, the closest trauma center is **John Muir Health Walnut Creek Medical Center**. A medical record is vital evidence for your injury claim.
-3.  **Document the Scene:** If you are physically able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your visible injuries.
-4.  **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance details. Also, collect contact information from any witnesses.
-5.  **Do Not Admit Fault:** Avoid saying "I'm sorry" or admitting any level of fault. Stick to the facts when speaking with law enforcement. Do not give a recorded statement to the other party’s insurance adjuster without first consulting an attorney.
-6.  **Contact an Attorney:** Before you agree to any settlement, speak with a qualified personal injury lawyer. An attorney can help you navigate the claims process and ensure you are not taken advantage of by insurance companies.
+1. **Get to Safety and Call 911:** If you are able, move your vehicle out of traffic. Call 911 immediately to report the accident and any injuries. Depending on your location, the Benicia Police Department or the California Highway Patrol (CHP) will respond.
+2. **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, adrenaline can mask serious injuries. It is crucial to be evaluated by a medical professional. You may be transported to a nearby hospital like **Sutter Solano Medical Center** or **Kaiser Permanente Vallejo Medical Center**. For severe, life-threatening injuries, the closest trauma center is **John Muir Health Walnut Creek Medical Center**. A medical record is vital evidence for your injury claim.
+3. **Document the Scene:** If you are physically able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, traffic signals, and your visible injuries.
+4. **Exchange Information:** Get the other driver's name, contact information, driver's license number, license plate number, and insurance details. Also, collect contact information from any witnesses.
+5. **Do Not Admit Fault:** Avoid saying "I'm sorry" or admitting any level of fault. Stick to the facts when speaking with law enforcement. Do not give a recorded statement to the other party’s insurance adjuster without first consulting an attorney.
+6. **Contact an Attorney:** Before you agree to any settlement, speak with a qualified personal injury lawyer. An attorney can help you navigate the claims process and ensure you are not taken advantage of by insurance companies.
 
 ## Understanding Your Rights Under California Law
 
@@ -71,12 +71,12 @@ Navigating the legal system after an injury can be confusing. In California, sev
 - **Statute of Limitations:** Time is limited. For most personal injury cases, California Code of Civil Procedure § 335.1 gives you **two years** from the date of the injury to file a lawsuit. However, there is a critical exception: if your claim is against a government entity (such as the City of Benicia, Solano County, or a public school), you must file a formal claim within just **six months** under the Government Claims Act. Missing this deadline can permanently bar you from recovering compensation.
 - **Minimum Insurance Requirements:** California requires drivers to carry minimum liability insurance of only $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low limits are often completely inadequate for covering the costs of a serious injury. An experienced attorney can help identify all potential sources of recovery, including your own Uninsured/Underinsured Motorist (UIM) coverage.
 - **Recoverable Damages:** As an injury victim, you may be entitled to compensation for both economic and non-economic losses, including:
-    - Past and future medical expenses
-    - Lost wages and diminished earning capacity
-    - Property damage
-    - Pain and suffering
-    - Emotional distress
-    - Loss of enjoyment of life
+ - Past and future medical expenses
+ - Lost wages and diminished earning capacity
+ - Property damage
+ - Pain and suffering
+ - Emotional distress
+ - Loss of enjoyment of life
 
 All civil personal injury cases for Benicia residents are filed and heard at the **Solano County Superior Court - Fairfield Branch**. Our firm is prepared to litigate your case in court if a fair settlement cannot be reached.
 

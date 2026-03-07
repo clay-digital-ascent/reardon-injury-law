@@ -5,23 +5,23 @@ county: "Kern County"
 metaDescription: "Injured in an accident in Taft, CA? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: "9,000"
 dangerousAreas:
-  - "Taft Highway and Old River Road"
-  - "State Route 33 (Taft Highway)"
-  - "State Route 99 and State Route 58 corridors"
+ - "Taft Highway and Old River Road"
+ - "State Route 33 (Taft Highway)"
+ - "State Route 99 and State Route 58 corridors"
 hospitals:
-  - "Taft Community Hospital"
-  - "Kern Medical Center (Bakersfield)"
-  - "Adventist Health Bakersfield"
+ - "Taft Community Hospital"
+ - "Kern Medical Center (Bakersfield)"
+ - "Adventist Health Bakersfield"
 courthouse: "Kern County Superior Court - Metropolitan Division in Bakersfield"
 faq:
-  - question: "How much does a personal injury lawyer cost in Taft?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
-  - question: "What should I do after a car accident in Taft?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Taft, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What makes truck accidents on Taft Highway (SR 33) so complex?"
-    answer: "Accidents on SR 33 often involve large commercial trucks from the local oil fields, which means dealing with complex state and federal trucking regulations. Determining liability can involve the driver, the trucking company, and even maintenance crews, requiring a thorough investigation."
+ - question: "How much does a personal injury lawyer cost in Taft?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully win or settle your case."
+ - question: "What should I do after a car accident in Taft?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash and any injuries. Seek immediate medical attention, document the scene with photos, and exchange information, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Taft, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What makes truck accidents on Taft Highway (SR 33) so complex?"
+   answer: "Accidents on SR 33 often involve large commercial trucks from the local oil fields, which means dealing with complex state and federal trucking regulations. Determining liability can involve the driver, the trucking company, and even maintenance crews, requiring a thorough investigation."
 ---
 
 ## Why Taft Residents Trust Reardon Injury Law
@@ -46,12 +46,12 @@ For residents who commute, the nearby corridors of **State Route 99 and State Ro
 
 At Reardon Injury Law, our team has the experience and resources to handle a wide range of personal injury claims. We are prepared to advocate for Taft residents who have been harmed by another's negligence. Our <a href="/practice-areas">practice areas</a> include:
 
-*   **<a href="/car-accidents">Car Accidents</a>**: We represent victims of collisions caused by distracted driving, speeding, DUIs, and other reckless behaviors on local roads and major highways like SR 33 and SR 99.
-*   **<a href="/truck-accidents">Truck Accidents</a>**: Given the heavy oil field and agricultural traffic in Kern County, we have a deep understanding of the complex federal and state regulations that govern the trucking industry and are skilled at holding negligent trucking companies accountable.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are extremely vulnerable on the road. We fight to protect the rights of riders who have been injured by inattentive or aggressive drivers.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We help pedestrians who have been struck and injured seek justice and compensation for their medical care and suffering.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>**: Our firm advocates for cyclists injured in collisions, working to ensure they receive fair compensation for their injuries.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft can be complicated by multiple insurance policies. We know how to navigate these complex claims to protect our clients' interests.
+* **<a href="/car-accidents">Car Accidents</a>**: We represent victims of collisions caused by distracted driving, speeding, DUIs, and other reckless behaviors on local roads and major highways like SR 33 and SR 99.
+* **<a href="/truck-accidents">Truck Accidents</a>**: Given the heavy oil field and agricultural traffic in Kern County, we have a deep understanding of the complex federal and state regulations that govern the trucking industry and are skilled at holding negligent trucking companies accountable.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>**: Motorcyclists are extremely vulnerable on the road. We fight to protect the rights of riders who have been injured by inattentive or aggressive drivers.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>**: We help pedestrians who have been struck and injured seek justice and compensation for their medical care and suffering.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>**: Our firm advocates for cyclists injured in collisions, working to ensure they receive fair compensation for their injuries.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>**: Accidents involving Uber or Lyft can be complicated by multiple insurance policies. We know how to navigate these complex claims to protect our clients' interests.
 
 If you have been injured in any type of accident, do not hesitate to reach out for a free, no-obligation review of your case.
 
@@ -59,21 +59,21 @@ If you have been injured in any type of accident, do not hesitate to reach out f
 
 The actions you take in the minutes, hours, and days following an accident are critical for protecting your health and your legal rights.
 
-1.  **Prioritize Safety and Call 911:** If you are able, move your vehicle to a safe location off the road. Check on yourself and others involved. Call 911 immediately to report the accident and request medical assistance. The Taft Police Department or the Kern County Sheriff's Office will likely respond to the scene.
-2.  **Seek Immediate Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Get a full medical evaluation at a local facility like **Taft Community Hospital**. For more severe or life-threatening injuries, you may be transported to a regional trauma center like **Kern Medical Center** or **Adventist Health Bakersfield**.
-3.  **Document the Scene:** If you are able, use your phone to take pictures and videos of everything: vehicle positions, property damage, skid marks, traffic signals, weather conditions, and your visible injuries.
-4.  **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details of all drivers involved. Also, be sure to get the names and phone numbers of any witnesses.
-5.  **File an Official Report:** The responding officers will create a traffic collision report. This report is a crucial piece of evidence. You can typically obtain a copy from the law enforcement agency that responded a week or two after the crash.
-6.  **Contact an Attorney Before Speaking to Insurers:** Before you give a recorded statement to any insurance company—even your own—it is vital to speak with a qualified personal injury lawyer. An attorney can protect you from tactics adjusters use to minimize or deny your claim.
+1. **Prioritize Safety and Call 911:** If you are able, move your vehicle to a safe location off the road. Check on yourself and others involved. Call 911 immediately to report the accident and request medical assistance. The Taft Police Department or the Kern County Sheriff's Office will likely respond to the scene.
+2. **Seek Immediate Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Get a full medical evaluation at a local facility like **Taft Community Hospital**. For more severe or life-threatening injuries, you may be transported to a regional trauma center like **Kern Medical Center** or **Adventist Health Bakersfield**.
+3. **Document the Scene:** If you are able, use your phone to take pictures and videos of everything: vehicle positions, property damage, skid marks, traffic signals, weather conditions, and your visible injuries.
+4. **Exchange Information:** Get the names, contact information, driver's license numbers, and insurance details of all drivers involved. Also, be sure to get the names and phone numbers of any witnesses.
+5. **File an Official Report:** The responding officers will create a traffic collision report. This report is a crucial piece of evidence. You can typically obtain a copy from the law enforcement agency that responded a week or two after the crash.
+6. **Contact an Attorney Before Speaking to Insurers:** Before you give a recorded statement to any insurance company—even your own—it is vital to speak with a qualified personal injury lawyer. An attorney can protect you from tactics adjusters use to minimize or deny your claim.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. An experienced attorney can guide you through the process and ensure your rights are protected under California law.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation award will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final settlement will be reduced by 20%.
-*   **Statute of Limitations:** In California, you have a limited time to file a legal claim. For most personal injury cases, the statute of limitations is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city-owned vehicle, a dangerous road condition). In these cases, you must file a formal claim with the public entity within **six months** of the incident. Missing these deadlines can permanently bar you from recovering compensation.
-*   **California Minimum Insurance:** The state's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In any serious accident, these amounts are often woefully inadequate to cover the full cost of medical bills, lost income, and other damages.
-*   **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for both economic and non-economic losses. This can include medical expenses (past and future), lost wages, loss of future earning capacity, property damage, and non-economic damages for pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your total compensation award will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your final settlement will be reduced by 20%.
+* **Statute of Limitations:** In California, you have a limited time to file a legal claim. For most personal injury cases, the statute of limitations is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, a critical exception exists for claims against government entities (e.g., a city-owned vehicle, a dangerous road condition). In these cases, you must file a formal claim with the public entity within **six months** of the incident. Missing these deadlines can permanently bar you from recovering compensation.
+* **California Minimum Insurance:** The state's minimum liability insurance requirements are just $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. In any serious accident, these amounts are often woefully inadequate to cover the full cost of medical bills, lost income, and other damages.
+* **Types of Compensation:** As an injury victim, you may be entitled to recover compensation for both economic and non-economic losses. This can include medical expenses (past and future), lost wages, loss of future earning capacity, property damage, and non-economic damages for pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

@@ -5,23 +5,23 @@ county: "San Mateo County"
 metaDescription: "Hurt in an accident in South San Francisco? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "68,000"
 dangerousAreas:
-  - "US-101 corridor"
-  - "I-280 near South San Francisco"
-  - "State Route 82 (El Camino Real)"
+ - "US-101 corridor"
+ - "I-280 near South San Francisco"
+ - "State Route 82 (El Camino Real)"
 hospitals:
-  - "Kaiser Permanente South San Francisco Medical Center"
-  - "Mills-Peninsula Medical Center"
-  - "San Francisco General Hospital and Trauma Center"
+ - "Kaiser Permanente South San Francisco Medical Center"
+ - "Mills-Peninsula Medical Center"
+ - "San Francisco General Hospital and Trauma Center"
 courthouse: "San Mateo County Superior Court, Redwood City Branch"
 faq:
-  - question: "How much does a personal injury lawyer cost in South San Francisco?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only collect a fee if and when we successfully recover compensation for you."
-  - question: "What should I do after a car accident in South San Francisco?"
-    answer: "First, ensure everyone's safety and call 911 to report the incident and request medical help. Document the scene with photos, exchange information with other parties, and seek a medical evaluation, even for minor pain. Avoid admitting fault and contact an attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in South San Francisco, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What are common causes of accidents on US-101 near South San Francisco?"
-    answer: "Accidents on US-101 in this area are often caused by heavy commute congestion, unsafe lane changes, and rear-end collisions in stop-and-go traffic. The proximity to SFO airport adds to the traffic volume, and the region's frequent fog can severely reduce visibility, increasing the risk of multi-car pileups."
+ - question: "How much does a personal injury lawyer cost in South San Francisco?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only collect a fee if and when we successfully recover compensation for you."
+ - question: "What should I do after a car accident in South San Francisco?"
+   answer: "First, ensure everyone's safety and call 911 to report the incident and request medical help. Document the scene with photos, exchange information with other parties, and seek a medical evaluation, even for minor pain. Avoid admitting fault and contact an attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in South San Francisco, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What are common causes of accidents on US-101 near South San Francisco?"
+   answer: "Accidents on US-101 in this area are often caused by heavy commute congestion, unsafe lane changes, and rear-end collisions in stop-and-go traffic. The proximity to SFO airport adds to the traffic volume, and the region's frequent fog can severely reduce visibility, increasing the risk of multi-car pileups."
 ---
 
 ## Why South San Francisco Residents Trust Reardon Injury Law
@@ -48,12 +48,12 @@ At Reardon Injury Law, our unique combination of legal and medical expertise all
 
 Our practice areas include:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** We handle cases arising from the heavy commuter traffic on US-101 and I-280, as well as collisions on local roads.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Our firm has the resources to take on complex cases involving commercial trucks, which often cause catastrophic injuries.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** We advocate for riders who are often victims of driver negligence and visibility issues, especially prevalent in the foggy conditions of the Peninsula.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We fight for the rights of individuals struck by vehicles while walking, often on busy streets like El Camino Real.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We represent cyclists injured due to distracted drivers, unsafe lane changes, or failure to yield.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** We navigate the complex insurance policies involved in accidents with Uber and Lyft, which are common near SFO and throughout the Bay Area.
+* **<a href="/car-accidents">Car Accidents</a>:** We handle cases arising from the heavy commuter traffic on US-101 and I-280, as well as collisions on local roads.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Our firm has the resources to take on complex cases involving commercial trucks, which often cause catastrophic injuries.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** We advocate for riders who are often victims of driver negligence and visibility issues, especially prevalent in the foggy conditions of the Peninsula.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We fight for the rights of individuals struck by vehicles while walking, often on busy streets like El Camino Real.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We represent cyclists injured due to distracted drivers, unsafe lane changes, or failure to yield.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** We navigate the complex insurance policies involved in accidents with Uber and Lyft, which are common near SFO and throughout the Bay Area.
 
 If you have been injured in an accident not listed here, please visit our <a href="/practice-areas">practice areas</a> page or contact our office. We are prepared to help you understand your legal options and pursue the compensation you need to rebuild your life.
 
@@ -61,21 +61,21 @@ If you have been injured in an accident not listed here, please visit our <a hre
 
 The steps you take immediately following an accident can significantly impact your health and your ability to recover fair compensation. Stay as calm as possible and follow this guide:
 
-1.  **Ensure Your Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers. Check on yourself and your passengers for injuries.
-2.  **Call 911 Immediately:** Report the accident to the authorities. Depending on your location, the South San Francisco Police Department or the California Highway Patrol (CHP) will respond. A police report is a vital piece of evidence for your claim. Request paramedics if anyone is injured.
-3.  **Seek Medical Attention:** Even if you feel fine, it is crucial to be evaluated by a medical professional. Adrenaline can mask serious injuries. Go to an emergency room or an urgent care clinic. For residents of South San Francisco, nearby facilities include **Kaiser Permanente South San Francisco Medical Center**. For more severe injuries, you may be taken to **Mills-Peninsula Medical Center** in Burlingame or the Level 1 trauma center at **San Francisco General Hospital**. A medical record officially documents your injuries and links them to the accident.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Exchange driver's license, insurance, and contact information with the other driver(s). If there are witnesses, ask for their names and phone numbers.
-5.  **Report the Accident, But Be Cautious:** You should report the accident to your own insurance company. However, do not give a recorded statement to the other party's insurance adjuster or accept a quick settlement offer. Their goal is to minimize their payout, not to protect your interests.
-6.  **Contact a Personal Injury Lawyer:** Before you make any decisions that could harm your case, contact an experienced attorney. We can handle all communications with insurance companies, manage the legal deadlines, and ensure your rights are protected from the very beginning.
+1. **Ensure Your Safety:** If possible, move your vehicle out of traffic to a safe location. Turn on your hazard lights to alert other drivers. Check on yourself and your passengers for injuries.
+2. **Call 911 Immediately:** Report the accident to the authorities. Depending on your location, the South San Francisco Police Department or the California Highway Patrol (CHP) will respond. A police report is a vital piece of evidence for your claim. Request paramedics if anyone is injured.
+3. **Seek Medical Attention:** Even if you feel fine, it is crucial to be evaluated by a medical professional. Adrenaline can mask serious injuries. Go to an emergency room or an urgent care clinic. For residents of South San Francisco, nearby facilities include **Kaiser Permanente South San Francisco Medical Center**. For more severe injuries, you may be taken to **Mills-Peninsula Medical Center** in Burlingame or the Level 1 trauma center at **San Francisco General Hospital**. A medical record officially documents your injuries and links them to the accident.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Exchange driver's license, insurance, and contact information with the other driver(s). If there are witnesses, ask for their names and phone numbers.
+5. **Report the Accident, But Be Cautious:** You should report the accident to your own insurance company. However, do not give a recorded statement to the other party's insurance adjuster or accept a quick settlement offer. Their goal is to minimize their payout, not to protect your interests.
+6. **Contact a Personal Injury Lawyer:** Before you make any decisions that could harm your case, contact an experienced attorney. We can handle all communications with insurance companies, manage the legal deadlines, and ensure your rights are protected from the very beginning.
 
 ## Understanding Your Rights Under California Law
 
 Navigating a personal injury claim requires an understanding of California's specific laws. An experienced attorney can guide you through the process, but here are some key concepts that may apply to your case.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible for a collision, you can still collect 90% of the damages awarded.
-*   **Statute of Limitations:** In California, you have a limited time to file a personal injury lawsuit. For most cases, the deadline is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, a critical exception applies to claims against government entities (e.g., a city-owned vehicle, a public-school bus, or an injury from a poorly maintained road). In these cases, you must file a formal claim with the government agency within **six months** of the incident. Missing these deadlines can permanently bar you from seeking compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury. An attorney can help you identify other potential sources of recovery, such as your own Uninsured/Underinsured Motorist (UIM) coverage.
-*   **Recoverable Damages:** If you have been injured due to someone else's negligence, you may be entitled to compensation for economic and non-economic losses, including medical bills (past and future), lost wages, diminished earning capacity, property damage, and pain and suffering.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your total compensation will simply be reduced by your percentage of fault. For example, if you are found to be 10% responsible for a collision, you can still collect 90% of the damages awarded.
+* **Statute of Limitations:** In California, you have a limited time to file a personal injury lawsuit. For most cases, the deadline is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, a critical exception applies to claims against government entities (e.g., a city-owned vehicle, a public-school bus, or an injury from a poorly maintained road). In these cases, you must file a formal claim with the government agency within **six months** of the incident. Missing these deadlines can permanently bar you from seeking compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low limits are often insufficient to cover the costs of a serious injury. An attorney can help you identify other potential sources of recovery, such as your own Uninsured/Underinsured Motorist (UIM) coverage.
+* **Recoverable Damages:** If you have been injured due to someone else's negligence, you may be entitled to compensation for economic and non-economic losses, including medical bills (past and future), lost wages, diminished earning capacity, property damage, and pain and suffering.
 
 All personal injury cases for South San Francisco residents are filed and heard at the **San Mateo County Superior Court, Redwood City Branch**. Our firm is experienced in navigating this court's procedures and will handle all legal filings on your behalf.
 

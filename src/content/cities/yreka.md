@@ -5,22 +5,22 @@ county: "Siskiyou County"
 metaDescription: "Injured in an accident in Yreka, CA? Reardon Injury Law offers expert legal help. Our attorney's unique medical insight gives you an edge. Free consultation."
 population: "7,700"
 dangerousAreas:
-  - "Siskiyou Pass on I-5"
-  - "Interstate 5 (I-5) corridor through Siskiyou County"
-  - "Rural arterials like State Route 3"
+ - "Siskiyou Pass on I-5"
+ - "Interstate 5 (I-5) corridor through Siskiyou County"
+ - "Rural arterials like State Route 3"
 hospitals:
-  - "Local medical clinics and emergency services"
-  - "Regional trauma centers in Redding"
+ - "Local medical clinics and emergency services"
+ - "Regional trauma centers in Redding"
 courthouse: "Siskiyou County Superior Court in Yreka"
 faq:
-  - question: "How much does a personal injury lawyer cost in Yreka?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in Yreka?"
-    answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Yreka, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "What are the biggest traffic risks for drivers in the Yreka area?"
-    answer: "The primary risks involve Interstate 5, especially the treacherous Siskiyou Pass north of town, which sees heavy truck traffic and hazardous winter weather. Rural two-lane highways also pose a danger due to limited visibility, wildlife, and seasonal tourist traffic."
+ - question: "How much does a personal injury lawyer cost in Yreka?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in Yreka?"
+   answer: "First, ensure everyone's safety and call 911 to report the crash. Seek immediate medical attention, document the scene with photos, and exchange information with other parties, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Yreka, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "What are the biggest traffic risks for drivers in the Yreka area?"
+   answer: "The primary risks involve Interstate 5, especially the treacherous Siskiyou Pass north of town, which sees heavy truck traffic and hazardous winter weather. Rural two-lane highways also pose a danger due to limited visibility, wildlife, and seasonal tourist traffic."
 ---
 
 ## Why Yreka Residents Trust Reardon Injury Law
@@ -43,12 +43,12 @@ While Yreka may not have the sprawling, congested intersections of a major metro
 
 Reardon Injury Law is equipped to handle a wide range of personal injury claims. Our deep understanding of California law and our unique medical insight allow us to effectively represent clients who have been injured through no fault of their own. Given the traffic patterns in and around Yreka, we frequently assist clients with:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** Collisions on I-5, city streets, or rural backroads caused by negligent drivers.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Complex cases involving commercial trucks, often stemming from incidents on the Siskiyou Pass or I-5 corridor.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Representing riders who are often victims of drivers failing to see them on scenic highways and local roads.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Injuries that occur when a person is struck by a vehicle while walking in town or along a roadway.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Advocating for cyclists injured by inattentive or aggressive drivers.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in accidents with Uber or Lyft vehicles.
+* **<a href="/car-accidents">Car Accidents</a>:** Collisions on I-5, city streets, or rural backroads caused by negligent drivers.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Complex cases involving commercial trucks, often stemming from incidents on the Siskiyou Pass or I-5 corridor.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Representing riders who are often victims of drivers failing to see them on scenic highways and local roads.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** Injuries that occur when a person is struck by a vehicle while walking in town or along a roadway.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Advocating for cyclists injured by inattentive or aggressive drivers.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Navigating the complicated insurance policies involved in accidents with Uber or Lyft vehicles.
 
 This is not an exhaustive list. If you or a loved one has been harmed by another's negligence in any situation, we encourage you to visit our <a href="/practice-areas">practice areas</a> page or contact us directly to learn how we can help.
 
@@ -56,22 +56,22 @@ This is not an exhaustive list. If you or a loved one has been harmed by another
 
 The moments following an accident are chaotic and confusing. Taking the right steps can protect your health and your legal rights.
 
-1.  **Get to Safety:** If you are able, move your vehicle out of traffic. Turn on your hazard lights to warn other drivers.
-2.  **Call 911:** Report the accident immediately. Depending on your location, the Yreka Police Department or the California Highway Patrol (CHP) will respond. A police report is a critical piece of evidence.
-3.  **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Allow paramedics to evaluate you at the scene and seek follow-up care at a local medical clinic or emergency room. For severe trauma, you may be transported to a regional trauma center in a larger city like Redding.
-4.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, and any visible injuries.
-5.  **Gather Information:** Exchange names, contact information, driver's license numbers, and insurance details with all other drivers involved. Get contact information from any witnesses.
-6.  **Do Not Admit Fault:** Avoid discussing who was at fault with anyone at the scene, including the other driver or their passengers. Stick to the facts when speaking with law enforcement.
-7.  **Contact a Yreka Personal Injury Lawyer:** Before you speak with an insurance adjuster, call Reardon Injury Law. Insurance companies aim to minimize their payouts; we aim to maximize your recovery.
+1. **Get to Safety:** If you are able, move your vehicle out of traffic. Turn on your hazard lights to warn other drivers.
+2. **Call 911:** Report the accident immediately. Depending on your location, the Yreka Police Department or the California Highway Patrol (CHP) will respond. A police report is a critical piece of evidence.
+3. **Seek Medical Attention:** Your health is the top priority. Even if you feel fine, some serious injuries have delayed symptoms. Allow paramedics to evaluate you at the scene and seek follow-up care at a local medical clinic or emergency room. For severe trauma, you may be transported to a regional trauma center in a larger city like Redding.
+4. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, road conditions, and any visible injuries.
+5. **Gather Information:** Exchange names, contact information, driver's license numbers, and insurance details with all other drivers involved. Get contact information from any witnesses.
+6. **Do Not Admit Fault:** Avoid discussing who was at fault with anyone at the scene, including the other driver or their passengers. Stick to the facts when speaking with law enforcement.
+7. **Contact a Yreka Personal Injury Lawyer:** Before you speak with an insurance adjuster, call Reardon Injury Law. Insurance companies aim to minimize their payouts; we aim to maximize your recovery.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be daunting. It is important to understand the key California laws that will affect your claim.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault for an accident, you can still collect 90% of the damages.
-*   **Statute of Limitations:** In California, you have a limited time to file a personal injury lawsuit. For most cases, the deadline is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a poorly maintained public road), you must file a formal notice of claim within just **six months**. Missing these deadlines can permanently bar you from recovering compensation.
-*   **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often completely inadequate to cover the costs of a serious injury. This is why it is so important to explore all avenues for compensation.
-*   **Available Compensation:** A successful personal injury claim can help you recover compensation for both economic and non-economic losses, including medical expenses (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. Your total compensation award will simply be reduced by your percentage of fault. For example, if you are found to be 10% at fault for an accident, you can still collect 90% of the damages.
+* **Statute of Limitations:** In California, you have a limited time to file a personal injury lawsuit. For most cases, the deadline is **two years** from the date of the injury (California Code of Civil Procedure § 335.1). However, there is a critical exception: if your claim is against a government entity (e.g., a city bus, a poorly maintained public road), you must file a formal notice of claim within just **six months**. Missing these deadlines can permanently bar you from recovering compensation.
+* **Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability insurance of $15,000 for injury to one person, $30,000 for injury to multiple people, and $5,000 for property damage. These low amounts are often completely inadequate to cover the costs of a serious injury. This is why it is so important to explore all avenues for compensation.
+* **Available Compensation:** A successful personal injury claim can help you recover compensation for both economic and non-economic losses, including medical expenses (past and future), lost wages, loss of future earning capacity, property damage, pain and suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

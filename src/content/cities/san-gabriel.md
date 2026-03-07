@@ -5,22 +5,22 @@ county: "Los Angeles County"
 metaDescription: "Hurt in an accident in San Gabriel? Reardon Injury Law offers a free consultation. Our attorney's unique medical background helps maximize your claim. No fee unless we win."
 population: "approximately 40,000"
 dangerousAreas:
-  - "Areas with high traffic volume like Valley Blvd and San Gabriel Blvd"
-  - "Roads prone to speed-related accidents"
-  - "Locations with frequent hit-and-run incidents"
+ - "Areas with high traffic volume like Valley Blvd and San Gabriel Blvd"
+ - "Roads prone to speed-related accidents"
+ - "Locations with frequent hit-and-run incidents"
 hospitals:
-  - "Garfield Medical Center"
-  - "Alhambra Hospital Medical Center"
+ - "Garfield Medical Center"
+ - "Alhambra Hospital Medical Center"
 courthouse: "Alhambra Courthouse, Alhambra"
 faq:
-  - question: "How much does a personal injury lawyer cost in San Gabriel?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only collect a fee if we successfully recover compensation for you."
-  - question: "What should I do after a car accident in San Gabriel?"
-    answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, document the scene with photos, and exchange information with the other driver, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
-  - question: "How long do I have to file a personal injury claim in San Gabriel, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
-  - question: "With so many accidents in San Gabriel, what are the common causes?"
-    answer: "Recent data for San Gabriel shows a significant number of collisions are speed-related, highlighting the dangers on major thoroughfares. Hit-and-run incidents are also a concern, often impacting pedestrians and bicyclists in busy areas."
+ - question: "How much does a personal injury lawyer cost in San Gabriel?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs. We only collect a fee if we successfully recover compensation for you."
+ - question: "What should I do after a car accident in San Gabriel?"
+   answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, document the scene with photos, and exchange information with the other driver, but do not admit fault. Contact an experienced personal injury attorney before speaking with insurance companies."
+ - question: "How long do I have to file a personal injury claim in San Gabriel, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you must file a formal claim within six months."
+ - question: "With so many accidents in San Gabriel, what are the common causes?"
+   answer: "Recent data for San Gabriel shows a significant number of collisions are speed-related, highlighting the dangers on major thoroughfares. Hit-and-run incidents are also a concern, often impacting pedestrians and bicyclists in busy areas."
 ---
 
 ## Why San Gabriel Residents Trust Reardon Injury Law
@@ -43,12 +43,12 @@ Furthermore, the data shows a concerning number of hit-and-run incidents. These 
 
 At Reardon Injury Law, our practice is dedicated exclusively to helping injury victims. Our unique medical and legal expertise is a powerful asset across a wide range of personal injury claims. We frequently represent San Gabriel clients in cases involving:
 
-*   **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on local streets to multi-vehicle pileups on the I-10, we handle all types of car crash claims.
-*   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable to catastrophic injuries. We fight to counter insurance company bias and secure fair compensation for riders.
-*   **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving large commercial trucks are legally complex. We have the resources to take on trucking companies and their insurers to ensure our clients receive justice.
-*   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We advocate for pedestrians who have been struck and injured by negligent drivers in crosswalks, parking lots, and on sidewalks.
-*   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Bicyclists have a right to share the road, but drivers often fail to see them. We help injured cyclists recover the compensation they need for medical care and lost wages.
-*   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complications. We know how to navigate these policies to protect our clients' rights.
+* **<a href="/car-accidents">Car Accidents</a>:** From fender-benders on local streets to multi-vehicle pileups on the I-10, we handle all types of car crash claims.
+* **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are especially vulnerable to catastrophic injuries. We fight to counter insurance company bias and secure fair compensation for riders.
+* **<a href="/truck-accidents">Truck Accidents</a>:** Cases involving large commercial trucks are legally complex. We have the resources to take on trucking companies and their insurers to ensure our clients receive justice.
+* **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We advocate for pedestrians who have been struck and injured by negligent drivers in crosswalks, parking lots, and on sidewalks.
+* **<a href="/bicycle-accidents">Bicycle Accidents</a>:** Bicyclists have a right to share the road, but drivers often fail to see them. We help injured cyclists recover the compensation they need for medical care and lost wages.
+* **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complications. We know how to navigate these policies to protect our clients' rights.
 
 If you have been injured in an accident not listed here, please visit our <a href="/practice-areas">practice areas</a> page or contact us for a free consultation.
 
@@ -56,21 +56,21 @@ If you have been injured in an accident not listed here, please visit our <a hre
 
 The steps you take immediately following an accident can significantly impact your health and your ability to recover compensation.
 
-1.  **Prioritize Safety and Call 911:** Move to a safe location if possible. Call 911 to report the accident and request medical assistance. The San Gabriel Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on the I-10.
-2.  **Seek Immediate Medical Attention:** Even if you feel fine, adrenaline can mask serious injuries. It is critical to get a medical evaluation at a hospital like Garfield Medical Center or Alhambra Hospital Medical Center. This creates an official record of your injuries.
-3.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, your injuries, and any relevant road signs or conditions. Get the names and contact information of any witnesses.
-4.  **Exchange Information:** Get the other driver's name, contact information, driver's license number, and insurance details. Do not apologize or admit any fault.
-5.  **Report the Accident:** Obtain the police report number from the responding officer. You will need this for your insurance claim.
-6.  **Contact a San Gabriel Personal Injury Lawyer:** Before you speak with an insurance adjuster, contact Reardon Injury Law. Insurance companies are not on your side; their goal is to minimize their payout. We will handle all communications with them to protect your rights.
+1. **Prioritize Safety and Call 911:** Move to a safe location if possible. Call 911 to report the accident and request medical assistance. The San Gabriel Police Department will likely respond to accidents on city streets, while the California Highway Patrol (CHP) handles incidents on the I-10.
+2. **Seek Immediate Medical Attention:** Even if you feel fine, adrenaline can mask serious injuries. It is critical to get a medical evaluation at a hospital like Garfield Medical Center or Alhambra Hospital Medical Center. This creates an official record of your injuries.
+3. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, vehicle damage, your injuries, and any relevant road signs or conditions. Get the names and contact information of any witnesses.
+4. **Exchange Information:** Get the other driver's name, contact information, driver's license number, and insurance details. Do not apologize or admit any fault.
+5. **Report the Accident:** Obtain the police report number from the responding officer. You will need this for your insurance claim.
+6. **Contact a San Gabriel Personal Injury Lawyer:** Before you speak with an insurance adjuster, contact Reardon Injury Law. Insurance companies are not on your side; their goal is to minimize their payout. We will handle all communications with them to protect your rights.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. As a California-based firm, we ensure our San Gabriel clients understand the laws that protect them.
 
-*   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your final compensation award will simply be reduced by your percentage of fault. For example, if you are found 20% at fault, you can still collect 80% of your damages.
-*   **Statute of Limitations:** Time is of the essence. In California, you have a two-year statute of limitations to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). For claims against a government entity (e.g., a city bus or a poorly maintained public road), the deadline is much shorter—you must file a formal claim within just six months.
-*   **Minimum Insurance Requirements:** California's minimum liability insurance requirement is only $15,000 per person for injury, $30,000 per accident, and $5,000 for property damage. In a serious accident, these low limits are often exhausted quickly, which is why it's vital to explore all avenues for compensation.
-*   **Recoverable Damages:** An injury claim allows you to seek compensation, known as "damages," for all your losses. This can include current and future medical bills, lost wages, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
+* **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover damages even if you were partially at fault for the accident. Your final compensation award will simply be reduced by your percentage of fault. For example, if you are found 20% at fault, you can still collect 80% of your damages.
+* **Statute of Limitations:** Time is of the essence. In California, you have a two-year statute of limitations to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). For claims against a government entity (e.g., a city bus or a poorly maintained public road), the deadline is much shorter—you must file a formal claim within just six months.
+* **Minimum Insurance Requirements:** California's minimum liability insurance requirement is only $15,000 per person for injury, $30,000 per accident, and $5,000 for property damage. In a serious accident, these low limits are often exhausted quickly, which is why it's vital to explore all avenues for compensation.
+* **Recoverable Damages:** An injury claim allows you to seek compensation, known as "damages," for all your losses. This can include current and future medical bills, lost wages, diminished earning capacity, property damage, and non-economic damages like pain, suffering, and emotional distress.
 
 ## Contact Reardon Injury Law Today
 

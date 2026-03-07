@@ -5,22 +5,22 @@ county: "Stanislaus County"
 metaDescription: "Injured in a Modesto accident? Reardon Injury Law can help. Our attorney's unique medical insight gets results. Get a free consultation with a top personal injury lawyer in Modesto, CA."
 population: "218,000"
 dangerousAreas:
-  - "Highway 99"
-  - "McHenry Avenue (Highway 132)"
-  - "Briggsmore Avenue"
+ - "Highway 99"
+ - "McHenry Avenue (Highway 132)"
+ - "Briggsmore Avenue"
 hospitals:
-  - "Doctors Medical Center of Modesto"
-  - "Memorial Medical Center"
+ - "Doctors Medical Center of Modesto"
+ - "Memorial Medical Center"
 courthouse: "Stanislaus County Superior Court in Modesto"
 faq:
-  - question: "How much does a personal injury lawyer cost in Modesto?"
-    answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we win your case."
-  - question: "What should I do after a car accident in Modesto?"
-    answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even for minor pain, and document the scene with photos. Do not admit fault, and contact a personal injury attorney before speaking to insurance adjusters."
-  - question: "How long do I have to file a personal injury claim in Modesto, California?"
-    answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you only have six months to file a formal claim."
-  - question: "What makes Highway 99 in Modesto so dangerous?"
-    answer: "Highway 99 through Modesto sees an extremely high volume of traffic, including a mix of daily commuters and heavy commercial big rigs. This combination, along with high speeds and distracted driving, contributes to its status as the area's most frequent site of injury collisions."
+ - question: "How much does a personal injury lawyer cost in Modesto?"
+   answer: "At Reardon Injury Law, we work on a contingency fee basis, which means you pay no upfront costs or attorney's fees. We only get paid if we win your case."
+ - question: "What should I do after a car accident in Modesto?"
+   answer: "First, ensure everyone's safety and call 911. Seek immediate medical attention, even for minor pain, and document the scene with photos. Do not admit fault, and contact a personal injury attorney before speaking to insurance adjusters."
+ - question: "How long do I have to file a personal injury claim in Modesto, California?"
+   answer: "In California, you generally have two years from the date of the injury to file a lawsuit under CCP § 335.1. However, if your claim is against a government entity, you only have six months to file a formal claim."
+ - question: "What makes Highway 99 in Modesto so dangerous?"
+   answer: "Highway 99 through Modesto sees an extremely high volume of traffic, including a mix of daily commuters and heavy commercial big rigs. This combination, along with high speeds and distracted driving, contributes to its status as the area's most frequent site of injury collisions."
 ---
 
 ## Why Modesto Residents Trust Reardon Injury Law
@@ -35,10 +35,10 @@ We are not just your legal advocates; we are your partners in recovery. We handl
 
 As a key hub in the Central Valley, Modesto experiences significant traffic that unfortunately leads to a high number of accidents. The city ranks as one of the most dangerous in California for traffic injuries and fatalities, with an average of 1,400 injury collisions each year. Certain roads and highways are known hotspots for these incidents.
 
--   **Highway 99:** This major north-south artery along the western edge of Modesto is the area's most dangerous road by volume. In 2023 alone, there were over 300 injury collisions on this stretch of highway. The constant mix of high-speed passenger cars, commuter traffic, and heavy commercial big rigs creates a hazardous environment, making <a href="/truck-accidents">truck accidents</a> and multi-vehicle pile-ups tragically common.
--   **McHenry Avenue (Highway 132):** As a primary east-west route, McHenry Avenue is a vital corridor for local and regional travel. Its high traffic volume and numerous intersections contribute to frequent and often severe collisions, matching Highway 99 in fatalities.
--   **Briggsmore Avenue:** Known for its heavy congestion, Briggsmore Avenue is another arterial road where serious and fatal accidents frequently occur.
--   **Yosemite Boulevard (Highway 132):** This route often sees significant traffic jams as local drivers merge with regional Central Valley traffic, leading to a high risk of rear-end and side-impact <a href="/car-accidents">car accidents</a>.
+- **Highway 99:** This major north-south artery along the western edge of Modesto is the area's most dangerous road by volume. In 2023 alone, there were over 300 injury collisions on this stretch of highway. The constant mix of high-speed passenger cars, commuter traffic, and heavy commercial big rigs creates a hazardous environment, making <a href="/truck-accidents">truck accidents</a> and multi-vehicle pile-ups tragically common.
+- **McHenry Avenue (Highway 132):** As a primary east-west route, McHenry Avenue is a vital corridor for local and regional travel. Its high traffic volume and numerous intersections contribute to frequent and often severe collisions, matching Highway 99 in fatalities.
+- **Briggsmore Avenue:** Known for its heavy congestion, Briggsmore Avenue is another arterial road where serious and fatal accidents frequently occur.
+- **Yosemite Boulevard (Highway 132):** This route often sees significant traffic jams as local drivers merge with regional Central Valley traffic, leading to a high risk of rear-end and side-impact <a href="/car-accidents">car accidents</a>.
 
 Data shows that 85% of serious injury collisions in Modesto happen on major arterial roads like these. If you were injured in a crash on one of these roads or anywhere else in Stanislaus County, we can help you investigate the cause and hold the responsible party accountable.
 
@@ -48,12 +48,12 @@ At Reardon Injury Law, our practice is dedicated to helping individuals who have
 
 Our primary practice areas include:
 
--   **<a href="/car-accidents">Car Accidents</a>:** We represent drivers, passengers, and families affected by collisions caused by distracted driving, speeding, DUIs, and more.
--   **<a href="/truck-accidents">Truck Accidents</a>:** Given the heavy freight traffic on Highway 99, these complex cases require an attorney who understands federal trucking regulations and corporate liability.
--   **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are exceptionally vulnerable on Modesto's busy streets. We fight to protect riders' rights and combat unfair biases.
--   **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We advocate for pedestrians who have been struck and injured, often suffering catastrophic harm.
--   **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We help cyclists recover compensation after being injured by careless or aggressive drivers.
--   **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities that we are equipped to navigate.
+- **<a href="/car-accidents">Car Accidents</a>:** We represent drivers, passengers, and families affected by collisions caused by distracted driving, speeding, DUIs, and more.
+- **<a href="/truck-accidents">Truck Accidents</a>:** Given the heavy freight traffic on Highway 99, these complex cases require an attorney who understands federal trucking regulations and corporate liability.
+- **<a href="/motorcycle-accidents">Motorcycle Accidents</a>:** Motorcyclists are exceptionally vulnerable on Modesto's busy streets. We fight to protect riders' rights and combat unfair biases.
+- **<a href="/pedestrian-accidents">Pedestrian Accidents</a>:** We advocate for pedestrians who have been struck and injured, often suffering catastrophic harm.
+- **<a href="/bicycle-accidents">Bicycle Accidents</a>:** We help cyclists recover compensation after being injured by careless or aggressive drivers.
+- **<a href="/rideshare-accidents">Rideshare Accidents</a>:** Accidents involving Uber and Lyft have unique insurance complexities that we are equipped to navigate.
 
 This is only a partial list of the cases we handle. If you or a loved one has been injured in any type of accident, please visit our <a href="/practice-areas">practice areas</a> page or contact our office to discuss the specifics of your situation.
 
@@ -61,21 +61,21 @@ This is only a partial list of the cases we handle. If you or a loved one has be
 
 The steps you take immediately following an accident are critical for protecting both your health and your legal rights.
 
-1.  **Prioritize Safety and Call 911:** If you are able, move to a safe location away from traffic. Call 911 immediately to report the accident and any injuries. Depending on your location, the Modesto Police Department or the California Highway Patrol (CHP) will respond.
-2.  **Seek Immediate Medical Attention:** Your health is the top priority. Accept medical assistance from paramedics and agree to be transported to a hospital if recommended. For evaluation and treatment, you may be taken to a local hospital such as Doctors Medical Center of Modesto or Memorial Medical Center. Even if you feel fine, seeing a doctor is crucial, as some serious injuries have delayed symptoms.
-3.  **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Get the names and contact information of any witnesses.
-4.  **Exchange Information and File a Report:** Exchange driver's license, insurance, and contact information with all other parties involved. When law enforcement arrives, provide a factual statement but do not guess or speculate about what happened. Be sure to get the police report number.
-5.  **Be Cautious in Your Communications:** Do not apologize or admit fault to anyone at the scene. When the other driver's insurance company calls, you are not obligated to give them a recorded statement. Politely decline and direct them to your attorney.
-6.  **Contact a Personal Injury Attorney:** Before you agree to any settlement, speak with an experienced attorney. An early consultation can help you understand your rights and avoid costly mistakes.
+1. **Prioritize Safety and Call 911:** If you are able, move to a safe location away from traffic. Call 911 immediately to report the accident and any injuries. Depending on your location, the Modesto Police Department or the California Highway Patrol (CHP) will respond.
+2. **Seek Immediate Medical Attention:** Your health is the top priority. Accept medical assistance from paramedics and agree to be transported to a hospital if recommended. For evaluation and treatment, you may be taken to a local hospital such as Doctors Medical Center of Modesto or Memorial Medical Center. Even if you feel fine, seeing a doctor is crucial, as some serious injuries have delayed symptoms.
+3. **Document the Scene:** If you are able, use your phone to take pictures and videos of the accident scene, including vehicle damage, skid marks, road conditions, and your injuries. Get the names and contact information of any witnesses.
+4. **Exchange Information and File a Report:** Exchange driver's license, insurance, and contact information with all other parties involved. When law enforcement arrives, provide a factual statement but do not guess or speculate about what happened. Be sure to get the police report number.
+5. **Be Cautious in Your Communications:** Do not apologize or admit fault to anyone at the scene. When the other driver's insurance company calls, you are not obligated to give them a recorded statement. Politely decline and direct them to your attorney.
+6. **Contact a Personal Injury Attorney:** Before you agree to any settlement, speak with an experienced attorney. An early consultation can help you understand your rights and avoid costly mistakes.
 
 ## Understanding Your Rights Under California Law
 
 Navigating the legal system after an injury can be confusing. In California, several key laws will impact your claim.
 
--   **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your final award will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your compensation will be reduced by 20%.
--   **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). If you miss this deadline, you will likely lose your right to sue forever.
--   **Claims Against Government Entities:** The deadline is much shorter if your injury was caused by a public entity, such as a pothole on a city street or a collision with a city-owned vehicle. In these cases, you must file a formal claim with the government agency within **six months** of the injury.
--   **California's Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 per person, $30,000 per accident for bodily injury, and $5,000 for property damage. In a serious accident, these amounts are often completely inadequate to cover medical bills and lost wages, which is why having your own Uninsured/Underinsured Motorist (UIM) coverage is so important.
+- **Pure Comparative Negligence:** California follows a "pure comparative negligence" rule. This means you can still recover financial compensation even if you were partially at fault for the accident. However, your final award will be reduced by your percentage of fault. For example, if you are found to be 20% at fault, your compensation will be reduced by 20%.
+- **Statute of Limitations:** In most cases, you have **two years** from the date of the injury to file a personal injury lawsuit (California Code of Civil Procedure § 335.1). If you miss this deadline, you will likely lose your right to sue forever.
+- **Claims Against Government Entities:** The deadline is much shorter if your injury was caused by a public entity, such as a pothole on a city street or a collision with a city-owned vehicle. In these cases, you must file a formal claim with the government agency within **six months** of the injury.
+- **California's Minimum Insurance Requirements:** California law only requires drivers to carry minimum liability coverage of $15,000 per person, $30,000 per accident for bodily injury, and $5,000 for property damage. In a serious accident, these amounts are often completely inadequate to cover medical bills and lost wages, which is why having your own Uninsured/Underinsured Motorist (UIM) coverage is so important.
 
 An experienced attorney can help you pursue all available forms of compensation, which may include medical expenses (past and future), lost income, loss of earning capacity, and non-economic damages for pain, suffering, and emotional distress.
 
