@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Escalon, CA | Reardon Injury Law"
 city: "Escalon"
-county: "San Joaquin"
+county: "San Joaquin County"
 metaDescription: "Hurt in an accident in Escalon, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "7,500"
 dangerousAreas:

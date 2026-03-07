@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Canyon Lake, CA | Reardon Injury Law"
 city: "Canyon Lake"
-county: "Riverside"
+county: "Riverside County"
 metaDescription: "Injured in an accident in Canyon Lake, CA? Reardon Injury Law offers expert legal guidance with a unique medical perspective. Get a free consultation today."
 population: "11,000"
 dangerousAreas:

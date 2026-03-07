@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Mountain House, CA | Reardon Injury Law"
 city: "Mountain House"
-county: "San Joaquin"
+county: "San Joaquin County"
 metaDescription: "Hurt in an accident in Mountain House? Reardon Injury Law offers expert legal help with a unique medical edge. Free consultation – no fee unless we win."
 population: "25,000"
 dangerousAreas:

@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Lancaster, CA | Reardon Injury Law"
 city: "Lancaster"
-county: "Los Angeles"
+county: "Los Angeles County"
 metaDescription: "Injured in an accident in Lancaster, CA? Reardon Injury Law offers expert legal help. Our attorney's medical background gives you an edge. Free consultation."
 population: "172,460"
 dangerousAreas:

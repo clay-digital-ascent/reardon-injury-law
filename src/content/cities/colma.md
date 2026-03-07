@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Colma, CA | Reardon Injury Law"
 city: "Colma"
-county: "San Mateo"
+county: "San Mateo County"
 metaDescription: "Injured in an accident in Colma, CA? Reardon Injury Law offers expert legal help with unique medical insight. Free consultation. No fee unless we win."
 population: "approximately 1,500"
 dangerousAreas:

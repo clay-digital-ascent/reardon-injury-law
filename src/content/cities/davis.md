@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Davis, CA | Reardon Injury Law"
 city: "Davis"
-county: "Yolo"
+county: "Yolo County"
 metaDescription: "Injured in an accident in Davis, CA? Reardon Injury Law offers compassionate legal support. Our attorney's medical background ensures a deep understanding of your case. Free consultation."
 population: "67,000"
 dangerousAreas:

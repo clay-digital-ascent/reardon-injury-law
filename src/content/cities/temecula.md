@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Temecula, CA | Reardon Injury Law"
 city: "Temecula"
-county: "Riverside"
+county: "Riverside County"
 metaDescription: "Injured in an accident in Temecula, CA? Reardon Injury Law offers expert legal help. Free consultation with an attorney who has 20 years of medical experience."
 population: "110,000"
 dangerousAreas:

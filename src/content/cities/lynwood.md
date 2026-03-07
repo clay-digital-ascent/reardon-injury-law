@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Lynwood, CA | Reardon Injury Law"
 city: "Lynwood"
-county: "Los Angeles"
+county: "Los Angeles County"
 metaDescription: "Injured in an accident in Lynwood, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Contact our Lynwood personal injury lawyers now."
 population: "approx. 65,000-70,000"
 dangerousAreas:

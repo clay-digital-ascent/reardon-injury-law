@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Glendora, CA | Reardon Injury Law"
 city: "Glendora"
-county: "Los Angeles"
+county: "Los Angeles County"
 metaDescription: "Injured in Glendora, CA? Reardon Injury Law provides expert legal help from an attorney with 20 years of medical experience. Free consultation. No fee unless we win."
 population: "52,000"
 dangerousAreas:

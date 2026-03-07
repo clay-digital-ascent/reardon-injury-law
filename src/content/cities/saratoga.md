@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Saratoga, CA | Reardon Injury Law"
 city: "Saratoga"
-county: "Santa Clara"
+county: "Santa Clara County"
 metaDescription: "Injured in an accident in Saratoga, CA? Reardon Injury Law offers expert legal help. Our attorney's unique medical insight can make a difference. Free consultation."
 population: "30,000"
 dangerousAreas:

@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Blue Lake, CA | Reardon Injury Law"
 city: "Blue Lake"
-county: "Humboldt"
+county: "Humboldt County"
 metaDescription: "Injured in an accident in Blue Lake, CA? Reardon Injury Law combines legal skill with medical insight to help you recover. Contact us for a free consultation."
 population: "~1,200"
 dangerousAreas:

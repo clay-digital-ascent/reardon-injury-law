@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Piedmont, CA | Reardon Injury Law"
 city: "Piedmont"
-county: "Alameda"
+county: "Alameda County"
 metaDescription: "Injured in an accident in Piedmont, CA? Reardon Injury Law offers expert legal help with a unique medical perspective. Free consultation. No fee unless we win."
 population: "Approximately 11,000"
 dangerousAreas:

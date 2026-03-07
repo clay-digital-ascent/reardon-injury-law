@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Compton, CA | Reardon Injury Law"
 city: "Compton"
-county: "Los Angeles"
+county: "Los Angeles County"
 metaDescription: "Injured in an accident in Compton? Reardon Injury Law can help. Our unique medical insight helps you get the compensation you deserve. Free consultation."
 population: "95,000"
 dangerousAreas:

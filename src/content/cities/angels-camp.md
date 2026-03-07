@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Angels Camp, CA | Reardon Injury Law"
 city: "Angels Camp"
-county: "Calaveras"
+county: "Calaveras County"
 metaDescription: "Injured in an accident in Angels Camp? Reardon Injury Law provides expert legal help. Our lawyer's medical background gives you a unique advantage. Free consultation."
 population: "approx. 3,000"
 dangerousAreas:

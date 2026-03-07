@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Lawyer in Chico, CA | Reardon Injury Law"
 city: "Chico"
-county: "Butte"
+county: "Butte County"
 metaDescription: "Injured in an accident in Chico, CA? Reardon Injury Law offers expert legal help. Our attorney's medical background gives you an edge. Free consultation."
 population: "103,000"
 dangerousAreas:
