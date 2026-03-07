@@ -1,0 +1,160 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  function slugify(text: string): string {
+    return text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+  }
+  const cities = await getCollection("cities");
+  const countyMap: Record<string, typeof cities> = {};
+  for (const city of cities) {
+    const county = city.data.county;
+    if (!countyMap[county]) countyMap[county] = [];
+    countyMap[county].push(city);
+  }
+
+  return Object.entries(countyMap).map(([county, cities]) => ({
+    params: { county: slugify(county) },
+    props: {
+      countyName: county,
+      cities: cities.sort((a, b) => a.data.city.localeCompare(b.data.city)),
+    },
+  }));
+};
+
+function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+}
+
+const { countyName, cities } = Astro.props;
+const countySlug = slugify(countyName);
+const countyShort = countyName.replace(' County', '');
+
+const description = `Reardon Injury Law serves ${cities.length} cities across ${countyName}, California. Free consultation for personal injury, car accidents, and more. Call (657) 522-7122.`;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Locations", "item": "https://reardoninjurylaw.com/locations/" },
+    { "@type": "ListItem", "position": 2, "name": countyName }
+  ]
+};
+
+const legalServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": `Reardon Injury Law — ${countyName}`,
+  "url": `https://reardoninjurylaw.com/locations/${countySlug}/`,
+  "telephone": "+1-657-522-7122",
+  "description": description,
+  "priceRange": "Free Consultation",
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": countyName,
+    "containedInPlace": {
+      "@type": "State",
+      "name": "California"
+    }
+  }
+};
+
+const schemaScripts = `<script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script><script type="application/ld+json">${JSON.stringify(legalServiceSchema)}</script>`;
+
+const practiceAreas = [
+  { name: "Car Accidents", href: "/car-accidents" },
+  { name: "Motorcycle Accidents", href: "/motorcycle-accidents" },
+  { name: "Truck Accidents", href: "/truck-accidents" },
+  { name: "Bicycle Accidents", href: "/bicycle-accidents" },
+  { name: "Pedestrian Accidents", href: "/pedestrian-accidents" },
+  { name: "Rideshare Accidents", href: "/rideshare-accidents" },
+];
+---
+<BaseLayout title={`Personal Injury Lawyer in ${countyName}, CA | Reardon Injury Law`} description={description} currentPage="locations" includeAnimationsCSS={true} extraHeadStyles={schemaScripts}>
+
+  <!-- Breadcrumb -->
+  <nav style="padding: 110px 20px 0; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
+      <div style="display: flex; align-items: center; gap: 8px; font-family: 'Open Sans', sans-serif; font-size: 14px;">
+        <a href="/locations/" style="color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#eeba6b'" onmouseout="this.style.color='rgba(255,255,255,0.5)'">Locations</a>
+        <span style="color: rgba(255,255,255,0.25);">/</span>
+        <span style="color: rgba(255,255,255,0.7);">{countyName}</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section style="padding: 30px 20px 60px; background: #141415; text-align: center; border-bottom: 1px solid rgba(238,186,107,0.2);">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+      <h1 class="sr-left" style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 42px; font-weight: 700; line-height: 1.15; margin-bottom: 20px;">Personal Injury Lawyer in {countyShort}, California</h1>
+      <p class="sr-up" style="color: rgba(255,255,255,0.85); font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 1.6; margin-bottom: 12px; max-width: 700px; margin-left: auto; margin-right: auto;">Reardon Injury Law proudly serves {cities.length} cities across {countyName}. Whether you've been injured in a car accident, motorcycle crash, or any other incident — we're here to fight for the compensation you deserve.</p>
+      <p class="sr-up" style="color: rgba(255,255,255,0.5); font-family: 'Open Sans', sans-serif; font-size: 15px; margin-bottom: 30px;">Free Consultation &middot; No Fee Unless We Win &middot; 20+ Years Experience</p>
+      <a href="tel:6575227122" class="sr-up" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 16px 44px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 17px; letter-spacing: 0.5px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 24px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">Call (657) 522-7122</a>
+    </div>
+  </section>
+
+  <!-- Google Map of County -->
+  <section style="padding: 0; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px; padding: 0 20px;">
+      <div class="sr-up" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(238,186,107,0.15);">
+        <iframe
+          src={`https://maps.google.com/maps?q=${encodeURIComponent(countyName + ', California')}&t=&z=10&ie=UTF8&iwloc=&output=embed`}
+          width="100%"
+          height="300"
+          style="border:0; display: block;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title={`Map of ${countyName}, California`}
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cities Grid -->
+  <section style="padding: 60px 20px; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
+      <h2 class="sr-up" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 12px;">Cities We Serve in {countyShort}</h2>
+      <p class="sr-up" style="color: rgba(255,255,255,0.5); font-family: 'Open Sans', sans-serif; font-size: 15px; text-align: center; margin-bottom: 40px;">{cities.length} {cities.length === 1 ? 'city' : 'cities'}</p>
+      <div class="sr-stagger" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px;">
+        {cities.map((city) => (
+          <a href={`/locations/${countySlug}/${city.slug}/`} class="sr-child" style="display: block; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 16px 20px; text-decoration: none; transition: all 0.2s ease;" onmouseover="this.style.borderColor='rgba(238,186,107,0.4)';this.style.background='rgba(238,186,107,0.08)';this.style.transform='translateY(-1px)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)';this.style.background='rgba(255,255,255,0.04)';this.style.transform='translateY(0)'">
+            <span style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px; font-weight: 600;">{city.data.city}</span>
+            {city.data.population && (
+              <span style="display: block; color: rgba(255,255,255,0.35); font-family: 'Open Sans', sans-serif; font-size: 12px; margin-top: 4px;">Pop. {city.data.population}</span>
+            )}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Practice Areas -->
+  <section style="padding: 60px 20px; background: linear-gradient(180deg, #1e1e1f 0%, #141415 100%);">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 900px;">
+      <h2 class="sr-up" style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 40px;">Cases We Handle in {countyShort}</h2>
+      <div class="sr-stagger" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px;">
+        {practiceAreas.map((area) => (
+          <a href={area.href} class="sr-child" style="display: block; background: rgba(238,186,107,0.06); border: 1px solid rgba(238,186,107,0.15); border-radius: 10px; padding: 20px 24px; text-decoration: none; transition: all 0.25s ease; text-align: center;" onmouseover="this.style.background='rgba(238,186,107,0.15)';this.style.borderColor='rgba(238,186,107,0.4)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(238,186,107,0.06)';this.style.borderColor='rgba(238,186,107,0.15)';this.style.transform='translateY(0)'">
+            <span style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 600;">{area.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="padding: 60px 20px 80px; background: #141415;">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 800px;">
+      <div class="sr-up" style="text-align: center; padding: 50px 40px; background: linear-gradient(145deg, #1e1e1f 0%, #141415 100%); border: 1px solid rgba(238, 186, 107, 0.3); border-radius: 16px; position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, transparent, #eeba6b, transparent);"></div>
+        <h3 style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 26px; margin-bottom: 12px; font-weight: 700;">Injured in {countyShort}? We Can Help.</h3>
+        <p style="color: rgba(255, 255, 255, 0.8); font-family: 'Open Sans', sans-serif; font-size: 17px; margin-bottom: 28px;">Free consultation. No fees unless we win your case.</p>
+        <a href="tel:6575227122" style="display: inline-block; background: linear-gradient(180deg, #eeba6b 0%, #d4a84f 100%); color: #141415; padding: 16px 44px; border-radius: 10px; font-family: Montserrat, sans-serif; font-weight: 700; text-decoration: none; font-size: 17px; letter-spacing: 0.5px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 24px rgba(238,186,107,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">Call (657) 522-7122</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

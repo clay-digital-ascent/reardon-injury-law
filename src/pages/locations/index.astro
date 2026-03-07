@@ -2,6 +2,10 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
+function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+}
+
 const allCities = await getCollection("cities");
 const countyMap: Record<string, typeof allCities> = {};
 for (const city of allCities) {
@@ -64,17 +68,20 @@ const extraStyles = `<style>
         {sortedCounties.map((county, i) => (
           <div class={`county-accordion${priorityCounties.includes(county) ? ' county-priority' : ''}`} data-county={county}>
             <button class="county-accordion-btn" type="button" aria-expanded="false">
-              <span class="county-name">{county.replace(' County', '')}</span>
+              <a href={`/locations/${slugify(county)}/`} class="county-name-link" onclick="event.stopPropagation();">{county.replace(' County', '')}</a>
               <span class="county-count">{countyMap[county].length} {countyMap[county].length === 1 ? 'city' : 'cities'}</span>
               <svg class="county-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
             <div class="county-cities-panel">
               <div class="county-cities-grid">
                 {countyMap[county].sort((a, b) => a.data.city.localeCompare(b.data.city)).map(city => (
-                  <a href={`/locations/${city.slug}`} class="area-city-card">
+                  <a href={`/locations/${slugify(city.data.county)}/${city.slug}/`} class="area-city-card">
                     <span class="city-name">{city.data.city}</span>
                   </a>
                 ))}
+                <a href={`/locations/${slugify(county)}/`} class="area-city-card county-view-all">
+                  <span class="city-name">View all {county.replace(' County', '')} &rarr;</span>
+                </a>
               </div>
             </div>
           </div>
@@ -164,14 +171,20 @@ const extraStyles = `<style>
   .county-accordion-btn:hover {
     background: rgba(238,186,107,0.06);
   }
-  .county-name {
+  .county-name-link {
     color: #ffffff;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 600;
     flex: 1;
+    text-decoration: none;
+    transition: color 0.2s;
   }
-  .county-priority .county-name {
+  .county-name-link:hover {
+    color: #eeba6b;
+    text-decoration: underline;
+  }
+  .county-priority .county-name-link {
     color: #eeba6b;
   }
   .county-count {
@@ -227,6 +240,14 @@ const extraStyles = `<style>
     background: rgba(238,186,107,0.08);
   }
   .area-city-card.city-hidden { display: none; }
+  .county-view-all {
+    border-color: rgba(238,186,107,0.2);
+    background: rgba(238,186,107,0.06);
+  }
+  .county-view-all .city-name {
+    color: #eeba6b;
+    font-size: 12px;
+  }
   .city-name {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
