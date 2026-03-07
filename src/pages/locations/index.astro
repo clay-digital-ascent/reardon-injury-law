@@ -54,7 +54,11 @@ const extraStyles = `<style>
     <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
       <h2 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 12px;">Areas We Serve</h2>
       <p style="color: rgba(255,255,255,0.7); font-family: 'Open Sans', sans-serif; font-size: 17px; text-align: center; margin-bottom: 16px; max-width: 650px; margin-left: auto; margin-right: auto;">Reardon Injury Law represents personal injury clients across all 58 California counties. Click a county to see the cities we serve.</p>
-      <p style="color: rgba(238,186,107,0.6); font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center; margin-bottom: 40px;">{Object.keys(countyMap).length} counties &middot; {allCities.length} cities</p>
+      <p style="color: rgba(238,186,107,0.6); font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center; margin-bottom: 30px;">{Object.keys(countyMap).length} counties &middot; {allCities.length} cities</p>
+
+      <div class="county-search-wrap">
+        <input type="text" id="county-search" class="county-search" placeholder="Search cities or counties..." autocomplete="off" />
+      </div>
 
       <div class="county-accordion-grid">
         {sortedCounties.map((county, i) => (
@@ -95,19 +99,41 @@ const extraStyles = `<style>
 </BaseLayout>
 
 <style>
+  /* Search */
+  .county-search-wrap {
+    max-width: 400px;
+    margin: 0 auto 30px;
+  }
+  .county-search {
+    width: 100%;
+    padding: 12px 18px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  .county-search::placeholder { color: rgba(255,255,255,0.35); }
+  .county-search:focus { border-color: rgba(238,186,107,0.5); }
+
+  /* Masonry columns layout — items flow independently per column */
   .county-accordion-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    columns: 3;
+    column-gap: 10px;
   }
   @media (max-width: 991px) {
-    .county-accordion-grid { grid-template-columns: repeat(2, 1fr); }
+    .county-accordion-grid { columns: 2; }
   }
   @media (max-width: 600px) {
-    .county-accordion-grid { grid-template-columns: 1fr; }
+    .county-accordion-grid { columns: 1; }
   }
 
   .county-accordion {
+    break-inside: avoid;
+    margin-bottom: 10px;
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 10px;
     overflow: hidden;
@@ -115,6 +141,9 @@ const extraStyles = `<style>
   }
   .county-accordion:hover {
     border-color: rgba(238,186,107,0.25);
+  }
+  .county-accordion.county-hidden {
+    display: none;
   }
   .county-priority {
     border-color: rgba(238,186,107,0.2);
@@ -163,11 +192,20 @@ const extraStyles = `<style>
   .county-cities-panel {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    transition: max-height 0.35s ease;
   }
   .county-accordion.open .county-cities-panel {
-    max-height: 600px;
+    max-height: 280px;
+    overflow-y: auto;
   }
+  /* Scrollbar styling */
+  .county-cities-panel::-webkit-scrollbar { width: 6px; }
+  .county-cities-panel::-webkit-scrollbar-track { background: transparent; }
+  .county-cities-panel::-webkit-scrollbar-thumb {
+    background: rgba(238,186,107,0.3);
+    border-radius: 3px;
+  }
+
   .county-cities-grid {
     padding: 4px 12px 12px;
     display: flex;
@@ -188,6 +226,7 @@ const extraStyles = `<style>
     border-color: rgba(238,186,107,0.4);
     background: rgba(238,186,107,0.08);
   }
+  .area-city-card.city-hidden { display: none; }
   .city-name {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -199,12 +238,60 @@ const extraStyles = `<style>
 </style>
 
 <script is:inline>
+(function() {
+  // Accordion toggle
   document.querySelectorAll('.county-accordion-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var accordion = btn.closest('.county-accordion');
-      var wasOpen = accordion.classList.contains('open');
-      accordion.classList.toggle('open');
+      var acc = btn.closest('.county-accordion');
+      var wasOpen = acc.classList.contains('open');
+      acc.classList.toggle('open');
       btn.setAttribute('aria-expanded', wasOpen ? 'false' : 'true');
     });
   });
+
+  // Search — filters counties and cities
+  var searchInput = document.getElementById('county-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      var q = this.value.toLowerCase().trim();
+      document.querySelectorAll('.county-accordion').forEach(function(acc) {
+        var countyName = acc.getAttribute('data-county').toLowerCase();
+        var cities = acc.querySelectorAll('.area-city-card');
+        var countyMatch = countyName.indexOf(q) !== -1;
+        var anyCity = false;
+
+        cities.forEach(function(card) {
+          var cityName = card.querySelector('.city-name').textContent.toLowerCase();
+          if (q === '' || countyMatch || cityName.indexOf(q) !== -1) {
+            card.classList.remove('city-hidden');
+            anyCity = true;
+          } else {
+            card.classList.add('city-hidden');
+          }
+        });
+
+        if (q === '') {
+          acc.classList.remove('county-hidden');
+          acc.classList.remove('open');
+          acc.querySelector('.county-accordion-btn').setAttribute('aria-expanded', 'false');
+        } else if (countyMatch || anyCity) {
+          acc.classList.remove('county-hidden');
+          acc.classList.add('open');
+          acc.querySelector('.county-accordion-btn').setAttribute('aria-expanded', 'true');
+        } else {
+          acc.classList.add('county-hidden');
+          acc.classList.remove('open');
+        }
+      });
+    });
+  }
+
+  // Smooth scroll to #areas-we-serve on page load
+  if (window.location.hash === '#areas-we-serve') {
+    setTimeout(function() {
+      var el = document.getElementById('areas-we-serve');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 300);
+  }
+})();
 </script>
