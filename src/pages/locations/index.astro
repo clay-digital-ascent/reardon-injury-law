@@ -1,5 +1,17 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allCities = await getCollection("cities");
+const countyMap: Record<string, typeof allCities> = {};
+for (const city of allCities) {
+  const county = city.data.county;
+  if (!countyMap[county]) countyMap[county] = [];
+  countyMap[county].push(city);
+}
+const countyOrder = ["Orange County", "Los Angeles County", "San Diego County", "Santa Clara County", "San Francisco County", "Sacramento County", "San Bernardino County"];
+const sortedCounties = countyOrder.filter(c => countyMap[c]);
+
 const extraStyles = `<style>
 .card-link:hover .settlement-card {
   background: linear-gradient(180deg, #f0c86f 0%, #d4a84f 100%);
@@ -33,6 +45,31 @@ const extraStyles = `<style>
       <div class="office-locations sr-child"><img src="/images/cedric-letsch-UZVlSjrIJ3o-unsplash.jpg" loading="lazy" width="681" sizes="(max-width: 767px) 100vw, 681px" alt="" srcset="/images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-500.jpg 500w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-800.jpg 800w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-1080.jpg 1080w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-1600.jpg 1600w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-2000.jpg 2000w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash-p-2600.jpg 2600w, /images/cedric-letsch-UZVlSjrIJ3o-unsplash.jpg 3000w" class="image-office-locations"><div><h2 class="heading-for-office-locations sr-up">Los Angeles County</h2><div class="text-block-officelocations">440 East Route 66<br>Glendora | California | 91740</div></div></div>
     </div>
   </section>
+
+  <!-- Areas We Serve -->
+  <section id="areas-we-serve" style="padding: 80px 20px 60px; background: linear-gradient(180deg, #1a1a1b 0%, #141415 100%); border-top: 1px solid rgba(238,186,107,0.15);">
+    <div class="w-layout-blockcontainer w-container" style="max-width: 1100px;">
+      <h2 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 12px;">Areas We Serve</h2>
+      <p style="color: rgba(255,255,255,0.7); font-family: 'Open Sans', sans-serif; font-size: 17px; text-align: center; margin-bottom: 50px; max-width: 650px; margin-left: auto; margin-right: auto;">Reardon Injury Law represents personal injury clients across California. Select a city to learn how we can help in your area.</p>
+
+      {sortedCounties.map(county => (
+        <div style="margin-bottom: 40px;">
+          <h3 style="color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid rgba(238,186,107,0.2);">{county}</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px;">
+            {countyMap[county].sort((a, b) => a.data.city.localeCompare(b.data.city)).map(city => (
+              <a href={`/locations/${city.slug}`} class="area-city-card">
+                <span style="color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px; font-weight: 600;">{city.data.city}</span>
+                {city.data.population && (
+                  <span style="display: block; color: rgba(255,255,255,0.45); font-family: 'Open Sans', sans-serif; font-size: 12px; margin-top: 4px;">Pop. {city.data.population}</span>
+                )}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
   <section class="form locations-pagee sr-up">
     <div class="w-layout-blockcontainer container-22 w-container">
       <div class="cta-header"><h1 class="cta-headerr sr-up">Contact us now!</h1></div>
@@ -47,3 +84,19 @@ const extraStyles = `<style>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .area-city-card {
+    display: block;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 16px 20px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .area-city-card:hover {
+    border-color: rgba(238,186,107,0.4);
+    background: rgba(238,186,107,0.08);
+  }
+</style>
