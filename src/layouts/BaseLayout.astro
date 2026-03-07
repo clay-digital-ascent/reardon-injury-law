@@ -101,36 +101,48 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
     .loc-panel {
       display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
       background: #1a1a1b; border: 1px solid rgba(238,186,107,0.2); border-radius: 12px;
-      padding: 16px 24px 12px; z-index: 1000; min-width: 280px;
+      padding: 16px 24px 14px; z-index: 1000; min-width: 280px;
       box-shadow: 0 12px 40px rgba(0,0,0,0.5);
     }
     .loc-dropdown:hover .loc-panel { display: block; }
-    .loc-county-hdr {
+    .loc-section-link {
+      display: block; color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px;
+      font-weight: 600; padding: 8px 0; text-decoration: none; transition: color 0.2s;
+    }
+    .loc-section-link:hover { color: #eeba6b; }
+    .loc-divider {
+      height: 1px; background: rgba(238,186,107,0.2); margin: 8px 0;
+    }
+    .loc-section-hdr {
       display: flex; justify-content: space-between; align-items: center; cursor: pointer;
       color: #ffffff; font-family: Montserrat, sans-serif; font-size: 15px; font-weight: 600;
-      padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); transition: color 0.2s;
+      padding: 8px 0; transition: color 0.2s; user-select: none;
+    }
+    .loc-section-hdr:hover, .loc-section-hdr.active { color: #eeba6b; }
+    .loc-section-hdr .loc-chev {
+      font-size: 9px; opacity: 0.5; transition: transform 0.25s;
+    }
+    .loc-section-hdr.active .loc-chev { transform: rotate(180deg); opacity: 0.8; }
+    .loc-section-body { display: none; padding: 4px 0 0 0; }
+    .loc-section-body.open { display: block; }
+    .loc-county-hdr {
+      display: flex; justify-content: space-between; align-items: center; cursor: pointer;
+      color: #ffffff; font-family: Montserrat, sans-serif; font-size: 14px; font-weight: 600;
+      padding: 8px 0 8px 8px; border-bottom: 1px solid rgba(255,255,255,0.06); transition: color 0.2s;
       user-select: none;
     }
     .loc-county-hdr:hover, .loc-county-hdr.active { color: #eeba6b; }
     .loc-county-hdr .loc-chev {
-      font-size: 9px; opacity: 0.5; transition: transform 0.25s;
+      font-size: 8px; opacity: 0.4; transition: transform 0.25s;
     }
     .loc-county-hdr.active .loc-chev { transform: rotate(180deg); opacity: 0.8; }
-    .loc-cities { display: none; padding: 4px 0 6px 16px; }
+    .loc-cities { display: none; padding: 2px 0 4px 20px; }
     .loc-cities.open { display: block; }
     .loc-city {
       display: block; color: #ffffff; font-family: 'Open Sans', sans-serif;
-      font-size: 14.5px; padding: 6px 0; text-decoration: none; transition: color 0.15s;
+      font-size: 14px; padding: 5px 0; text-decoration: none; transition: color 0.15s;
     }
     .loc-city:hover { color: #eeba6b; }
-    .loc-panel-footer {
-      margin-top: 12px; padding-top: 10px; border-top: 1px solid rgba(238,186,107,0.12); text-align: center;
-    }
-    .loc-view-all {
-      color: #eeba6b; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 600;
-      text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; transition: opacity 0.2s;
-    }
-    .loc-view-all:hover { opacity: 0.7; }
     @media (max-width: 991px) {
       .loc-dropdown { display: contents; }
       .loc-panel { display: none !important; }
@@ -151,47 +163,49 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
           <div class="loc-dropdown">
             <a href="/locations" class:list={["nav-link w-nav-link", { "w--current": currentPage === "locations" }]}>LOCATIONS</a>
             <div class="loc-panel">
-              <div class="loc-county-hdr" data-county="oc">Orange County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="oc">
-                <a href="/locations/huntington-beach" class="loc-city">Huntington Beach</a>
-                <a href="/locations/anaheim" class="loc-city">Anaheim</a>
-                <a href="/locations/irvine" class="loc-city">Irvine</a>
-                <a href="/locations/santa-ana" class="loc-city">Santa Ana</a>
-                <a href="/locations/newport-beach" class="loc-city">Newport Beach</a>
-              </div>
-              <div class="loc-county-hdr" data-county="la">Los Angeles County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="la">
-                <a href="/locations/los-angeles" class="loc-city">Los Angeles</a>
-                <a href="/locations/long-beach" class="loc-city">Long Beach</a>
-                <a href="/locations/pasadena" class="loc-city">Pasadena</a>
-                <a href="/locations/santa-monica" class="loc-city">Santa Monica</a>
-              </div>
-              <div class="loc-county-hdr" data-county="sd">San Diego County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="sd">
-                <a href="/locations/san-diego" class="loc-city">San Diego</a>
-                <a href="/locations/chula-vista" class="loc-city">Chula Vista</a>
-                <a href="/locations/oceanside" class="loc-city">Oceanside</a>
-              </div>
-              <div class="loc-county-hdr" data-county="sc">Santa Clara County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="sc">
-                <a href="/locations/san-jose" class="loc-city">San Jose</a>
-                <a href="/locations/santa-clara" class="loc-city">Santa Clara</a>
-              </div>
-              <div class="loc-county-hdr" data-county="sf">San Francisco <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="sf">
-                <a href="/locations/san-francisco" class="loc-city">San Francisco</a>
-              </div>
-              <div class="loc-county-hdr" data-county="sac">Sacramento County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="sac">
-                <a href="/locations/sacramento" class="loc-city">Sacramento</a>
-                <a href="/locations/elk-grove" class="loc-city">Elk Grove</a>
-              </div>
-              <div class="loc-county-hdr" data-county="sb">San Bernardino County <span class="loc-chev">&#9660;</span></div>
-              <div class="loc-cities" data-county="sb">
-                <a href="/locations/san-bernardino" class="loc-city">San Bernardino</a>
-              </div>
-              <div class="loc-panel-footer">
-                <a href="/locations" class="loc-view-all">View All Locations &rarr;</a>
+              <a href="/locations" class="loc-section-link">Office Locations</a>
+              <div class="loc-divider"></div>
+              <div class="loc-section-hdr" data-section="areas">Areas We Serve <span class="loc-chev">&#9660;</span></div>
+              <div class="loc-section-body" data-section="areas">
+                <div class="loc-county-hdr" data-county="oc">Orange County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="oc">
+                  <a href="/locations/huntington-beach" class="loc-city">Huntington Beach</a>
+                  <a href="/locations/anaheim" class="loc-city">Anaheim</a>
+                  <a href="/locations/irvine" class="loc-city">Irvine</a>
+                  <a href="/locations/santa-ana" class="loc-city">Santa Ana</a>
+                  <a href="/locations/newport-beach" class="loc-city">Newport Beach</a>
+                </div>
+                <div class="loc-county-hdr" data-county="la">Los Angeles County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="la">
+                  <a href="/locations/los-angeles" class="loc-city">Los Angeles</a>
+                  <a href="/locations/long-beach" class="loc-city">Long Beach</a>
+                  <a href="/locations/pasadena" class="loc-city">Pasadena</a>
+                  <a href="/locations/santa-monica" class="loc-city">Santa Monica</a>
+                </div>
+                <div class="loc-county-hdr" data-county="sd">San Diego County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="sd">
+                  <a href="/locations/san-diego" class="loc-city">San Diego</a>
+                  <a href="/locations/chula-vista" class="loc-city">Chula Vista</a>
+                  <a href="/locations/oceanside" class="loc-city">Oceanside</a>
+                </div>
+                <div class="loc-county-hdr" data-county="sc">Santa Clara County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="sc">
+                  <a href="/locations/san-jose" class="loc-city">San Jose</a>
+                  <a href="/locations/santa-clara" class="loc-city">Santa Clara</a>
+                </div>
+                <div class="loc-county-hdr" data-county="sf">San Francisco <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="sf">
+                  <a href="/locations/san-francisco" class="loc-city">San Francisco</a>
+                </div>
+                <div class="loc-county-hdr" data-county="sac">Sacramento County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="sac">
+                  <a href="/locations/sacramento" class="loc-city">Sacramento</a>
+                  <a href="/locations/elk-grove" class="loc-city">Elk Grove</a>
+                </div>
+                <div class="loc-county-hdr" data-county="sb">San Bernardino County <span class="loc-chev">&#9660;</span></div>
+                <div class="loc-cities" data-county="sb">
+                  <a href="/locations/san-bernardino" class="loc-city">San Bernardino</a>
+                </div>
               </div>
             </div>
           </div>
@@ -241,16 +255,31 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
   </script>
   <script is:inline>
     (function(){
+      // "Areas We Serve" section toggle
+      document.querySelectorAll('.loc-section-hdr').forEach(function(hdr){
+        hdr.addEventListener('click', function(e){
+          e.stopPropagation();
+          var sec = hdr.getAttribute('data-section');
+          var body = document.querySelector('.loc-section-body[data-section="'+sec+'"]');
+          var isOpen = body.classList.contains('open');
+          body.classList.toggle('open', !isOpen);
+          hdr.classList.toggle('active', !isOpen);
+          if(isOpen){
+            // collapse all counties when closing the section
+            document.querySelectorAll('.loc-cities').forEach(function(c){ c.classList.remove('open'); });
+            document.querySelectorAll('.loc-county-hdr').forEach(function(h){ h.classList.remove('active'); });
+          }
+        });
+      });
+      // County accordion toggles
       document.querySelectorAll('.loc-county-hdr').forEach(function(hdr){
         hdr.addEventListener('click', function(e){
           e.stopPropagation();
           var county = hdr.getAttribute('data-county');
           var cities = document.querySelector('.loc-cities[data-county="'+county+'"]');
           var isOpen = cities.classList.contains('open');
-          // close all
           document.querySelectorAll('.loc-cities').forEach(function(c){ c.classList.remove('open'); });
           document.querySelectorAll('.loc-county-hdr').forEach(function(h){ h.classList.remove('active'); });
-          // toggle this one
           if(!isOpen){ cities.classList.add('open'); hdr.classList.add('active'); }
         });
       });
