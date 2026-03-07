@@ -255,32 +255,33 @@ const GA4_ID = import.meta.env.PUBLIC_GA4_ID || "";
   </script>
   <script is:inline>
     (function(){
-      // "Areas We Serve" section toggle
+      // Hover on "Areas We Serve" opens the section body
       document.querySelectorAll('.loc-section-hdr').forEach(function(hdr){
-        hdr.addEventListener('click', function(e){
-          e.stopPropagation();
+        hdr.addEventListener('mouseenter', function(){
           var sec = hdr.getAttribute('data-section');
           var body = document.querySelector('.loc-section-body[data-section="'+sec+'"]');
-          var isOpen = body.classList.contains('open');
-          body.classList.toggle('open', !isOpen);
-          hdr.classList.toggle('active', !isOpen);
-          if(isOpen){
-            // collapse all counties when closing the section
-            document.querySelectorAll('.loc-cities').forEach(function(c){ c.classList.remove('open'); });
-            document.querySelectorAll('.loc-county-hdr').forEach(function(h){ h.classList.remove('active'); });
-          }
+          body.classList.add('open');
+          hdr.classList.add('active');
         });
       });
-      // County accordion toggles
+      // Hover on county header opens its cities, closes others
       document.querySelectorAll('.loc-county-hdr').forEach(function(hdr){
-        hdr.addEventListener('click', function(e){
-          e.stopPropagation();
-          var county = hdr.getAttribute('data-county');
-          var cities = document.querySelector('.loc-cities[data-county="'+county+'"]');
-          var isOpen = cities.classList.contains('open');
+        hdr.addEventListener('mouseenter', function(){
           document.querySelectorAll('.loc-cities').forEach(function(c){ c.classList.remove('open'); });
           document.querySelectorAll('.loc-county-hdr').forEach(function(h){ h.classList.remove('active'); });
-          if(!isOpen){ cities.classList.add('open'); hdr.classList.add('active'); }
+          var county = hdr.getAttribute('data-county');
+          var cities = document.querySelector('.loc-cities[data-county="'+county+'"]');
+          cities.classList.add('open');
+          hdr.classList.add('active');
+        });
+      });
+      // When mouse leaves the panel entirely, reset everything
+      document.querySelectorAll('.loc-panel').forEach(function(panel){
+        panel.addEventListener('mouseleave', function(){
+          document.querySelectorAll('.loc-cities').forEach(function(c){ c.classList.remove('open'); });
+          document.querySelectorAll('.loc-county-hdr').forEach(function(h){ h.classList.remove('active'); });
+          document.querySelectorAll('.loc-section-body').forEach(function(b){ b.classList.remove('open'); });
+          document.querySelectorAll('.loc-section-hdr').forEach(function(h){ h.classList.remove('active'); });
         });
       });
     })();
