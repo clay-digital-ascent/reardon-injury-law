@@ -10,8 +10,6 @@ dangerousAreas:
   - "Rural roads in Modoc County"
 hospitals:
   - "Modoc Medical Center"
-hospitals:
-  - "Modoc Medical Center"
 courthouse: "Modoc County Superior Court, Alturas"
 faq:
   - question: "How much does a personal injury lawyer cost in Alturas?"

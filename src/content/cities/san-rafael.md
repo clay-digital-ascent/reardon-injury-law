@@ -8,7 +8,7 @@ dangerousAreas:
   - "2nd St. & Irwin St."
   - "Manuel T Freitas Pkwy. & Del Presidio Blvd."
   - "Hetherton St. & 3rd St."
-courthouses:
+hospitals:
   - "Kaiser Permanente San Rafael Medical Center"
   - "Novato Community Hospital"
 courthouse: "Marin County Superior Court in San Rafael"

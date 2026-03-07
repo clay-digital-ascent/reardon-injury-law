@@ -7,9 +7,8 @@ population: "Approximately 51,000"
 dangerousAreas:
   - "Twelve Bridges Boulevard and Sierra College Boulevard"
 hospitals:
-  []
-courthouse:
-  []
+  - "Sutter Roseville Medical Center"
+courthouse: "Placer County Superior Court, Roseville"
 faq:
   - question: "How much does a personal injury lawyer cost in Lincoln?"
     answer: "At Reardon Injury Law, we work on a contingency fee basis. This means you pay no upfront costs, and we only collect a fee if we successfully recover compensation for you."
