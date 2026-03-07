@@ -9,8 +9,11 @@ for (const city of allCities) {
   if (!countyMap[county]) countyMap[county] = [];
   countyMap[county].push(city);
 }
-const countyOrder = ["Orange County", "Los Angeles County", "San Diego County", "Santa Clara County", "San Francisco County", "Sacramento County", "San Bernardino County"];
-const sortedCounties = countyOrder.filter(c => countyMap[c]);
+// Office counties first, then all remaining alphabetically
+const priorityCounties = ["Orange County", "Los Angeles County", "San Diego County", "Santa Clara County", "San Bernardino County"];
+const allCountyNames = Object.keys(countyMap).sort();
+const remainingCounties = allCountyNames.filter(c => !priorityCounties.includes(c));
+const sortedCounties = [...priorityCounties.filter(c => countyMap[c]), ...remainingCounties];
 
 const extraStyles = `<style>
 .card-link:hover .settlement-card {
